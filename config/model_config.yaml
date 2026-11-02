@@ -15,7 +15,7 @@ election:
   house_majority: 201
   senate_seats: 24
   senate_majority: 13
-  chambers: [senate]               # which chambers to model this run (house added after the Senate release)
+  chambers: [senate, house]        # which chambers to model this run
 
 # ---------------------------------------------------------------------
 # 1. DISTRICT BASELINE (partisan lean on current lines, exact by town)

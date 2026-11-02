@@ -1,0 +1,61 @@
+# Publishes the forecast site to GitHub Pages from a zip in the repository root.
+# Any file name ending in .zip works; if several exist, the most recently
+# committed one is used. Runs on every push to main, or when started by hand
+# (Actions tab -> "Deploy site from zip" -> "Run workflow").
+# Pages settings must have Source = "GitHub Actions" (not "Deploy from a branch").
+name: Deploy site from zip
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: true
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Pick the most recently committed zip
+        id: pick
+        run: |
+          set -e
+          best=""; best_t=0
+          for f in *.zip; do
+            [ -e "$f" ] || continue
+            t=$(git log -1 --format=%ct -- "$f"); t=${t:-0}
+            if [ "$t" -gt "$best_t" ]; then best="$f"; best_t=$t; fi
+          done
+          if [ -z "$best" ]; then echo "No .zip file in the repository root"; exit 1; fi
+          echo "Using: $best"
+          echo "zip=$best" >> "$GITHUB_OUTPUT"
+      - name: Unzip the site
+        run: |
+          set -e
+          rm -rf _site && mkdir _site
+          unzip -q "${{ steps.pick.outputs.zip }}" -d _site
+          # If the zip wrapped everything in one folder, lift its contents up.
+          if [ ! -f _site/index.html ]; then
+            inner=$(find _site -mindepth 2 -maxdepth 3 -name index.html -not -path '*/districts/*' | head -1)
+            if [ -n "$inner" ]; then
+              d=$(dirname "$inner"); mv "$d" _lift; rm -rf _site; mv _lift _site
+            fi
+          fi
+          test -f _site/index.html || { echo "index.html not found inside the zip"; exit 1; }
+          touch _site/.nojekyll
+          grep -o "Forecast as of [0-9-]*" _site/index.html | head -1
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - id: deployment
+        uses: actions/deploy-pages@v4

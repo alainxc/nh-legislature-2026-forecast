@@ -1,0 +1,23 @@
+[
+ {
+  "file": "rsa_662-2_councilor_districts.html",
+  "source_url": "https://gencourt.state.nh.us/rsa/html/LXIII/662/662-2.htm",
+  "retrieved_at": "2026-11-02T16:44:05-05:00",
+  "description": "RSA 662:2 Executive Council districts (not used).",
+  "bytes": 4056
+ },
+ {
+  "file": "rsa_662-3_senate_districts.html",
+  "source_url": "https://gencourt.state.nh.us/rsa/html/LXIII/662/662-3.htm",
+  "retrieved_at": "2026-11-02T16:44:05-05:00",
+  "description": "RSA 662:3 State Senate districts: towns and wards per district.",
+  "bytes": 5274
+ },
+ {
+  "file": "rsa_662-5_house_districts.html",
+  "source_url": "https://gencourt.state.nh.us/rsa/html/LXIII/662/662-5.htm",
+  "retrieved_at": "2026-11-02T16:44:05-05:00",
+  "description": "RSA 662:5 State Representative districts: towns/wards and seats per district (2022 redistricting).",
+  "bytes": 29319
+ }
+]

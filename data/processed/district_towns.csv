@@ -1,0 +1,773 @@
+chamber,key,town
+house,Belknap-1,Center Harbor
+house,Belknap-1,New Hampton
+house,Belknap-2,Meredith
+house,Belknap-3,Sanbornton
+house,Belknap-3,Tilton
+house,Belknap-4,Belmont
+house,Belknap-5,Laconia Ward 1
+house,Belknap-5,Laconia Ward 3
+house,Belknap-5,Laconia Ward 4
+house,Belknap-5,Laconia Ward 5
+house,Belknap-5,Laconia Ward 6
+house,Belknap-6,Gilford
+house,Belknap-6,Gilmanton
+house,Belknap-6,Laconia Ward 2
+house,Belknap-7,Alton
+house,Belknap-7,Barnstead
+house,Belknap-8,Belmont
+house,Belknap-8,Sanbornton
+house,Belknap-8,Tilton
+house,Carroll-1,Conway
+house,Carroll-2,Albany
+house,Carroll-2,Bartlett
+house,Carroll-2,Chatham
+house,Carroll-2,Hale's Location
+house,Carroll-2,Hart's Location
+house,Carroll-2,Jackson
+house,Carroll-2,Sandwich
+house,Carroll-3,Madison
+house,Carroll-3,Moultonborough
+house,Carroll-3,Tamworth
+house,Carroll-4,Brookfield
+house,Carroll-4,Eaton
+house,Carroll-4,Effingham
+house,Carroll-4,Freedom
+house,Carroll-4,Wakefield
+house,Carroll-5,Ossipee
+house,Carroll-6,Tuftonboro
+house,Carroll-6,Wolfeboro
+house,Carroll-7,Ossipee
+house,Carroll-7,Tuftonboro
+house,Carroll-7,Wolfeboro
+house,Carroll-8,Brookfield
+house,Carroll-8,Eaton
+house,Carroll-8,Effingham
+house,Carroll-8,Freedom
+house,Carroll-8,Madison
+house,Carroll-8,Moultonborough
+house,Carroll-8,Tamworth
+house,Carroll-8,Wakefield
+house,Cheshire-1,Keene Ward 1
+house,Cheshire-2,Keene Ward 3
+house,Cheshire-3,Keene Ward 5
+house,Cheshire-4,Keene Ward 4
+house,Cheshire-5,Surry
+house,Cheshire-5,Walpole
+house,Cheshire-6,Chesterfield
+house,Cheshire-6,Hinsdale
+house,Cheshire-6,Westmoreland
+house,Cheshire-7,Keene Ward 2
+house,Cheshire-8,Harrisville
+house,Cheshire-8,Marlborough
+house,Cheshire-8,Nelson
+house,Cheshire-8,Roxbury
+house,Cheshire-8,Sullivan
+house,Cheshire-9,Alstead
+house,Cheshire-9,Gilsum
+house,Cheshire-9,Marlow
+house,Cheshire-9,Stoddard
+house,Cheshire-10,Richmond
+house,Cheshire-10,Swanzey
+house,Cheshire-11,Winchester
+house,Cheshire-12,Fitzwilliam
+house,Cheshire-12,Troy
+house,Cheshire-13,Dublin
+house,Cheshire-13,Jaffrey
+house,Cheshire-14,Rindge
+house,Cheshire-15,Chesterfield
+house,Cheshire-15,Hinsdale
+house,Cheshire-15,Keene Ward 1
+house,Cheshire-15,Keene Ward 3
+house,Cheshire-15,Keene Ward 4
+house,Cheshire-15,Keene Ward 5
+house,Cheshire-15,Surry
+house,Cheshire-15,Walpole
+house,Cheshire-15,Westmoreland
+house,Cheshire-16,Alstead
+house,Cheshire-16,Gilsum
+house,Cheshire-16,Harrisville
+house,Cheshire-16,Keene Ward 2
+house,Cheshire-16,Marlborough
+house,Cheshire-16,Marlow
+house,Cheshire-16,Nelson
+house,Cheshire-16,Roxbury
+house,Cheshire-16,Stoddard
+house,Cheshire-16,Sullivan
+house,Cheshire-17,Fitzwilliam
+house,Cheshire-17,Richmond
+house,Cheshire-17,Swanzey
+house,Cheshire-17,Troy
+house,Cheshire-17,Winchester
+house,Cheshire-18,Dublin
+house,Cheshire-18,Jaffrey
+house,Cheshire-18,Rindge
+house,Coos-1,Dalton
+house,Coos-1,Lancaster
+house,Coos-1,Northumberland
+house,Coos-1,Stratford
+house,Coos-2,Atkinson & Gilmanton Academy Grant
+house,Coos-2,Cambridge
+house,Coos-2,Clarksville
+house,Coos-2,Dix's Grant
+house,Coos-2,Dixville
+house,Coos-2,Dummer
+house,Coos-2,Errol
+house,Coos-2,Milan
+house,Coos-2,Millsfield
+house,Coos-2,Odell
+house,Coos-2,Pittsburg
+house,Coos-2,Second College Grant
+house,Coos-2,Stark
+house,Coos-2,Wentworth's Location
+house,Coos-3,Colebrook
+house,Coos-3,Columbia
+house,Coos-3,Erving's Location
+house,Coos-3,Stewartstown
+house,Coos-4,Carroll
+house,Coos-4,Jefferson
+house,Coos-4,Kilkenny
+house,Coos-4,Whitefield
+house,Coos-5,Berlin
+house,Coos-6,Bean's Grant
+house,Coos-6,Bean's Purchase
+house,Coos-6,Chandler's Purchase
+house,Coos-6,Crawford's Purchase
+house,Coos-6,Cutt's Grant
+house,Coos-6,Gorham
+house,Coos-6,Green's Grant
+house,Coos-6,Hadley's Purchase
+house,Coos-6,Low and Burbank's Grant
+house,Coos-6,Martin's Location
+house,Coos-6,Pinkham's Grant
+house,Coos-6,Randolph
+house,Coos-6,Sargent's Purchase
+house,Coos-6,Shelburne
+house,Coos-6,Success
+house,Coos-6,Thompson and Meserve's Purchase
+house,Coos-7,Berlin
+house,Coos-7,Carroll
+house,Coos-7,Jefferson
+house,Coos-7,Kilkenny
+house,Coos-7,Whitefield
+house,Grafton-1,Bath
+house,Grafton-1,Lisbon
+house,Grafton-1,Littleton
+house,Grafton-1,Lyman
+house,Grafton-1,Monroe
+house,Grafton-1,Sugar Hill
+house,Grafton-2,Bethlehem
+house,Grafton-2,Franconia
+house,Grafton-3,Easton
+house,Grafton-3,Lincoln
+house,Grafton-3,Livermore
+house,Grafton-3,Woodstock
+house,Grafton-4,Ellsworth
+house,Grafton-4,Thornton
+house,Grafton-4,Waterville Valley
+house,Grafton-5,Benton
+house,Grafton-5,Haverhill
+house,Grafton-5,Landaff
+house,Grafton-5,Piermont
+house,Grafton-5,Warren
+house,Grafton-6,Orford
+house,Grafton-6,Rumney
+house,Grafton-6,Wentworth
+house,Grafton-7,Campton
+house,Grafton-8,Ashland
+house,Grafton-8,Holderness
+house,Grafton-8,Plymouth
+house,Grafton-9,Canaan
+house,Grafton-9,Dorchester
+house,Grafton-9,Orange
+house,Grafton-10,Bridgewater
+house,Grafton-10,Bristol
+house,Grafton-11,Alexandria
+house,Grafton-11,Grafton
+house,Grafton-11,Groton
+house,Grafton-11,Hebron
+house,Grafton-12,Hanover
+house,Grafton-12,Lyme
+house,Grafton-13,Lebanon Ward 1
+house,Grafton-14,Lebanon Ward 2
+house,Grafton-15,Lebanon Ward 3
+house,Grafton-16,Enfield
+house,Grafton-17,Lebanon Ward 1
+house,Grafton-17,Lebanon Ward 2
+house,Grafton-17,Lebanon Ward 3
+house,Grafton-18,Alexandria
+house,Grafton-18,Bridgewater
+house,Grafton-18,Bristol
+house,Grafton-18,Canaan
+house,Grafton-18,Dorchester
+house,Grafton-18,Enfield
+house,Grafton-18,Grafton
+house,Grafton-18,Groton
+house,Grafton-18,Hebron
+house,Grafton-18,Orange
+house,Hillsborough-1,Pelham
+house,Hillsborough-2,Bedford
+house,Hillsborough-3,Nashua Ward 4
+house,Hillsborough-4,Nashua Ward 2
+house,Hillsborough-5,Nashua Ward 1
+house,Hillsborough-6,Nashua Ward 3
+house,Hillsborough-7,Nashua Ward 7
+house,Hillsborough-8,Nashua Ward 6
+house,Hillsborough-9,Nashua Ward 5
+house,Hillsborough-10,Nashua Ward 9
+house,Hillsborough-11,Nashua Ward 8
+house,Hillsborough-12,Merrimack
+house,Hillsborough-13,Hudson
+house,Hillsborough-14,Litchfield
+house,Hillsborough-15,Manchester Ward 8
+house,Hillsborough-16,Manchester Ward 6
+house,Hillsborough-17,Manchester Ward 2
+house,Hillsborough-18,Manchester Ward 12
+house,Hillsborough-19,Manchester Ward 10
+house,Hillsborough-20,Manchester Ward 9
+house,Hillsborough-21,Manchester Ward 1
+house,Hillsborough-22,Manchester Ward 11
+house,Hillsborough-23,Manchester Ward 3
+house,Hillsborough-24,Manchester Ward 4
+house,Hillsborough-25,Manchester Ward 5
+house,Hillsborough-26,Manchester Ward 7
+house,Hillsborough-27,Deering
+house,Hillsborough-27,Francestown
+house,Hillsborough-28,Weare
+house,Hillsborough-29,Goffstown
+house,Hillsborough-30,Antrim
+house,Hillsborough-30,Bennington
+house,Hillsborough-30,Hillsborough
+house,Hillsborough-30,Windsor
+house,Hillsborough-31,Greenfield
+house,Hillsborough-31,Hancock
+house,Hillsborough-32,New Ipswich
+house,Hillsborough-32,Temple
+house,Hillsborough-32,Wilton
+house,Hillsborough-33,Peterborough
+house,Hillsborough-33,Sharon
+house,Hillsborough-34,Amherst
+house,Hillsborough-35,Hollis
+house,Hillsborough-36,Brookline
+house,Hillsborough-36,Greenville
+house,Hillsborough-36,Mason
+house,Hillsborough-37,Amherst
+house,Hillsborough-37,Milford
+house,Hillsborough-38,Hudson
+house,Hillsborough-38,Litchfield
+house,Hillsborough-39,Manchester Ward 6
+house,Hillsborough-39,Manchester Ward 8
+house,Hillsborough-39,Manchester Ward 9
+house,Hillsborough-40,Manchester Ward 1
+house,Hillsborough-40,Manchester Ward 3
+house,Hillsborough-40,Manchester Ward 10
+house,Hillsborough-40,Manchester Ward 11
+house,Hillsborough-40,Manchester Ward 12
+house,Hillsborough-41,Manchester Ward 2
+house,Hillsborough-41,Manchester Ward 4
+house,Hillsborough-41,Manchester Ward 5
+house,Hillsborough-41,Manchester Ward 7
+house,Hillsborough-42,Lyndeborough
+house,Hillsborough-42,Mont Vernon
+house,Hillsborough-42,New Boston
+house,Hillsborough-43,Milford
+house,Hillsborough-44,Goffstown
+house,Hillsborough-44,Weare
+house,Hillsborough-45,Brookline
+house,Hillsborough-45,Greenville
+house,Hillsborough-45,Hollis
+house,Hillsborough-45,Mason
+house,Merrimack-1,Boscawen
+house,Merrimack-2,Northfield
+house,Merrimack-3,Franklin Ward 1
+house,Merrimack-3,Franklin Ward 2
+house,Merrimack-3,Franklin Ward 3
+house,Merrimack-4,Canterbury
+house,Merrimack-4,Loudon
+house,Merrimack-5,Andover
+house,Merrimack-5,Danbury
+house,Merrimack-5,Hill
+house,Merrimack-5,Salisbury
+house,Merrimack-5,Webster
+house,Merrimack-6,Sutton
+house,Merrimack-6,Wilmot
+house,Merrimack-7,New London
+house,Merrimack-7,Newbury
+house,Merrimack-8,Bradford
+house,Merrimack-8,Henniker
+house,Merrimack-8,Warner
+house,Merrimack-9,Bow
+house,Merrimack-9,Hopkinton
+house,Merrimack-10,Dunbarton
+house,Merrimack-10,Hooksett
+house,Merrimack-11,Allenstown
+house,Merrimack-12,Pembroke
+house,Merrimack-13,Chichester
+house,Merrimack-13,Pittsfield
+house,Merrimack-14,Epsom
+house,Merrimack-15,Concord Ward 1
+house,Merrimack-16,Concord Ward 2
+house,Merrimack-17,Concord Ward 3
+house,Merrimack-18,Concord Ward 4
+house,Merrimack-19,Concord Ward 5
+house,Merrimack-20,Concord Ward 6
+house,Merrimack-21,Concord Ward 7
+house,Merrimack-22,Concord Ward 8
+house,Merrimack-23,Concord Ward 9
+house,Merrimack-24,Concord Ward 10
+house,Merrimack-25,Franklin Ward 1
+house,Merrimack-25,Franklin Ward 2
+house,Merrimack-25,Franklin Ward 3
+house,Merrimack-25,Northfield
+house,Merrimack-26,Andover
+house,Merrimack-26,Boscawen
+house,Merrimack-26,Canterbury
+house,Merrimack-26,Danbury
+house,Merrimack-26,Hill
+house,Merrimack-26,Loudon
+house,Merrimack-26,Salisbury
+house,Merrimack-26,Webster
+house,Merrimack-27,Allenstown
+house,Merrimack-27,Dunbarton
+house,Merrimack-27,Epsom
+house,Merrimack-27,Hooksett
+house,Merrimack-28,Concord Ward 1
+house,Merrimack-28,Concord Ward 2
+house,Merrimack-28,Concord Ward 3
+house,Merrimack-29,Concord Ward 4
+house,Merrimack-29,Concord Ward 9
+house,Merrimack-29,Concord Ward 10
+house,Merrimack-30,Concord Ward 5
+house,Merrimack-30,Concord Ward 6
+house,Merrimack-30,Concord Ward 7
+house,Merrimack-30,Concord Ward 8
+house,Rockingham-1,Northwood
+house,Rockingham-1,Nottingham
+house,Rockingham-2,Auburn
+house,Rockingham-2,Candia
+house,Rockingham-2,Deerfield
+house,Rockingham-3,Chester
+house,Rockingham-4,Raymond
+house,Rockingham-5,Epping
+house,Rockingham-6,Brentwood
+house,Rockingham-7,Fremont
+house,Rockingham-8,Danville
+house,Rockingham-9,Sandown
+house,Rockingham-10,Newfields
+house,Rockingham-10,Newmarket
+house,Rockingham-11,Exeter
+house,Rockingham-12,Stratham
+house,Rockingham-13,Derry
+house,Rockingham-14,East Kingston
+house,Rockingham-14,Kingston
+house,Rockingham-15,Hampstead
+house,Rockingham-16,Londonderry
+house,Rockingham-17,Windham
+house,Rockingham-18,Atkinson
+house,Rockingham-19,Hampton Falls
+house,Rockingham-19,Kensington
+house,Rockingham-20,Newton
+house,Rockingham-20,Plaistow
+house,Rockingham-20,South Hampton
+house,Rockingham-21,Newington
+house,Rockingham-21,Portsmouth Ward 1
+house,Rockingham-22,New Castle
+house,Rockingham-22,Portsmouth Ward 5
+house,Rockingham-23,North Hampton
+house,Rockingham-24,Greenland
+house,Rockingham-24,Rye
+house,Rockingham-25,Salem
+house,Rockingham-26,Portsmouth Ward 3
+house,Rockingham-27,Portsmouth Ward 4
+house,Rockingham-28,Portsmouth Ward 2
+house,Rockingham-29,Hampton
+house,Rockingham-30,Seabrook
+house,Rockingham-31,Auburn
+house,Rockingham-31,Candia
+house,Rockingham-31,Chester
+house,Rockingham-31,Deerfield
+house,Rockingham-32,Brentwood
+house,Rockingham-32,Danville
+house,Rockingham-32,Fremont
+house,Rockingham-33,Exeter
+house,Rockingham-33,Newfields
+house,Rockingham-33,Newmarket
+house,Rockingham-33,Stratham
+house,Rockingham-34,East Kingston
+house,Rockingham-34,Hampstead
+house,Rockingham-34,Kingston
+house,Rockingham-35,Londonderry
+house,Rockingham-35,Windham
+house,Rockingham-36,Hampton Falls
+house,Rockingham-36,Kensington
+house,Rockingham-36,Newton
+house,Rockingham-36,Plaistow
+house,Rockingham-36,South Hampton
+house,Rockingham-37,New Castle
+house,Rockingham-37,Newington
+house,Rockingham-37,Portsmouth Ward 1
+house,Rockingham-37,Portsmouth Ward 5
+house,Rockingham-38,Greenland
+house,Rockingham-38,North Hampton
+house,Rockingham-38,Rye
+house,Rockingham-39,Portsmouth Ward 2
+house,Rockingham-39,Portsmouth Ward 3
+house,Rockingham-39,Portsmouth Ward 4
+house,Rockingham-40,Hampton
+house,Rockingham-40,Seabrook
+house,Strafford-1,Farmington
+house,Strafford-2,Milton
+house,Strafford-2,Rochester Ward 5
+house,Strafford-3,Middleton
+house,Strafford-3,New Durham
+house,Strafford-4,Barrington
+house,Strafford-4,Strafford
+house,Strafford-5,Rochester Ward 1
+house,Strafford-6,Rochester Ward 2
+house,Strafford-7,Rochester Ward 3
+house,Strafford-8,Rochester Ward 4
+house,Strafford-9,Rochester Ward 6
+house,Strafford-10,Durham
+house,Strafford-11,Dover Ward 4
+house,Strafford-11,Lee
+house,Strafford-11,Madbury
+house,Strafford-12,Rollinsford
+house,Strafford-12,Somersworth Ward 1
+house,Strafford-12,Somersworth Ward 2
+house,Strafford-12,Somersworth Ward 3
+house,Strafford-12,Somersworth Ward 4
+house,Strafford-12,Somersworth Ward 5
+house,Strafford-13,Dover Ward 6
+house,Strafford-14,Dover Ward 1
+house,Strafford-15,Dover Ward 2
+house,Strafford-16,Dover Ward 3
+house,Strafford-17,Dover Ward 5
+house,Strafford-18,Barrington
+house,Strafford-18,Middleton
+house,Strafford-18,New Durham
+house,Strafford-18,Strafford
+house,Strafford-19,Rochester Ward 1
+house,Strafford-19,Rochester Ward 2
+house,Strafford-19,Rochester Ward 3
+house,Strafford-19,Rochester Ward 4
+house,Strafford-19,Rochester Ward 6
+house,Strafford-20,Dover Ward 4
+house,Strafford-20,Durham
+house,Strafford-20,Lee
+house,Strafford-20,Madbury
+house,Strafford-21,Dover Ward 1
+house,Strafford-21,Dover Ward 2
+house,Strafford-21,Dover Ward 3
+house,Strafford-21,Dover Ward 5
+house,Strafford-21,Dover Ward 6
+house,Sullivan-1,Grantham
+house,Sullivan-2,Cornish
+house,Sullivan-2,Plainfield
+house,Sullivan-3,Charlestown
+house,Sullivan-3,Newport
+house,Sullivan-3,Unity
+house,Sullivan-4,Acworth
+house,Sullivan-4,Goshen
+house,Sullivan-4,Langdon
+house,Sullivan-4,Lempster
+house,Sullivan-4,Washington
+house,Sullivan-5,Springfield
+house,Sullivan-5,Sunapee
+house,Sullivan-6,Claremont Ward 1
+house,Sullivan-6,Claremont Ward 2
+house,Sullivan-6,Claremont Ward 3
+house,Sullivan-6,Croydon
+house,Sullivan-7,Charlestown
+house,Sullivan-7,Cornish
+house,Sullivan-7,Newport
+house,Sullivan-7,Plainfield
+house,Sullivan-7,Unity
+house,Sullivan-8,Acworth
+house,Sullivan-8,Claremont Ward 1
+house,Sullivan-8,Claremont Ward 2
+house,Sullivan-8,Claremont Ward 3
+house,Sullivan-8,Croydon
+house,Sullivan-8,Goshen
+house,Sullivan-8,Langdon
+house,Sullivan-8,Lempster
+house,Sullivan-8,Springfield
+house,Sullivan-8,Sunapee
+house,Sullivan-8,Washington
+senate,S1,Atkinson & Gilmanton Academy Grant
+senate,S1,Bath
+senate,S1,Benton
+senate,S1,Berlin
+senate,S1,Bethlehem
+senate,S1,Cambridge
+senate,S1,Carroll
+senate,S1,Clarksville
+senate,S1,Colebrook
+senate,S1,Columbia
+senate,S1,Dalton
+senate,S1,Dix's Grant
+senate,S1,Dixville
+senate,S1,Dummer
+senate,S1,Easton
+senate,S1,Ellsworth
+senate,S1,Errol
+senate,S1,Erving's Location
+senate,S1,Franconia
+senate,S1,Gorham
+senate,S1,Haverhill
+senate,S1,Jefferson
+senate,S1,Kilkenny
+senate,S1,Lancaster
+senate,S1,Landaff
+senate,S1,Lisbon
+senate,S1,Littleton
+senate,S1,Low and Burbank's Grant
+senate,S1,Lyman
+senate,S1,Milan
+senate,S1,Millsfield
+senate,S1,Monroe
+senate,S1,Northumberland
+senate,S1,Odell
+senate,S1,Piermont
+senate,S1,Pittsburg
+senate,S1,Randolph
+senate,S1,Rumney
+senate,S1,Second College Grant
+senate,S1,Shelburne
+senate,S1,Stark
+senate,S1,Stewartstown
+senate,S1,Stratford
+senate,S1,Success
+senate,S1,Sugar Hill
+senate,S1,Warren
+senate,S1,Wentworth's Location
+senate,S1,Whitefield
+senate,S1,Woodstock
+senate,S2,Ashland
+senate,S2,Belmont
+senate,S2,Campton
+senate,S2,Center Harbor
+senate,S2,Gilford
+senate,S2,Holderness
+senate,S2,Laconia
+senate,S2,Meredith
+senate,S2,New Hampton
+senate,S2,Sanbornton
+senate,S2,Sandwich
+senate,S2,Thornton
+senate,S3,Albany
+senate,S3,Bartlett
+senate,S3,Bean's Grant
+senate,S3,Bean's Purchase
+senate,S3,Brookfield
+senate,S3,Chandler's Purchase
+senate,S3,Chatham
+senate,S3,Conway
+senate,S3,Crawford's Purchase
+senate,S3,Cutt's Grant
+senate,S3,Eaton
+senate,S3,Effingham
+senate,S3,Freedom
+senate,S3,Green's Grant
+senate,S3,Hadley's Purchase
+senate,S3,Hale's Location
+senate,S3,Hart's Location
+senate,S3,Jackson
+senate,S3,Lincoln
+senate,S3,Livermore
+senate,S3,Madison
+senate,S3,Martin's Location
+senate,S3,Middleton
+senate,S3,Milton
+senate,S3,Moultonborough
+senate,S3,Ossipee
+senate,S3,Pinkham's Grant
+senate,S3,Sargent's Purchase
+senate,S3,Tamworth
+senate,S3,Thompson and Meserve's Purchase
+senate,S3,Tuftonboro
+senate,S3,Wakefield
+senate,S3,Waterville Valley
+senate,S3,Wolfeboro
+senate,S4,Barrington
+senate,S4,Dover
+senate,S4,Rollinsford
+senate,S4,Somersworth
+senate,S5,Canaan
+senate,S5,Cornish
+senate,S5,Dorchester
+senate,S5,Enfield
+senate,S5,Grantham
+senate,S5,Groton
+senate,S5,Hanover
+senate,S5,Lebanon
+senate,S5,Lyme
+senate,S5,New London
+senate,S5,Orford
+senate,S5,Plainfield
+senate,S5,Plymouth
+senate,S5,Springfield
+senate,S5,Wentworth
+senate,S6,Alton
+senate,S6,Farmington
+senate,S6,Gilmanton
+senate,S6,New Durham
+senate,S6,Rochester
+senate,S6,Strafford
+senate,S7,Alexandria
+senate,S7,Andover
+senate,S7,Boscawen
+senate,S7,Bradford
+senate,S7,Bridgewater
+senate,S7,Bristol
+senate,S7,Danbury
+senate,S7,Franklin
+senate,S7,Goshen
+senate,S7,Grafton
+senate,S7,Hebron
+senate,S7,Henniker
+senate,S7,Hill
+senate,S7,Hillsborough
+senate,S7,Newbury
+senate,S7,Orange
+senate,S7,Salisbury
+senate,S7,Sutton
+senate,S7,Tilton
+senate,S7,Warner
+senate,S7,Webster
+senate,S7,Wilmot
+senate,S8,Acworth
+senate,S8,Antrim
+senate,S8,Bennington
+senate,S8,Charlestown
+senate,S8,Claremont
+senate,S8,Croydon
+senate,S8,Deering
+senate,S8,Dunbarton
+senate,S8,Francestown
+senate,S8,Gilsum
+senate,S8,Langdon
+senate,S8,Lempster
+senate,S8,Marlow
+senate,S8,Newport
+senate,S8,Stoddard
+senate,S8,Sunapee
+senate,S8,Unity
+senate,S8,Washington
+senate,S8,Weare
+senate,S8,Windsor
+senate,S9,Bedford
+senate,S9,Fitzwilliam
+senate,S9,Greenfield
+senate,S9,Hinsdale
+senate,S9,Jaffrey
+senate,S9,Lyndeborough
+senate,S9,Mont Vernon
+senate,S9,New Boston
+senate,S9,Richmond
+senate,S9,Sharon
+senate,S9,Temple
+senate,S9,Troy
+senate,S9,Winchester
+senate,S10,Alstead
+senate,S10,Chesterfield
+senate,S10,Dublin
+senate,S10,Hancock
+senate,S10,Harrisville
+senate,S10,Keene
+senate,S10,Marlborough
+senate,S10,Nelson
+senate,S10,Peterborough
+senate,S10,Roxbury
+senate,S10,Sullivan
+senate,S10,Surry
+senate,S10,Swanzey
+senate,S10,Walpole
+senate,S10,Westmoreland
+senate,S11,Amherst
+senate,S11,Merrimack
+senate,S11,Milford
+senate,S11,Wilton
+senate,S12,Nashua Ward 1
+senate,S12,Nashua Ward 2
+senate,S12,Nashua Ward 5
+senate,S12,Brookline
+senate,S12,Greenville
+senate,S12,Hollis
+senate,S12,Mason
+senate,S12,New Ipswich
+senate,S12,Rindge
+senate,S13,Nashua Ward 3
+senate,S13,Nashua Ward 4
+senate,S13,Nashua Ward 6
+senate,S13,Nashua Ward 7
+senate,S13,Nashua Ward 8
+senate,S13,Nashua Ward 9
+senate,S14,Auburn
+senate,S14,Hudson
+senate,S14,Londonderry
+senate,S15,Bow
+senate,S15,Concord
+senate,S15,Hopkinton
+senate,S16,Manchester Ward 1
+senate,S16,Candia
+senate,S16,Goffstown
+senate,S16,Hooksett
+senate,S16,Raymond
+senate,S17,Allenstown
+senate,S17,Barnstead
+senate,S17,Canterbury
+senate,S17,Chichester
+senate,S17,Deerfield
+senate,S17,Epsom
+senate,S17,Loudon
+senate,S17,Northfield
+senate,S17,Northwood
+senate,S17,Nottingham
+senate,S17,Pembroke
+senate,S17,Pittsfield
+senate,S18,Manchester Ward 5
+senate,S18,Manchester Ward 6
+senate,S18,Manchester Ward 7
+senate,S18,Manchester Ward 8
+senate,S18,Manchester Ward 9
+senate,S18,Litchfield
+senate,S19,Derry
+senate,S19,Hampstead
+senate,S19,Windham
+senate,S20,Manchester Ward 2
+senate,S20,Manchester Ward 3
+senate,S20,Manchester Ward 4
+senate,S20,Manchester Ward 10
+senate,S20,Manchester Ward 11
+senate,S20,Manchester Ward 12
+senate,S21,Durham
+senate,S21,Lee
+senate,S21,Madbury
+senate,S21,New Castle
+senate,S21,Newfields
+senate,S21,Newington
+senate,S21,Newmarket
+senate,S21,Portsmouth
+senate,S22,Atkinson
+senate,S22,Pelham
+senate,S22,Plaistow
+senate,S22,Salem
+senate,S23,Brentwood
+senate,S23,Chester
+senate,S23,Danville
+senate,S23,East Kingston
+senate,S23,Epping
+senate,S23,Fremont
+senate,S23,Kensington
+senate,S23,Kingston
+senate,S23,Newton
+senate,S23,Sandown
+senate,S23,Seabrook
+senate,S23,South Hampton
+senate,S24,Exeter
+senate,S24,Greenland
+senate,S24,Hampton
+senate,S24,Hampton Falls
+senate,S24,North Hampton
+senate,S24,Rye
+senate,S24,Stratham

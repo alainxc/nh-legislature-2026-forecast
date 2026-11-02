@@ -1,0 +1,16 @@
+[
+ {
+  "file": "ballotpedia_nh_house_2026.html",
+  "source_url": "https://ballotpedia.org/New_Hampshire_House_of_Representatives_elections,_2026",
+  "retrieved_at": "2026-11-02T16:44:05-05:00",
+  "description": "Ballotpedia: 2026 general-election candidates by House district with incumbent marks, seat counts, withdrawals (compiled from SoS filings; the SoS site blocks automated access).",
+  "bytes": 1253289
+ },
+ {
+  "file": "ballotpedia_nh_senate_2026.html",
+  "source_url": "https://ballotpedia.org/New_Hampshire_State_Senate_elections,_2026",
+  "retrieved_at": "2026-11-02T16:44:05-05:00",
+  "description": "Ballotpedia: 2026 general-election candidates by Senate district.",
+  "bytes": 317658
+ }
+]

@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% block title %}Environment · NH Legislature 2026{% endblock %}
+{% block body %}
+<h1>The statewide environment</h1>
+{% set e = f.environment %}
+<p class="sub">How polls of the governor's race, the congressional races, the national generic ballot and the one legislative generic-ballot poll become a single statewide swing applied to every district.</p>
+<div class="card">
+<table class="waterfall">
+<tr><td>2024 presidential two-party margin in New Hampshire (anchor)</td><td>{{ fmt_m(e.anchor_margin) }}</td></tr>
+<tr><td>Structural prior: midterm swing against the president's party ({{ cfg.environment.prior.presidents_party }}), {{ cfg.environment.prior.midterm_swing_pts_toward_out_party }} pts, worth {{ cfg.environment.prior.prior_effective_n }} "effective respondents"</td><td>{{ fmt_m(e.prior_margin) }}</td></tr>
+{% for k, s in e.sources.items() %}
+<tr><td>{{ source_label(k) }}: {{ s.n_polls }} poll{{ 's' if s.n_polls!=1 }}, weighted average {{ fmt_m(s.raw_average) }} → implied generic margin {{ fmt_m(s.implied_generic_margin) }} (source weight {{ s.weight }})<br><span class="note">{{ s.how }}</span></td><td>{{ fmt_m(s.implied_generic_margin) }}</td></tr>
+{% endfor %}
+{% if e.poll_estimate is not none %}<tr><td>Combined poll estimate (effective n ≈ {{ e.poll_n_eff|round|int }})</td><td>{{ fmt_m(e.poll_estimate) }}</td></tr>{% else %}<tr><td class="note">No usable statewide polls in the window; prior only.</td><td></td></tr>{% endif %}
+<tr><td>Blend: polls {{ (e.poll_share_of_blend*100)|round|int }}%, prior {{ ((1-e.poll_share_of_blend)*100)|round|int }}%</td><td>{{ fmt_m(e.generic_margin) }}</td></tr>
+<tr><td>Legislative candidates run behind the top of the ticket (offset)</td><td>{{ fmt_pm(e.legislative_offset) }}</td></tr>
+<tr class="total"><td>Statewide generic legislative margin</td><td>{{ fmt_m(e.generic_legislative_margin) }}</td></tr>
+<tr class="total"><td>Swing applied to every district vs the 2024 presidential result</td><td>{{ fmt_pm(e.swing_vs_anchor) }}</td></tr>
+</table>
+<p class="note">Simulated range of the statewide legislative margin on Election Day: 90% between {{ fmt_m(f.environment_distribution.p05) }} and {{ fmt_m(f.environment_distribution.p95) }} (SD {{ f.environment_distribution.sd|round(1) }} pts, Student-t tails).</p>
+<svg id="envdist" width="100%" height="140"></svg>
+</div>
+{% for k, polls in env_polls.items() %}
+<h2>{{ source_label(k) }}</h2>
+<div class="tablewrap"><table><thead><tr><th>Pollster</th><th>Sponsor</th>{% if k=='nh_congressional_districts' %}<th>District</th>{% endif %}<th>Dates</th><th class="num">n</th><th>Pop.</th><th class="num">D</th><th class="num">R</th><th class="num">Margin</th><th class="num">Adjusted</th><th class="num">Weight</th><th>Source</th></tr></thead><tbody>
+{% for p in polls %}<tr><td>{{ p.pollster }}</td><td>{{ p.sponsor if p.sponsor and p.sponsor==p.sponsor else '' }}{% if p.sponsor_party in ['D','R'] %} <span class="pill" style="background:var(--{{ 'dem' if p.sponsor_party=='D' else 'rep' }})">{{ p.sponsor_party }}</span>{% endif %}</td>{% if k=='nh_congressional_districts' %}<td>{{ p.poll_type|replace('nh_cd','NH-0') }}</td>{% endif %}<td>{{ p.start_date }} – {{ p.end_date }}</td><td class="num">{{ p.sample_size|int if p.sample_size==p.sample_size and p.sample_size else '' }}</td><td>{{ p.population }}</td><td class="num">{{ p.dem_value }}</td><td class="num">{{ p.rep_value }}</td><td class="num">{{ fmt_m(p.margin_dem) }}</td><td class="num">{{ fmt_m(p.adj_value) }}</td><td class="num">{{ (p.weight_share*100)|round(1) }}%</td><td>{% if p.source_url %}<a href="{{ p.source_url }}">link</a>{% endif %}</td></tr>{% endfor %}
+</tbody></table></div>
+{% endfor %}
+{% endblock %}
+{% block scripts %}
+<script>drawEnvDist('envdist', {{ f.environment_distribution|tojson }});</script>
+{% endblock %}

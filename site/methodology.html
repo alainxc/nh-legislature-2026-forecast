@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Methodology · NH Legislature 2026</title>
+<meta name="description" content="A probabilistic forecast of the 2026 New Hampshire State Senate and House of Representatives elections, built from public data.">
+<link rel="stylesheet" href="assets/style.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="index.html">NH Legislature 2026</a>
+  <nav>
+    <a href="index.html" >Forecast</a>
+    <a href="seats.html" >All seats</a>
+    <a href="tipping.html" >Tipping point</a>
+    <a href="environment.html" >Environment</a>
+    <a href="backtest.html" >Backtests</a>
+    <a href="methodology.html" class="active">Methodology</a>
+    <a href="sources.html" >Sources</a>
+    <a href="changelog.html" >Changelog</a>
+  </nav>
+</header>
+<main>
+
+<h1>How this forecast works</h1>
+<div class="prose"><h2>The short version</h2>
+<p>This forecast estimates how the November 3, 2026 elections for the New Hampshire General Court are likely to turn out: who wins each of the 24 State Senate seats, how many of the 400 State House seats each party wins in each of the 203 House districts, and therefore how likely each party is to hold a majority (13 senators, 201 representatives). It is built only from public data, every input to every district is shown on that district's page, and the election is simulated 40,000 times.</p>
+<p>Four things make New Hampshire different from most states, and the model handles each one explicitly:</p>
+<ul>
+<li><b>Everything is on the ballot.</b> All 24 Senate seats and all 400 House seats are elected every two years. There are no holdovers to count.</li>
+<li><b>Towns are the atoms.</b> Districts are built from whole towns and city wards, and results are reported by town and ward. So a district's past vote in any statewide race can be computed exactly, including for floterial districts, instead of being estimated from precinct splits.</li>
+<li><b>The House uses multi-member districts.</b> About half of the House districts elect two or more members, up to eleven, and voters cast as many votes as there are seats. Parties often field fewer candidates than there are seats. On top of the base districts sit 39 floterial districts that overlap several base districts and elect 58 additional members from the combined area. The model simulates individual candidates, not just parties.</li>
+<li><b>There is no legislative polling to speak of.</b> One poll (UNH Survey Center) asked which party people want to control the legislature. The statewide environment therefore has to be built from the governor's race, the two congressional races and the national generic ballot, with corrections for how much those differ from a generic legislative race.</li>
+</ul>
+<h2>1. District baselines</h2>
+<p>For each district and each reference race we add up the votes of its towns and wards and compute the two-party Democratic margin, then subtract the statewide margin in the same race. That difference is the district's lean. Leans from the 2024 presidential (weight 40%), 2024 governor (15%), 2022 U.S. Senate (20%), 2022 governor (10%) and 2020 presidential (15%) races are averaged. A whole-city entry in a Senate district expands to all of that city's wards.</p>
+<p>The district's own most recent legislative result is also turned into a lean, by subtracting that year's statewide legislative environment and removing the incumbency bonus the then-incumbents enjoyed, and blended at 30% when the race was contested. In multi-member districts the "district margin" is the party margin: the mean votes of a Democratic candidate against the mean votes of a Republican candidate, which is unaffected by how many candidates each side fielded.</p>
+<h2>2. The statewide environment</h2>
+<p>The anchor is the 2024 presidential result in New Hampshire (Harris by 2.8 points, two-party). The model forecasts a statewide "generic legislative" margin for 2026 and applies the difference as a uniform swing to every district. The generic margin is a blend of polls and a structural prior:</p>
+<ul>
+<li><b>Structural prior.</b> The president's party loses ground in midterms; the prior is the 2024 result plus 4 points toward the out-party, worth the equivalent of 1,500 poll respondents. Once a few thousand people have been polled, the polls dominate.</li>
+<li><b>New Hampshire legislative generic ballot.</b> UNH's question on which party should control the NH House and Senate is used directly. It carries the largest weight because it asks exactly the right question, but there is only one such poll.</li>
+<li><b>Governor.</b> Kelly Ayotte ran 12 points ahead of the 2024 presidential result in 2024. Incumbent governors in New Hampshire keep most of such a personal vote, so 10 points are subtracted from her polled margin and only half of the remaining signal is passed through.</li>
+<li><b>Congressional races.</b> Polls of NH-01 and NH-02 are averaged after removing an incumbency bonus (NH-02's Democrat is an incumbent; NH-01 is open), and statewide "which party for Congress" polls are used with an 80% pass-through.</li>
+<li><b>National generic ballot.</b> Shifted by New Hampshire's lean relative to the country in 2024 (4.3 points more Democratic) and passed through at 80%.</li>
+</ul>
+<p>Within each type, polls are weighted by recency (half-life 14 days), sample size (square root), pollster quality (FiveThirtyEight's final numeric grades), and sponsorship (partisan-sponsored polls get half weight and are shifted 2 points against the sponsor); a pollster's second and later polls count progressively less.</p>
+<p><b>The legislative offset.</b> New Hampshire legislative candidates systematically run behind their party's statewide ticket: in 2022 the vote-weighted party margin across contested legislative districts was about 8 points more Republican than the U.S. Senate and U.S. House vote, and in 2024 about 5 points more Republican than the presidential vote. Part of that is the Republican incumbency advantage built up over two cycles, part is ticket-splitting in a state with a long tradition of it. The model subtracts 5 points from the generic margin to get the generic legislative margin. The backtests (which use only pre-election data) missed the actual legislative environment by about 3 points toward Democrats in 2022 and 4 points toward Republicans in 2024 with this offset, which is why it is set where it is and why the statewide error term is 4 points.</p>
+<p>The environment page shows every poll, its weight, and each step of this calculation.</p>
+<h2>3. Candidates</h2>
+<ul>
+<li><b>Senate.</b> Incumbents get 3 points. An incumbent who ran ahead of their district's lean last time keeps 35% of that over-performance, capped at 6 points. A seat with only one major-party candidate is fixed at a 99.5% win probability. Where a major party has no nominee but an independent is on the ballot, the independent is modelled as the challenger from what a generic candidate of the missing party would get, minus a 6-point penalty.</li>
+<li><b>House.</b> Each candidate's share is the party's share (from the district party margin) plus 2.5 points if an incumbent, plus a candidate-specific deviation drawn from a normal distribution whose spread (about 3.3 points) is estimated from how far same-party candidates finished apart in the same districts in 2022 and 2024. Within those districts incumbents ran about 3 points ahead of same-party non-incumbents, which is where the incumbency figure comes from. The top k candidates by share win the district's k seats. If a party fields fewer candidates than seats, it cannot win more seats than it has candidates; the other party's extra lines fill the remainder, which is exactly what happens in New Hampshire. Independents are placed with the weaker major party minus a 6-point penalty. A district where the number of candidates equals the number of seats is fixed: everyone wins.</li>
+</ul>
+<p>Candidate lists come from Ballotpedia's transcription of the Secretary of State filings, because the Secretary of State's site cannot be reached from the machine that builds this site. Every district page says so.</p>
+<h2>4. Simulation</h2>
+<p>The simulation draws three layers of error, shared across both chambers: a statewide miss common to every district (SD 4 points, Student-t with 5 degrees of freedom so a large systematic polling miss is a live possibility), a regional miss shared by districts in the same region (SD 2 points; the regions are the North Country, Upper Valley, Lakes Region, Greater Manchester, Nashua and the Massachusetts border, Seacoast and Strafford, Concord and the Merrimack Valley, and the Monadnock region), and district-specific noise (SD 6 points for Senate seats, 5 points for House district party margins, plus the candidate-level deviations above). Open seats and districts without a recent contested result get a little extra uncertainty.</p>
+<p>Chamber control is read off each simulation. The House total is the sum over 203 districts of the Democratic seats won in that simulation, so the correlation between neighbouring districts and between a town's base and floterial seats is carried through naturally.</p>
+<h2>5. The "what if the polls are off" slider</h2>
+<p>The slider fixes the statewide generic legislative vote at a chosen value and re-simulates both chambers with the regional, district and candidate error still in play; the curve is precomputed on a half-point grid and interpolated in the browser. The preset buttons apply the statewide misses measured in the 2022 and 2024 backtests, so "2022-style miss" means polls that understated Democrats by the amount they did that year, and "2024-style miss" the reverse.</p>
+<h2>6. Backtests</h2>
+<p>The model is run on the 2022 and 2024 elections using only what existed three days before each: district leans from earlier statewide races (only the 2020 presidential race for 2022, the first election on the current map), the ballot and incumbency from the results and the pre-election incumbent lists, and New Hampshire polls of the governor's race, the U.S. Senate or presidential race and the two congressional districts. No national generic-ballot poll list with sources survives for those cycles, so it is left out of the backtests and the backtest says so. The Backtests page reports seats called, Brier scores, margin error and interval coverage for the Senate; and for the House, the accuracy of "Democrats win at least j seats" in each contested district, how often the exact seat split was right, the chamber total, and the statewide miss.</p>
+<h2>Known limitations and weakest assumptions</h2>
+<ul>
+<li><b>One legislative generic-ballot poll.</b> The environment leans on races with their own candidate effects. The governor correction (10 points) is the single most consequential assumption; the environment page shows what each source implies so readers can judge it.</li>
+<li><b>The legislative offset</b> of 5 points is estimated from two elections. It is centred between them but either cycle alone would move it by 3 to 4 points, which is why the statewide error term is wide.</li>
+<li><b>Candidate quality is unobserved.</b> Beyond incumbency, the model knows nothing about individual House candidates: no fundraising, no district polls, no outside ratings exist for New Hampshire legislative seats in 2026.</li>
+<li><b>Candidate lists are second-hand.</b> Ballotpedia is reliable but is not the official filing list; late withdrawals may be missed.</li>
+<li><b>Vacancies.</b> Eighteen House seats are vacant; "held by" counts use the House Clerk's list of August 27, 2026.</li>
+<li><b>Map wards.</b> Ward boundaries on the map are the 2020 Census vintage; a few cities adjusted wards in 2021-22. Vote aggregation never uses the map.</li>
+</ul></div>
+<h2 id="config">Every weight and assumption</h2>
+<p class="sub">This is the complete configuration file the model ran with. Change a number here (in <code>config/model_config.yaml</code>) and the whole forecast re-derives from it.</p>
+<details><summary>Show configuration</summary><pre style="font-size:12px;overflow:auto"># =====================================================================
+# New Hampshire General Court 2026 Forecast — MODEL CONFIGURATION
+# =====================================================================
+# Every weight, prior and assumption lives here; the pipeline reads it on
+# every run. Margins are DEMOCRATIC two-party margins in percentage points
+# (positive = Democrat ahead). "Lean" = district margin minus the statewide
+# margin in the same race.
+# =====================================================================
+
+election:
+  date: "2026-11-03"
+  cycle: 2026
+  # Everything is up every two years: no holdovers in either chamber.
+  house_seats: 400
+  house_majority: 201
+  senate_seats: 24
+  senate_majority: 13
+  chambers: [senate]               # which chambers to model this run (house added after the Senate release)
+
+# ---------------------------------------------------------------------
+# 1. DISTRICT BASELINE (partisan lean on current lines, exact by town)
+# ---------------------------------------------------------------------
+baseline:
+  lean_weights:
+    pres_2024: 0.40     # most recent high-turnout race
+    gov_2024:  0.15     # Ayotte's 2024 coalition; she tops the 2026 ticket
+    sen_2022:  0.20     # Hassan v Bolduc, the last midterm
+    gov_2022:  0.10     # Sununu v Sherman: a landslide, but informative about where Republicans can over-perform
+    pres_2020: 0.15     # older, damps single-race noise (Amherst's 2020 Biden line is missing in the source; excluded there)
+  # Blend the lean-based estimate with the district's own most recent legislative result
+  # (expressed as a lean vs that year's statewide legislative environment, incumbency removed).
+  legislative_result_weight: 0.30
+  legislative_result_max_margin: 60
+  # Statewide "legislative environment": vote-weighted party margin (mean votes per D candidate
+  # vs mean per R candidate) across contested districts that year. Computed from data; fallbacks:
+  legislative_environment_fallback:
+    2022: 1.1
+    2024: -2.6
+
+# ---------------------------------------------------------------------
+# 2. CANDIDATE LAYER
+# ---------------------------------------------------------------------
+candidates:
+  incumbency_advantage_pts: 3.0      # Senate (single-member)
+  house_incumbency_advantage_pts: 2.5  # House: per-candidate bonus within a multi-member district (estimated from 2022/2024 same-party spreads)
+  prior_performance_carryover: 0.35
+  prior_performance_cap_pts: 6.0
+  quality_overrides: []
+  uncontested_win_prob: 0.995
+  missing_candidate_penalty_pts: 8.0
+  independent_challenger:
+    enabled: true
+    baseline_penalty_pts: 6.0
+    extra_sd_pts: 3.0
+
+# ---------------------------------------------------------------------
+# 3. ENVIRONMENT (statewide swing)
+# ---------------------------------------------------------------------
+environment:
+  anchor_race: pres_2024             # NH two-party presidential margin 2024: D+2.8
+  prior:
+    presidents_party: R
+    midterm_swing_pts_toward_out_party: 4.0
+    prior_sd_pts: 4.5
+    prior_effective_n: 1500
+  polls:
+    half_life_days: 14
+    max_age_days: 90
+    sample_size_exponent: 0.5
+    reference_sample_size: 600
+    # FiveThirtyEight numeric grades (0-3) are mapped by pipeline/polls.py: 0.6 + 0.25 x grade; unrated 0.65
+    rating_multiplier: {unrated: 0.65}
+    partisan_weight_multiplier: 0.50
+    partisan_bias_correction_pts: 2.0
+    population_adjustment_pts: {LV: 0.0, RV: -1.0, A: -1.5}
+    same_pollster_decay: 0.5
+  # Each poll type is converted to an estimate of the statewide "generic" two-party margin, then
+  # combined with these weights (renormalised over the types that have polls).
+  source_weights:
+    nh_legislative_generic: 0.35     # UNH: "which party do you want to control the NH House / Senate" — the only direct measure
+    nh_governor: 0.20                # Ayotte v Warmington, corrected for the governor's personal vote
+    nh_congressional_generic: 0.15   # statewide "which party for Congress"
+    nh_congressional_districts: 0.15 # NH-01 and NH-02 head-to-heads, averaged, incumbency removed
+    national_generic_ballot: 0.15    # shifted by NH's lean relative to the nation
+  # Governor: Ayotte ran 12.4 pts ahead of the 2024 presidential result (R+9.5 vs D+2.8). Incumbent
+  # governors in NH keep most of that personal vote; half of the remaining signal passes through.
+  governor_personal_vote_pts: -10.0  # negative = Republican over-performance, in D-margin terms
+  governor_pass_through: 0.50
+  nh_congressional_pass_through: 0.80
+  # NH-01 / NH-02 polls: subtract the incumbent's bonus, average the two districts, pass through
+  cd_incumbent_adjust_pts: {nh_cd1: 0.0, nh_cd2: -3.0}   # Goodlander (D) is the NH-02 incumbent; NH-01 is open
+  cd_pass_through: 0.70
+  nh_lean_vs_nation_pts: 4.3         # 2024: NH D+2.8 vs nation R+1.5
+  national_pass_through: 0.80
+  # Legislative candidates run behind the top of the ticket in NH: the contested-race party margin
+  # was ~8 pts more Republican than the US Senate/US House vote in 2022 and ~5 pts more Republican
+  # than the presidential vote in 2024 (see backtests). Applied to the generic margin.
+  legislative_vs_anchor_offset_pts: -5.0
+
+# ---------------------------------------------------------------------
+# 4. DISTRICT POLLS (none public in 2026; kept for completeness)
+# ---------------------------------------------------------------------
+district_polls:
+  half_life_days: 21
+  max_age_days: 120
+  internal_weight_multiplier: 0.40
+  internal_bias_correction_pts: 3.5
+  blend_k: 900
+  blend_k_independent: 300
+  extra_poll_sd_pts: 4.0
+
+# ---------------------------------------------------------------------
+# 5. MULTI-MEMBER HOUSE MODEL
+# ---------------------------------------------------------------------
+house:
+  # Each candidate's two-party share = party mean share (from the district margin) + a candidate
+  # deviation. The deviation SD is estimated from the 2022/2024 spread of same-party candidates
+  # within districts; this fallback is used if the estimate fails.
+  candidate_sd_pts_fallback: 4.0
+  # Shrink the estimated candidate SD toward the fallback (0 = use estimate only)
+  candidate_sd_shrink: 0.25
+  # Fewer candidates than seats: the party's "missing" lines are lost automatically. A party that
+  # fields a full slate against a short slate also gains from "bullet" voting, captured in the
+  # candidate-count term below (pts of margin per missing candidate on the OTHER side, per seat).
+  short_slate_pts_per_missing: 1.0
+  # Ticket splitting within a district is what the candidate deviation represents; the
+  # independent-draw share says how much of it is uncorrelated across a party's candidates.
+  candidate_deviation_independent_share: 0.75
+
+# ---------------------------------------------------------------------
+# 6. SIMULATION
+# ---------------------------------------------------------------------
+simulation:
+  n_sims: 40000
+  seed: 20261103
+  statewide_sd_pts: 4.0           # NH polls missed by ~7 pts D-ward in 2022 (Senate race) and ~3.5 R-ward in 2024 (president)
+  regional_sd_pts: 2.0
+  district_sd_pts: 6.0            # Senate idiosyncratic
+  house_district_sd_pts: 5.0      # House district-level shock shared by the district's candidates
+  statewide_t_df: 5
+  regional_t_df: 8
+  open_seat_extra_sd_pts: 1.5
+  no_recent_result_extra_sd_pts: 1.0
+  statewide_sd_per_week_remaining: 0.35
+  regions: [north_country, upper_valley, lakes, manchester, nashua_border, seacoast, concord_merrimack, monadnock]
+
+# ---------------------------------------------------------------------
+# 7. BACKTEST
+# ---------------------------------------------------------------------
+backtest:
+  cycles: [2022, 2024]
+  freeze_days_before_election: 3
+  lean_weights:
+    2022: {pres_2020: 1.0}
+    2024: {pres_2020: 0.40, gov_2022: 0.25, sen_2022: 0.35}
+  anchor_race:
+    2022: pres_2020
+    2024: pres_2020
+  presidents_party:
+    2022: D
+    2024: D
+  # poll types available in each cycle -> how they enter (see pipeline/backtest.py)
+  source_weights:
+    2022: {nh_us_senate: 0.35, nh_governor: 0.15, nh_congressional_generic: 0.30, nh_congressional_districts: 0.20}
+    2024: {nh_president: 0.45, nh_governor: 0.20, nh_congressional_districts: 0.35}
+  governor_personal_vote_pts:
+    2022: -20.0     # Sununu, a four-term incumbent who ran ~25 pts ahead of Hassan
+    2024: -6.0      # Ayotte as a non-incumbent: expected over-performance before the result was known
+  cd_incumbent_adjust_pts:
+    2022: {nh_cd1: -3.0, nh_cd2: -3.0}   # Pappas and Kuster were D incumbents
+    2024: {nh_cd1: -3.0, nh_cd2: 0.0}    # Pappas incumbent; NH-02 open
+</pre></details>
+
+</main>
+<footer>
+  Forecast as of 2026-11-02 · 1 day to Election Day (2026-11-03) · 40,000 simulations · generated 2026-11-02 17:11.
+  Public data only; every source and retrieval date is on the <a href="sources.html">sources page</a>. Candidate lists come from Ballotpedia's transcription of Secretary of State filings. Not affiliated with any campaign, party, caucus or outlet.
+</footer>
+<div class="tooltip" id="tip"></div>
+<script src="assets/app.js"></script>
+
+</body>
+</html>

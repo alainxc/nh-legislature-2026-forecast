@@ -1,0 +1,7 @@
+{% extends "base.html" %}
+{% block title %}Changelog · NH Legislature 2026{% endblock %}
+{% block body %}
+<h1>Changelog</h1>
+<p class="sub">Every model run and every change to the configuration or data, newest first.</p>
+<div class="prose">{{ changelog_html|safe }}</div>
+{% endblock %}

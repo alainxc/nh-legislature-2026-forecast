@@ -1,0 +1,32 @@
+# Regions for the correlated-error term. Each town (or whole city) is assigned to one region;
+# a district takes the region where most of its 2024 presidential votes were cast.
+# Unlisted towns default by county (see county_default).
+county_default:
+  Coos: north_country
+  Grafton: upper_valley          # overridden below for the northern Grafton towns
+  Carroll: lakes
+  Belknap: lakes
+  Strafford: seacoast
+  Rockingham: seacoast           # overridden below for the Massachusetts-border towns
+  Hillsborough: monadnock        # overridden below for Manchester, Nashua and the border towns
+  Merrimack: concord_merrimack
+  Sullivan: upper_valley
+  Cheshire: monadnock
+towns:
+  north_country: [Bath, Benton, Bethlehem, Easton, Franconia, Haverhill, Landaff, Lincoln, Lisbon, Littleton, Livermore, Lyman, Monroe, Piermont, Sugar Hill, Warren, Woodstock]
+  upper_valley: [Canaan, Dorchester, Enfield, Grafton, Groton, Hanover, Lebanon, Lyme, Orange, Orford, Plainfield, Cornish, Grantham, Springfield, New London, Newbury, Sunapee, Wilmot, Alexandria, Ashland, Bridgewater, Bristol, Campton, Ellsworth, Hebron, Holderness, Plymouth, Rumney, Thornton, Waterville Valley, Wentworth]
+  lakes: [Sandwich, Moultonborough, Tuftonboro, Wolfeboro, Meredith, Laconia, Gilford, Belmont, Tilton, Sanbornton, Center Harbor, New Hampton, Alton, Barnstead, Gilmanton, Franklin, Northfield, Hill, Danbury, Andover, New Durham, Milton, Middleton, Brookfield, Wakefield]
+  manchester: [Manchester, Bedford, Goffstown, Hooksett, Auburn, Candia, Litchfield, Merrimack]
+  nashua_border: [Nashua, Hudson, Pelham, Salem, Windham, Londonderry, Derry, Atkinson, Plaistow, Hampstead, Danville, Sandown, Newton, Kingston, Brookline, Hollis, Mason, Amherst, Milford, Wilton, Lyndeborough, Mont Vernon, New Ipswich, Greenville, Temple, Chester]
+  seacoast: [Portsmouth, Dover, Rochester, Somersworth, Durham, Lee, Madbury, Rollinsford, Newmarket, Newfields, Newington, New Castle, Rye, Greenland, Stratham, Exeter, Hampton, Hampton Falls, North Hampton, South Hampton, Seabrook, Kensington, East Kingston, Brentwood, Epping, Fremont, Raymond, Nottingham, Northwood, Deerfield, Barrington, Strafford, Farmington]
+  concord_merrimack: [Concord, Bow, Hopkinton, Pembroke, Allenstown, Loudon, Canterbury, Boscawen, Webster, Salisbury, Warner, Bradford, Henniker, Weare, Dunbarton, New Boston, Chichester, Epsom, Pittsfield, Sutton]
+  monadnock: [Keene, Peterborough, Jaffrey, Rindge, Dublin, Hancock, Antrim, Bennington, Greenfield, Francestown, Deering, Hillsborough, Windsor, Washington]
+labels:
+  north_country: North Country
+  upper_valley: Upper Valley
+  lakes: Lakes Region
+  manchester: Greater Manchester
+  nashua_border: Nashua and the Massachusetts border
+  seacoast: Seacoast and Strafford
+  concord_merrimack: Concord and Merrimack Valley
+  monadnock: Monadnock

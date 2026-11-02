@@ -1,0 +1,16 @@
+[
+ {
+  "file": "538_pollster_ratings_2023.csv",
+  "source_url": "https://raw.githubusercontent.com/fivethirtyeight/data/master/pollster-ratings/2023/pollster-ratings.csv",
+  "retrieved_at": "2026-11-02T16:38:49-05:00",
+  "description": "FiveThirtyEight 2023 letter-grade ratings (reference).",
+  "bytes": 95044
+ },
+ {
+  "file": "538_pollster_ratings_combined.csv",
+  "source_url": "https://raw.githubusercontent.com/fivethirtyeight/data/master/pollster-ratings/pollster-ratings-combined.csv",
+  "retrieved_at": "2026-11-02T16:38:49-05:00",
+  "description": "FiveThirtyEight final pollster ratings (2024 methodology): numeric_grade 0-3 used as the pollster quality weight.",
+  "bytes": 40046
+ }
+]

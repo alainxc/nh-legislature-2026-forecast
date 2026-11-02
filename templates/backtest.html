@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+{% block title %}Backtests · NH Legislature 2026{% endblock %}
+{% block body %}
+<h1>Backtests: 2022 and 2024</h1>
+<p class="sub">The same model, run with only the data that existed three days before each election, scored against the actual results for both chambers. The statewide misses measured here set the slider presets on the home page and the size of the statewide error term.</p>
+{% if not bt %}<div class="card">Backtest has not been run.</div>{% endif %}
+{% for cyc, r in bt.items() %}
+<h2>{{ cyc }}</h2>
+<div class="grid">
+<div class="card"><h3>Statewide environment</h3>
+<dl class="kv">
+<dt>Frozen as of</dt><dd>{{ r.as_of }}</dd>
+<dt>Forecast generic margin</dt><dd>{{ fmt_m(r.environment.generic_margin) }} (polls {{ (r.environment.poll_share_of_blend*100)|round|int }}% of the blend)</dd>
+<dt>Forecast legislative margin</dt><dd>{{ fmt_m(r.environment.generic_legislative_margin) }} after the {{ fmt_pm(r.environment.legislative_offset) }} legislative offset</dd>
+<dt>Actual legislative margin</dt><dd>{{ fmt_m(r.actual_legislative_margin) }} (House {{ fmt_m(r.actual_legislative_margin_house) }}, Senate {{ fmt_m(r.actual_legislative_margin_senate) }}): vote-weighted party margin across contested districts</dd>
+<dt>Statewide miss</dt><dd>{{ fmt_pm(-r.environment_error_pts) }} (positive = Democrats beat the forecast)</dd>
+</dl>
+<p class="note">Inputs used: {{ r.inputs_used|join('; ') }}. Not available point-in-time: {{ r.inputs_not_available|join('; ') }}.</p>
+</div>
+<div class="card"><h3>State Senate</h3>
+{% set s = r.senate %}
+<dl class="kv">
+<dt>Seats called correctly</dt><dd>{{ s.seats_called_correctly }} of {{ s.n_contested }} contested ({{ (s.accuracy*100)|round(1) }}%)</dd>
+<dt>Brier score</dt><dd>{{ s.brier|round(3) }} <span class="note">(0 = perfect; 0.25 = coin flip)</span></dd>
+<dt>Log loss</dt><dd>{{ s.log_loss|round(3) }}</dd>
+<dt>Margin error</dt><dd>MAE {{ s.margin_mae|round(1) }} pts · RMSE {{ s.margin_rmse|round(1) }} · bias {{ fmt_pm(s.margin_bias) }}</dd>
+<dt>90% interval coverage</dt><dd>{{ (s.coverage_90*100)|round|int }}%</dd>
+<dt>Democratic seats</dt><dd>forecast {{ s.pred_mean|round(1) }} [{{ s.pred_p05|round|int }}–{{ s.pred_p95|round|int }}] of 24 · actual {{ s.actual_dem_seats }} · P(D majority) {{ (s.p_dem_control*100)|round|int }}%</dd>
+</dl>
+{% if s.misses %}<h4>Misses</h4><table><thead><tr><th>Seat</th><th class="num">P(Dem)</th><th class="num">Forecast</th><th class="num">Actual</th></tr></thead><tbody>
+{% for m in s.misses %}<tr><td>{{ m.seat }}</td><td class="num">{{ (m.p_dem*100)|round|int }}%</td><td class="num">{{ fmt_m(m.margin_mean) }}</td><td class="num">{{ fmt_m(m.actual_margin) }}</td></tr>{% endfor %}</tbody></table>{% endif %}
+</div>
+<div class="card"><h3>State House (multi-member)</h3>
+{% set h = r.house %}
+<dl class="kv">
+<dt>Seat events called</dt><dd>{{ h.seats_called_correctly }} of {{ h.n_contested_seats }} ({{ (h.accuracy*100)|round(1) }}%) <span class="note">("Democrats win at least j seats" for each contested district and j)</span></dd>
+<dt>Brier score</dt><dd>{{ h.brier|round(3) }}</dd>
+<dt>Seat split exactly right</dt><dd>{{ h.modal_seat_count_correct }} of {{ h.n_contested_districts }} contested districts ({{ (h.modal_accuracy*100)|round|int }}%)</dd>
+<dt>Seat error per district</dt><dd>{{ h.seat_mae_per_contested_district|round(2) }} seats (mean absolute, expected vs actual)</dd>
+<dt>Party-margin error</dt><dd>MAE {{ h.margin_mae_contested|round(1) }} pts · bias {{ fmt_pm(h.margin_bias_contested) }}</dd>
+<dt>Democratic seats</dt><dd>forecast {{ h.pred_mean|round(1) }} [{{ h.pred_p05|round|int }}–{{ h.pred_p95|round|int }}] of 400 · actual {{ h.actual_dem_seats }} · P(D majority) {{ (h.p_dem_control*100)|round|int }}%</dd>
+<dt>Candidate dispersion used</dt><dd>SD {{ h.candidate_sd_used|round(2) }} pts ({{ h.candidate_stats.n_candidates }} candidate-results; incumbents ran {{ h.candidate_stats.incumbent_gap_mean|round(1) }} pts ahead of same-party non-incumbents in {{ h.candidate_stats.n_incumbent_pairs }} districts)</dd>
+</dl>
+<h4>Biggest House misses (expected vs actual Democratic seats)</h4>
+<table><thead><tr><th>District</th><th class="num">Seats</th><th class="num">Expected D</th><th class="num">Actual D</th><th class="num">Forecast margin</th><th class="num">Actual</th></tr></thead><tbody>
+{% for m in h.biggest_misses[:10] %}<tr><td>{{ m.key|replace('-',' ') }}</td><td class="num">{{ m.seats }}</td><td class="num">{{ m.expected_d_seats|round(1) }}</td><td class="num">{{ m.actual_d_seats }}</td><td class="num">{{ fmt_m(m.margin_mean) }}</td><td class="num">{{ fmt_m(m.actual_margin) }}</td></tr>{% endfor %}</tbody></table>
+</div>
+</div>
+{% endfor %}
+{% endblock %}

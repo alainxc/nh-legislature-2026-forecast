@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+{% block title %}All seats · NH Legislature 2026{% endblock %}
+{% block body %}
+<h1>All seats</h1>
+<p class="sub">Every State Senate seat{% if 'house' in chambers %} and every State House district (base and floterial){% endif %}. Click a column header to sort; type to filter.</p>
+<h2>State Senate</h2>
+<div class="controls">
+  <input type="search" id="q" placeholder="Filter by district, name, region…">
+  <select id="rating"><option value="">All ratings</option>{% for r in rating_order %}<option>{{ r }}</option>{% endfor %}</select>
+  <label><input type="checkbox" id="contested"> contested only</label>
+</div>
+<div class="tablewrap">
+<table id="seats">
+<thead><tr>
+<th data-k="seat">Seat</th><th data-k="region">Region</th><th data-k="holder_party">Held</th><th data-k="dem_cand">Democrat</th><th data-k="rep_cand">Republican</th>
+<th class="num" data-k="lean">Lean</th><th class="num" data-k="margin_mean">Forecast margin</th><th class="num" data-k="p_dem">P(Dem)</th><th class="num" data-k="p_flip">P(flip)</th><th data-k="rating">Rating</th><th class="num" data-k="tipping">Tipping pt</th>
+</tr></thead>
+<tbody></tbody>
+</table>
+</div>
+{% if 'house' in chambers %}
+<h2>State House districts</h2>
+<p class="sub">Multi-member districts elect several representatives; floterial districts overlap the base districts and elect extra seats from the combined area. "Expected D" is the mean number of Democratic seats over the simulations; "P(change)" is the chance the Democratic seat count differs from today's.</p>
+<div class="controls">
+  <input type="search" id="hq" placeholder="Filter by county, district, town…">
+  <select id="hcounty"><option value="">All counties</option>{% for c in ['Belknap','Carroll','Cheshire','Coos','Grafton','Hillsborough','Merrimack','Rockingham','Strafford','Sullivan'] %}<option>{{ c }}</option>{% endfor %}</select>
+  <select id="htype"><option value="">Base and floterial</option><option value="base">Base only</option><option value="floterial">Floterial only</option></select>
+  <label><input type="checkbox" id="hcontested"> contested only</label>
+</div>
+<div class="tablewrap">
+<table id="house">
+<thead><tr>
+<th data-k="district_id">District</th><th data-k="region">Region</th><th class="num" data-k="seats">Seats</th><th data-k="held">Held D–R</th><th data-k="cands">Candidates D–R</th>
+<th class="num" data-k="lean">Lean</th><th class="num" data-k="margin_mean">Party margin</th><th class="num" data-k="d_seats_mean">Expected D</th><th class="num" data-k="p_dem">D seat share</th><th class="num" data-k="p_change">P(change)</th><th data-k="rating">Rating</th>
+</tr></thead>
+<tbody></tbody>
+</table>
+</div>
+{% endif %}
+{% endblock %}
+{% block scripts %}
+<script>
+window.FORECAST_SUMMARY = {{ summary_json|safe }};
+initSeatsTable(window.FORECAST_SUMMARY);
+initHouseTable(window.FORECAST_SUMMARY);
+</script>
+{% endblock %}

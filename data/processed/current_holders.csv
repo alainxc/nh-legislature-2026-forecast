@@ -1,0 +1,228 @@
+chamber,key,seats,d_held,r_held,i_held,vacant,holders,vacated_by,source
+house,Belknap-1,1,0,1,0,0,Tom Ploszaj (R),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Belknap-2,2,0,1,0,1,Matthew Coker (R),"Lunney, Matthew (R)",wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Belknap-3,1,0,1,0,0,Juliet Harvey-Bolia (R),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Belknap-4,1,0,1,0,0,Travis Toner (R),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Belknap-5,4,0,3,0,1,Mike Bordes (R); Sheri Minor (R); Steven Bogert (R),"St. Clair, Charlie (D)",wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Belknap-6,4,1,2,0,1,Russell Dumais (R); David Nagel (D); Glen Aldrich (R),"Bean, Harry (R)",wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Belknap-7,3,0,3,0,0,Peter Varney (R); Paul Terry (R); Barbara Comtois (R),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Belknap-8,2,0,2,0,0,Douglas Trottier (R); Lisa Freeman (R),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Carroll-1,3,3,0,0,0,Stephen Woodcock (D); David Paige (D); Thomas Buco (D),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Carroll-2,2,2,0,0,0,Anita Burroughs (D); Chris McAleer (D),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Carroll-3,2,0,2,0,0,Karel Crawford (R); Joseph Hamblen (R),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Carroll-4,2,0,2,0,0,Lino Avellani (R); Mike Belcher (R),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Carroll-5,1,0,1,0,0,Jonathan Smith (R),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Carroll-6,2,0,2,0,0,Katy Peternel (R); John MacDonald (R),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Carroll-7,1,1,0,0,0,Bobbi Boudman (D),"Cordelli, Glenn (R)",wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Carroll-8,2,0,2,0,0,Richard Brown (R); Brian R. Taylor (R),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Cheshire-1,1,0,0,0,1,,"Germana, Dylan (D)",wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Cheshire-2,1,1,0,0,0,Dru Fox (D),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Cheshire-3,1,1,0,0,0,Philip Jones (D),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Cheshire-4,1,1,0,0,0,Jodi Newell (D),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Cheshire-5,1,1,0,0,0,Lucy Weber (D),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Cheshire-6,2,2,0,0,0,Paul Berch (D); Cathryn Harvey (D),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Cheshire-7,1,1,0,0,0,Terri O'Rorke (D),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Cheshire-8,1,1,0,0,0,Lucius Parshall (D),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Cheshire-9,1,0,1,0,0,Rich Nalevanko (R),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Cheshire-10,2,1,1,0,0,Barrett Faulkner (D); Sly Karasinski (R),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Cheshire-11,1,0,1,0,0,Denis Murphy (R),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Cheshire-12,1,0,1,0,0,Dick Thackston (R),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Cheshire-13,1,1,0,0,0,Richard Ames (D),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Cheshire-14,1,0,1,0,0,John B. Hunt (R),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Cheshire-15,2,2,0,0,0,Samantha Jacobs (D); Nicholas Germana (D),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Cheshire-16,1,1,0,0,0,James Gruber (D),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Cheshire-17,1,0,1,0,0,Jennifer Rhodes (R),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Cheshire-18,2,0,2,0,0,Jim Qualey (R); Rita Mattson (R),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Coos-1,2,0,2,0,0,Sean Durkin (R); James Tierney Jr. (R),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Coos-2,1,0,1,0,0,Arnold Davis (R),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Coos-3,1,0,1,0,0,Mike Ouellet (R),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Coos-4,1,0,1,0,0,Seth King (R),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Coos-5,2,0,2,0,0,Marc Tremblay (R); Pete Morency (R),"Valerino, Brian (R)",wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Coos-6,1,0,0,0,1,,"Murphy, Michael (R)",wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Coos-7,1,0,1,0,0,Lori Korzen (R),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Grafton-1,3,0,3,0,0,Joseph Barton (R); Darrell Louis (R); Calvin Beaulier (R),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Grafton-2,1,1,0,0,0,Jared Sullivan (D),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Grafton-3,1,1,0,0,0,Jerry Stringham (D),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Grafton-4,1,1,0,0,0,Heather Baldwin (D),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Grafton-5,2,0,2,0,0,Rick Ladd (R); Marie Louise Bjelobrk (R),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Grafton-6,1,0,1,0,0,Linda Franz (R),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Grafton-7,1,1,0,0,0,Janet Lucas (D),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Grafton-8,3,3,0,0,0,Sallie Fellows (D); Peter Lovett (D); Bill Bolton (D),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Grafton-9,1,0,0,0,1,,"Oppel, Thomas (D)",wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Grafton-10,1,0,1,0,0,John Sellers (R),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Grafton-11,1,0,1,0,0,Lex Berezhny (R),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Grafton-12,4,4,0,0,0,Mary Hakken-Phillips (D); Russell Muirhead (D); Ellen Rockmore (D); Terry Spahr (D),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Grafton-13,1,1,0,0,0,Laurel Stavis (D),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Grafton-14,1,1,0,0,0,George Sykes (D),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Grafton-15,1,1,0,0,0,Thomas H. Cormen (D),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Grafton-16,1,1,0,0,0,David Fracht (D),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Grafton-17,1,1,0,0,0,Susan Almy (D),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Grafton-18,1,0,1,0,0,Donald McFarlane (R),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Hillsborough-1,4,0,3,0,1,Jeffrey Tenczar (R); Tom Mannion (R); Tim Mannion (R),"Panek, Sandra (R)",wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Hillsborough-2,7,2,5,0,0,Catherine Rombeau (D); Brian Labrie (R); Kristin Noble (R); Ted Gorski (R); John Schneller (R); Loren Foxx (D); Linda Gould (R),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Hillsborough-3,3,3,0,0,0,Paige Beauchemin (D); Fred Davis Jr. (D); Marc Plamondon (D),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Hillsborough-4,3,3,0,0,0,Sue Newman (D); Linda Ryan (D); Ray Newman (D),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Hillsborough-5,3,3,0,0,0,Heather Raymond (D); Susan Elberger (D); Dale Swanson (D),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Hillsborough-6,3,2,0,0,1,Lee Ann Kluger (D); Carry Spier (D),"Vail, Suzanne (D)",wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Hillsborough-7,3,3,0,0,0,Alicia Gregg (D); Louis Juris (D); Catherine Sofikitis (D),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Hillsborough-8,3,2,1,0,0,Kevin Scully (R); Christal Lloyd (D); Efstathia Booras (D),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Hillsborough-9,3,3,0,0,0,William Dolan (D); Santosh Salvi (D); Sanjeev Manohar (D),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Hillsborough-10,3,2,1,0,0,Linda Harriott-Gathright (D); Marty Jack (D); Bill Ohm (R),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Hillsborough-11,3,3,0,0,0,Manoj Chourasia (D); Will Darby (D); Laura Telerski (D),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Hillsborough-12,8,3,5,0,0,Maureen Mooney (R); Julie Miles (R); Jeanine Notter (R); Adam Presa (R); Nancy Murphy (D); William Boyd III (R); Rosemarie Rung (D); Wendy Thomas (D),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Hillsborough-13,6,0,6,0,0,Cathy Kenny (R); Dillon Dumont (R); Andrew Prout (R); Jordan Ulery (R); Robert Wherry (R); Jeremy Slottje (R),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Hillsborough-14,2,0,2,0,0,Richard Lascelles (R); Raymond Peeples (R),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Hillsborough-15,2,0,2,0,0,Mark McLean (R); Mark Proulx (R),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Hillsborough-16,2,1,1,0,0,Larry Gagne (R); Dan Bergeron (D),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Hillsborough-17,2,2,0,0,0,Linda DiSilvestro (D); David Preece (D),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Hillsborough-18,2,1,1,0,0,Jessica Grill (D); Steven Kesselring (R),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Hillsborough-19,2,1,1,0,0,Matt Drew (R); Suzanne Chretien (D),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Hillsborough-20,2,1,1,0,0,Alissandra Murray (D); Pierre Dupont (R),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Hillsborough-21,2,2,0,0,0,Christine Seibert (D); Matthew Wilhelm (D),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Hillsborough-22,2,2,0,0,0,Patricia Cornell (D); Nicole Leapley (D),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Hillsborough-23,2,2,0,0,0,Mary Ngwanda Georges (D); Jean Jeudy (D),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Hillsborough-24,2,1,0,0,1,Christopher Herbert (D),"Bouchard, Donald (D)",wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Hillsborough-25,2,1,1,0,0,Kathleen Paquette (R); Kathy Staub (D),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Hillsborough-26,2,1,1,0,0,Brian Cole (R); Patrick Long (D),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Hillsborough-27,1,0,1,0,0,Mary Murphy (R),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Hillsborough-28,2,0,2,0,0,Keith Erf (R); Travis Corcoran (R),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Hillsborough-29,4,0,3,0,1,Joe Alexander (R); Sherri Reinfurt (R); Henry Giasson (R),"Seidel, Sheila (R)",wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Hillsborough-30,3,0,3,0,0,Jim Creighton (R); Riché Colcombe (R); Jim Fedolfi (R),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Hillsborough-31,1,1,0,0,0,Molly Howard (D),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Hillsborough-32,3,0,3,0,0,Diane Kelley (R); Jim Kofalt (R); Shane Sirois (R),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Hillsborough-33,2,2,0,0,0,Peter Leishman (D); Jonah Wheeler (D),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Hillsborough-34,3,3,0,0,0,Stephanie Grund (D); Daniel LeClerc (D); Daniel Veilleux (D),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Hillsborough-35,2,1,1,0,0,Liz Barbour (R); Kat McGhee (D),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Hillsborough-36,2,0,2,0,0,Diane Pauer (R); John Suiter (R),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Hillsborough-37,1,1,0,0,0,Megan Murray (D),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Hillsborough-38,2,0,2,0,0,Kimberly Rice (R); Ralph Boehm (R),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Hillsborough-39,2,0,1,0,1,Mark Warden (R),"Morton, Jonathan (R)",wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Hillsborough-40,4,3,0,0,1,Erin Kerwin (D); Mark MacKenzie (D); Trinidad Tellez (D),"Budathoki, Suraj (D)",wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Hillsborough-41,3,2,0,0,1,Karen Hegner (D); Lily Foss (D),"Hartnett, Tim (D)",wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Hillsborough-42,3,0,3,0,0,Keith Ammon (R); Lisa Post (R); Gerald Griffin (R),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Hillsborough-43,4,2,2,0,0,Peter Petrigno (D); Vanessa Sheehan (R); Gary Daniels (R); Paul Dargie (D),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Hillsborough-44,2,0,2,0,0,Lisa Mazur (R); Ross Berry (R),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Hillsborough-45,1,0,1,0,0,Jack Flanagan (R),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Merrimack-1,1,0,1,0,0,Ricky Devoid (R),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Merrimack-2,1,0,1,0,0,Gregory Hill (R),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Merrimack-3,2,0,2,0,0,Bryan Morse (R); Ernesto Gonzalez (R),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Merrimack-4,2,0,2,0,0,Jose Cambrils (R); Michael Moffett (R),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Merrimack-5,2,0,2,0,0,Louise Andrus (R); Deborah Aylward (R),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Merrimack-6,1,1,0,0,0,Tom Schamberg (D),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Merrimack-7,2,2,0,0,0,Karen Ebel (D); Gregory Sargent (D),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Merrimack-8,3,3,0,0,0,Tony Caplan (D); Eileen Kelly (D); Stephanie Payeur (D),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Merrimack-9,4,4,0,0,0,Eleana Colby (D); Muriel Hall (D); David Luneau (D); James Newsom (D),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Merrimack-10,4,0,4,0,0,Thomas Walsh (R); John Leavitt (R); Stephen Boyd (R); Yury Polozov (R),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Merrimack-11,1,0,1,0,0,Matthew Pitaro (R),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Merrimack-12,2,0,2,0,0,Peter Mehegan (R); Brian Seaworth (R),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Merrimack-13,2,0,2,0,0,Clayton Wood (R); Cyril Aures (R),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Merrimack-14,1,0,1,0,0,Dan McGuire (R),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Merrimack-15,1,1,0,0,0,Tracy Bricchi (D),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Merrimack-16,1,1,0,0,0,Connie Lane (D),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Merrimack-17,1,1,0,0,0,Beth Richards (D),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Merrimack-18,1,1,0,0,0,James MacKay (D),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Merrimack-19,1,1,0,0,0,Mary Jane Wallner (D),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Merrimack-20,1,1,0,0,0,Eric Gallager (D),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Merrimack-21,1,1,0,0,0,Timothy Soucy (D),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Merrimack-22,1,1,0,0,0,James Leon Roesener (D),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Merrimack-23,1,1,0,0,0,Merryl Gibbs (D),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Merrimack-24,1,1,0,0,0,Matthew Hicks (D),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Merrimack-25,1,0,1,0,0,James Thibualt (R),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Merrimack-26,1,0,1,0,0,Alvin See (R),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Merrimack-27,2,0,2,0,0,Carol McGuire (R); Ray Plante (R),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Merrimack-28,1,1,0,0,0,Jim Snodgrass (D),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Merrimack-29,1,1,0,0,0,Kris Schultz (D),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Merrimack-30,1,1,0,0,0,Gary Woods (D),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Rockingham-1,3,0,3,0,0,Scott Bryer (R); James Guzofski (R); Paul Tudor (R),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Rockingham-2,3,0,3,0,0,Jason Osborne (R); James Spillane (R); Kevin Verville (R),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Rockingham-3,1,0,1,0,0,Oliver Ford (R),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Rockingham-4,3,0,3,0,0,Mike Drago (R); Brian Nadeau (R); Cindy Bennett (R),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Rockingham-5,2,1,0,0,1,Mark Vallone (D),"Vose, Michael (R)",wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Rockingham-6,1,1,0,0,0,Eric Turer (D),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Rockingham-7,1,0,1,0,0,Laurence Miner (R),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Rockingham-8,1,0,1,0,0,Sayra DeVito (R),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Rockingham-9,2,0,2,0,0,Donald Selby (R); Vicki Wilson (R),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Rockingham-10,3,3,0,0,0,Michael Cahill (D); Ellen Read (D); Toni Weinstein (D),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Rockingham-11,4,3,0,0,1,Julie Gilman (D); Mark Paige (D); Gaby Grossman (D),"Haskins, Linda (D)",wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Rockingham-12,2,2,0,0,0,Allison Knab (D); Zoe Manos (D),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Rockingham-13,10,0,10,0,0,David Love (R); Jodi Nelson (R); Erica Layon (R); Phyllis Katsakiores (R); Charles Foote (R); John Potucek (R); Katherine Prudhomme O'Brien (R); Stephen Pearson (R); David Milz (R); Richard Tripp (R),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Rockingham-14,2,0,2,0,0,Kenneth Weyler (R); Pam Brown (R),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Rockingham-15,2,0,2,0,0,Joseph Guthrie (R); Lilli Walsh (R),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Rockingham-16,7,0,7,0,0,Kristine Perez (R); David Lundgren (R); Tom Dolan (R); Ron Dunn (R); Douglas Thomas (R); Sherman Packard (R); Wayne MacDonald (R),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Rockingham-17,4,0,4,0,0,Charles McMahon (R); Katelyn Kuttab (R); Daniel Popovici-Muller (R); Robert Lynn (R),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Rockingham-18,2,0,2,0,0,Debra DeSimone (R); Jay Markell (R),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Rockingham-19,1,0,1,0,0,Susan Porcelli (R),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Rockingham-20,3,0,3,0,0,Robert Harb (R); Charles Melvin (R); James Summers (R),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Rockingham-21,1,1,0,0,0,Jennifer Mandelbaum (D),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Rockingham-22,1,0,0,0,1,,"Murray, Kate (D)",wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Rockingham-23,1,1,0,0,0,Jim Maggiore (D),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Rockingham-24,2,1,0,0,1,Dennis Malloy (D),"Grote, Jaci (D)",wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Rockingham-25,9,0,8,0,1,Joseph Sweeney (R); Lorie Ball (R); Tanya Donnelly (R); John Janigian (R); John Sytek (R); Valerie McDonnell (R); Susan Vandecasteele (R); Dennis Mannion (R),"Doucette, Fred (R)",wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Rockingham-26,1,1,0,0,0,Buzz Scherr (D),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Rockingham-27,1,1,0,0,0,Gerry Ward (D),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Rockingham-28,1,1,0,0,0,Carrie Sorensen (D),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Rockingham-29,4,3,1,0,0,Chris Muns (D); Nicholas Bridle (R); Mike Edgar (D); Erica de Vries (D),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Rockingham-30,2,0,2,0,0,Aboul Khan (R); Matt Sabourin (R),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Rockingham-31,2,0,2,0,0,Jess Edwards (R); Terry Roy (R),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Rockingham-32,1,0,1,0,0,Melissa Litchfield (R),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Rockingham-33,1,1,0,0,0,Alexis Simpson (D),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Rockingham-34,1,0,1,0,0,Mark Pearson (R),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Rockingham-35,1,0,1,0,0,Julius Soti (R),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Rockingham-36,1,0,1,0,0,JD Bernardy (R),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Rockingham-37,1,1,0,0,0,David Meuse (D),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Rockingham-38,1,1,0,0,0,Peggy Balboni (D),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Rockingham-39,1,1,0,0,0,Ned Raynolds (D),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Rockingham-40,1,0,1,0,0,Linda McGrath (R),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Strafford-1,2,0,2,0,0,Susan DeLemus (R); Robley Hall (R),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Strafford-2,3,0,3,0,0,Glenn Bailey (R); Michael Granger (R); Claudine Burnham (R),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Strafford-3,1,0,1,0,0,Susan DeRoy (R),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Strafford-4,3,2,1,0,0,Len Turcotte (D); Cassandra Levesque (D); Heath Howard (R),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Strafford-5,1,0,1,0,0,Thomas Kaczynski Jr. (R),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Strafford-6,1,0,1,0,0,Denise DeDe-Poulin (R),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Strafford-7,1,0,0,1,0,Aidan Ankarberg (I),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Strafford-8,1,1,0,0,0,Samuel Farrington (D),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Strafford-9,1,0,1,0,0,Amy Malone (R),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Strafford-10,4,4,0,0,0,Marjorie Smith (D); Loren Selig (D); Timothy Horrigan (D); Wayne Burton (D),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Strafford-11,3,3,0,0,0,Janet Wall (D); Erik Johnson (D); Thomas Southworth (D),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Strafford-12,4,4,0,0,0,Billie Butler (D); Myles England (D); John Stone (D); Wayne Pearson (D),"Evans, Dawn (D)",wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Strafford-13,1,1,0,0,0,Peter Bixby (D),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Strafford-14,1,1,0,0,0,Peter B. Schmidt (D),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Strafford-15,1,1,0,0,0,Alice Wade (D),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Strafford-16,1,1,0,0,0,Gary Gilmore (D),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Strafford-17,1,1,0,0,0,Jessica LaMontagne (D),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Strafford-18,1,0,1,0,0,Michael Harrington (R),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Strafford-19,3,1,2,0,0,David Walker (R); John Larochelle (D); Kelley Potenza (R),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Strafford-20,1,1,0,0,0,Allan Howland (D),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Strafford-21,3,3,0,0,0,Luz Bay (D); Seth Miller (D); Geoffrey Smith (D),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Sullivan-1,1,1,0,0,0,Brian Sullivan (D),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Sullivan-2,1,1,0,0,0,William Palmer (D),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Sullivan-3,3,0,3,0,0,Skip Rollins (R); Steven D. Smith (R); Walter Spilsbury (R),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Sullivan-4,1,0,1,0,0,Judy Aron (R),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Sullivan-5,1,0,1,0,0,George Grant (R),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Sullivan-6,3,1,2,0,0,Dale Girard (R); John Cloutier (D); Wayne Hemingway (R),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Sullivan-7,1,0,1,0,0,Margaret Drye (R),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+house,Sullivan-8,2,1,1,0,0,Hope Damon (D); Michael Aron (R),,wikipedia 2026 page per-seat table + House Clerk RDSE.pdf
+senate,S1,1,0,1,0,0,David Rochefort (R),,gencourt Members.txt
+senate,S2,1,0,1,0,0,Timothy Lang (R),,gencourt Members.txt
+senate,S3,1,0,1,0,0,Mark McConkey (R),,gencourt Members.txt
+senate,S4,1,1,0,0,0,David Watters (D),,gencourt Members.txt
+senate,S5,1,1,0,0,0,Suzanne Prentiss (D),,gencourt Members.txt
+senate,S6,1,0,1,0,0,James Gray (R),,gencourt Members.txt
+senate,S7,1,0,1,0,0,Daniel Innis (R),,gencourt Members.txt
+senate,S8,1,0,1,0,0,Ruth Ward (R),,gencourt Members.txt
+senate,S9,1,0,1,0,0,Denise Ricciardi (R),,gencourt Members.txt
+senate,S10,1,1,0,0,0,Donovan Fenton (D),,gencourt Members.txt
+senate,S11,1,0,1,0,0,Tim McGough (R),,gencourt Members.txt
+senate,S12,1,0,1,0,0,Kevin Avard (R),,gencourt Members.txt
+senate,S13,1,1,0,0,0,Cindy Rosenwald (D),,gencourt Members.txt
+senate,S14,1,0,1,0,0,Sharon Carson (R),,gencourt Members.txt
+senate,S15,1,1,0,0,0,Tara Reardon (D),,gencourt Members.txt
+senate,S16,1,0,1,0,0,Keith Murphy (R),,gencourt Members.txt
+senate,S17,1,0,1,0,0,Howard Pearl (R),,gencourt Members.txt
+senate,S18,1,0,1,0,0,Victoria Sullivan (R),,gencourt Members.txt
+senate,S19,1,0,1,0,0,Regina Birdsell (R),,gencourt Members.txt
+senate,S20,1,1,0,0,0,Pat Long (D),,gencourt Members.txt
+senate,S21,1,1,0,0,0,Rebecca Perkins Kwoka (D),,gencourt Members.txt
+senate,S22,1,0,1,0,0,Daryl Abbas (R),,gencourt Members.txt
+senate,S23,1,0,1,0,0,Bill Gannon (R),,gencourt Members.txt
+senate,S24,1,1,0,0,0,Debra Altschiller (D),,gencourt Members.txt

@@ -1,0 +1,107 @@
+[
+ {
+  "file": "wiki_generic_2022.html",
+  "source_url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections",
+  "retrieved_at": "2026-11-02T16:35:25-05:00",
+  "description": "Checked for national generic ballot polls; only aggregates.",
+  "bytes": 3330687
+ },
+ {
+  "file": "wiki_generic_2024.html",
+  "source_url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections",
+  "retrieved_at": "2026-11-02T16:35:25-05:00",
+  "description": "Checked for national generic ballot polls; only aggregates.",
+  "bytes": 3514665
+ },
+ {
+  "file": "wiki_generic_polling_2022.html",
+  "source_url": "https://en.wikipedia.org/wiki/Nationwide_opinion_polling_for_the_2022_United_States_House_of_Representatives_elections",
+  "retrieved_at": "2026-11-02T16:41:14-05:00",
+  "description": "Checked; page does not exist.",
+  "bytes": 573
+ },
+ {
+  "file": "wiki_generic_polling_2024.html",
+  "source_url": "https://en.wikipedia.org/wiki/Nationwide_opinion_polling_for_the_2024_United_States_House_of_Representatives_elections",
+  "retrieved_at": "2026-11-02T16:41:15-05:00",
+  "description": "Checked; page does not exist.",
+  "bytes": 573
+ },
+ {
+  "file": "wiki_nh_gov_2022.html",
+  "source_url": "https://en.wikipedia.org/wiki/2022_New_Hampshire_gubernatorial_election",
+  "retrieved_at": "2026-11-02T16:35:23-05:00",
+  "description": "2022 governor polls (backtest).",
+  "bytes": 667729
+ },
+ {
+  "file": "wiki_nh_gov_2024.html",
+  "source_url": "https://en.wikipedia.org/wiki/2024_New_Hampshire_gubernatorial_election",
+  "retrieved_at": "2026-11-02T16:35:24-05:00",
+  "description": "2024 governor polls (backtest).",
+  "bytes": 743040
+ },
+ {
+  "file": "wiki_nh_house_2022.html",
+  "source_url": "https://en.wikipedia.org/wiki/2022_New_Hampshire_House_of_Representatives_election",
+  "retrieved_at": "2026-11-02T16:35:27-05:00",
+  "description": "Wikipedia: 2022 NH House results by district with pre-election incumbents (incumbency for the 2022 backtest).",
+  "bytes": 933443
+ },
+ {
+  "file": "wiki_nh_house_2024.html",
+  "source_url": "https://en.wikipedia.org/wiki/2024_New_Hampshire_House_of_Representatives_election",
+  "retrieved_at": "2026-11-02T16:35:26-05:00",
+  "description": "Wikipedia: 2024 NH House results by district with pre-election incumbents.",
+  "bytes": 2646765
+ },
+ {
+  "file": "wiki_nh_pres_2024.html",
+  "source_url": "https://en.wikipedia.org/wiki/2024_United_States_presidential_election_in_New_Hampshire",
+  "retrieved_at": "2026-11-02T16:35:23-05:00",
+  "description": "2024 presidential polls in NH (backtest).",
+  "bytes": 864724
+ },
+ {
+  "file": "wiki_nh_senate_2022.html",
+  "source_url": "https://en.wikipedia.org/wiki/2022_New_Hampshire_Senate_election",
+  "retrieved_at": "2026-11-02T16:35:28-05:00",
+  "description": "Wikipedia: 2022 NH Senate results (cross-check).",
+  "bytes": 603945
+ },
+ {
+  "file": "wiki_nh_senate_2024.html",
+  "source_url": "https://en.wikipedia.org/wiki/2024_New_Hampshire_Senate_election",
+  "retrieved_at": "2026-11-02T16:35:27-05:00",
+  "description": "Wikipedia: 2024 NH Senate results (cross-check).",
+  "bytes": 746956
+ },
+ {
+  "file": "wiki_nh_ussen_2022.html",
+  "source_url": "https://en.wikipedia.org/wiki/2022_United_States_Senate_election_in_New_Hampshire",
+  "retrieved_at": "2026-11-02T16:35:22-05:00",
+  "description": "2022 US Senate polls (backtest).",
+  "bytes": 1013217
+ },
+ {
+  "file": "wiki_us_elections_2022.html",
+  "source_url": "https://en.wikipedia.org/wiki/2022_United_States_elections",
+  "retrieved_at": "2026-11-02T16:35:24-05:00",
+  "description": "Checked for national generic ballot polls; only aggregates.",
+  "bytes": 2530910
+ },
+ {
+  "file": "wiki_us_house_nh_2022.html",
+  "source_url": "https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_New_Hampshire",
+  "retrieved_at": "2026-11-02T16:38:48-05:00",
+  "description": "2022 NH-01/NH-02 and NH generic ballot polls (backtest).",
+  "bytes": 1032960
+ },
+ {
+  "file": "wiki_us_house_nh_2024.html",
+  "source_url": "https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_New_Hampshire",
+  "retrieved_at": "2026-11-02T16:38:49-05:00",
+  "description": "2024 NH-01/NH-02 polls (backtest).",
+  "bytes": 869508
+ }
+]

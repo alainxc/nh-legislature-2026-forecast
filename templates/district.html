@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+{% block title %}{{ s.label }} · NH Legislature 2026{% endblock %}
+{% block body %}
+<p class="sub"><a href="../seats.html">← All seats</a></p>
+<h1>{{ s.label }}</h1>
+<p class="sub">{{ s.region_label }} · currently held by {% if s.holder_party in ['D','R'] %}<span class="pill" style="background:var(--{{ 'dem' if s.holder_party=='D' else 'rep' }})">{{ s.holder_party }}</span>{% else %}{{ s.holder_party }}{% endif %}
+{% if s.incumbent_name %} ({{ s.incumbent_name }}, running){% endif %}{% if s.open_seat %} · <b>open seat</b>{% endif %}{% if s.uncontested %} · <b>uncontested</b>{% endif %}</p>
+<div class="grid">
+  <div class="card">
+    <h2>Forecast</h2>
+    <div class="big {{ 'dem' if s.p_dem>=0.5 else 'rep' }}">{{ ((s.p_dem if s.p_dem>=0.5 else 1-s.p_dem)*100)|round|int }}%</div>
+    <div>chance <b>{{ s.dem_cand if s.p_dem>=0.5 else s.rep_cand }}</b>{% if s.challenger_party=='D' %} ({{ 'D' if s.p_dem>=0.5 else 'R' }}){% endif %} wins</div>
+    <div class="bar"><span style="width:{{ s.p_dem*100 }}%;background:var(--dem)"></span></div>
+    <dl class="kv">
+      <dt>{{ 'Independent (no Democrat filed)' if s.challenger_party=='I' else 'Democrat' }}</dt><dd>{{ s.dem_cand or '— (no candidate)' }}</dd>
+      <dt>Republican</dt><dd>{{ s.rep_cand or '— (no candidate)' }}</dd>
+      {% if s.other_cands %}<dt>Others</dt><dd>{{ s.other_cands }}</dd>{% endif %}
+      <dt>Rating</dt><dd>{{ s.rating }}</dd>
+      <dt>Expected margin</dt><dd>{{ fmt_m(s.margin_mean) }} (90% range {{ fmt_m(s.margin_p05) }} to {{ fmt_m(s.margin_p95) }})</dd>
+      <dt>Chance of flipping</dt><dd>{% if s.p_flip is not none %}{{ (s.p_flip*100)|round(1) }}%{% else %}n/a{% endif %}</dd>
+      <dt>Tipping-point chance</dt><dd>{{ (s.tipping*100)|round(1) }}% (chance this seat is the 13th most Democratic, deciding control)</dd>
+    </dl>
+    <svg id="margin-dist" width="100%" height="120"></svg>
+  </div>
+  <div class="card">
+    <h2>How the forecast was built</h2>
+    <table class="waterfall">
+      <tr><td>Statewide generic legislative margin (environment)</td><td>{{ fmt_m(b.statewide_generic_margin) }}</td></tr>
+      <tr><td>+ District partisan lean</td><td>{{ fmt_pm(b.baseline_lean) }}</td></tr>
+      <tr><td>= Fundamentals before candidates</td><td>{{ fmt_m(b.fundamentals_before_candidates) }}</td></tr>
+      {% for k,v in b.candidate_adjustments.items() %}<tr><td>+ {{ adj_label(k) }}</td><td>{{ fmt_pm(v) }}</td></tr>{% endfor %}
+      <tr class="total"><td>Final expected margin</td><td>{{ fmt_m(b.final_margin) }}</td></tr>
+    </table>
+    <p class="note">No public poll of this district exists; the forecast is fundamentals only. District-level error SD {{ s.sd_district|round(1) }} pts; total with statewide and regional error ≈ {{ s.sd_total_approx|round(1) }} pts.{% if s.uncontested %} Uncontested: probability fixed at {{ (cfg.candidates.uncontested_win_prob*100)|round(1) }}% for the sole major-party candidate.{% endif %}</p>
+    {% if b.independent_challenger %}<p class="note">No {{ 'Democrat' if b.independent_challenger.replaces=='D' else 'Republican' }} is on the ballot; {{ b.independent_challenger.name }} is modelled as the challenger from what a generic candidate of the missing party would get, minus a {{ b.independent_challenger.penalty_pts }}-point penalty for running without a party. An independent win counts for neither party.</p>{% endif %}
+  </div>
+</div>
+<h2>Inputs</h2>
+<div class="grid">
+  <div class="card"><h3>Partisan lean (exact by town)</h3>
+  <table><thead><tr><th>Race</th><th class="num">District</th><th class="num">Statewide</th><th class="num">Lean</th><th class="num">Weight</th></tr></thead><tbody>
+  {% for race, c in s.lean_components.items() %}<tr><td>{{ race_label(race) }}</td><td class="num">{{ fmt_m(c.district_margin) }}</td><td class="num">{{ fmt_m(c.statewide_margin) }}</td><td class="num">{{ fmt_pm(c.lean) }}</td><td class="num">{{ c.weight }}</td></tr>{% endfor %}
+  </tbody></table>
+  {% if b.lean_from_last_legislative_result and b.lean_from_last_legislative_result.used %}{% set l=b.lean_from_last_legislative_result %}<p class="note">Last Senate result ({{ l.year }}): {{ fmt_m(l.margin) }} vs a statewide legislative environment of {{ fmt_m(l.leg_environment) }}, incumbency removed ({{ fmt_pm(-l.incumbency_removed) }}) → lean {{ fmt_pm(l.lean) }}, blended at {{ (cfg.baseline.legislative_result_weight*100)|round|int }}%.</p>{% elif b.lean_from_last_legislative_result %}<p class="note">Last Senate result not used ({{ b.lean_from_last_legislative_result.reason }}).</p>{% endif %}
+  </div>
+  <div class="card"><h3>Past results in this district (current lines)</h3>
+  {% for h in hist %}<h4 style="margin:8px 0 2px">{{ h.year }} — {% if h.contested %}party margin {{ fmt_m(h.margin) }}{% else %}uncontested{% endif %}</h4>
+  <table><tbody>{% for c in hist_c[(s.key, h.year)] %}<tr><td><span class="pill" style="background:var(--{{ 'dem' if c.party=='D' else 'rep' if c.party=='R' else 'tie' }})">{{ c.party }}</span> {{ c.name }}{% if c.incumbent %} (i){% endif %}</td><td class="num">{{ "{:,}".format(c.votes) if c.votes is not none else '' }}</td><td>{{ '✓' if c.won else '' }}</td></tr>{% endfor %}</tbody></table>{% endfor %}
+  {% if not hist %}<p class="note">No results on the current lines.</p>{% endif %}
+  </div>
+</div>
+{% endblock %}
+{% block scripts %}
+<script>drawMarginDist('margin-dist', {{ s.margin_mean }}, {{ s.sd_total_approx }});</script>
+{% endblock %}

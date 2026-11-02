@@ -1,0 +1,1579 @@
+year,chamber,key,party,candidate,votes,won,incumbent_pre
+2022,house,Belknap-1,R,Ploszaj,1053,True,True
+2022,house,Belknap-1,R,Kavanagh,892,False,False
+2022,house,Belknap-2,R,Smart,1649,True,False
+2022,house,Belknap-2,D,Coker,1581,True,False
+2022,house,Belknap-2,D,Mucci,1546,False,False
+2022,house,Belknap-2,R,Creteau-Miller,1445,False,False
+2022,house,Belknap-3,R,Harvey-Bolia,1817,True,True
+2022,house,Belknap-3,D,Anderson,1347,False,False
+2022,house,Belknap-4,R,O'Hara,2021,True,True
+2022,house,Belknap-4,D,Borden,1048,False,False
+2022,house,Belknap-5,R,Bordes,3099,True,True
+2022,house,Belknap-5,D,St. Clair,2893,True,False
+2022,house,Belknap-5,D,Huot,2762,True,False
+2022,house,Belknap-5,R,Bogert,2714,True,False
+2022,house,Belknap-5,R,Littlefield,2676,False,True
+2022,house,Belknap-5,D,Wood,2633,False,False
+2022,house,Belknap-5,D,Hoffman,2494,False,False
+2022,house,Belknap-5,R,Johnson,2478,False,True
+2022,house,Belknap-6,R,Bean,3774,True,True
+2022,house,Belknap-6,R,Dumais,3762,True,False
+2022,house,Belknap-6,R,Nagel,3528,True,False
+2022,house,Belknap-6,R,Beaudoin,3196,True,False
+2022,house,Belknap-6,D,DiMartino,3179,False,False
+2022,house,Belknap-6,D,McLean,2877,False,False
+2022,house,Belknap-6,D,Hackett,2703,False,False
+2022,house,Belknap-6,D,Cracraft,1872,False,False
+2022,house,Belknap-6,I,Webber,1086,False,False
+2022,house,Belknap-7,R,Varney,2999,True,True
+2022,house,Belknap-7,R,Comtois,2992,True,True
+2022,house,Belknap-7,R,Terry,2966,True,True
+2022,house,Belknap-7,D,Dumais,1951,False,False
+2022,house,Belknap-7,D,O'Neil,1853,False,False
+2022,house,Belknap-7,D,Copithorne,1774,False,False
+2022,house,Belknap-8,R,Trottier,3542,True,True
+2022,house,Belknap-8,R,McCarter,3068,True,False
+2022,house,Belknap-8,D,House,2426,False,False
+2022,house,Belknap-8,D,Condodeme-traky,1860,False,False
+2022,house,Carroll-1,D,Woodcock,2375,True,True
+2022,house,Carroll-1,D,Buco,2206,True,True
+2022,house,Carroll-1,D,Paige,2129,True,False
+2022,house,Carroll-1,R,Umberger,1835,False,True
+2022,house,Carroll-1,R,DiGregorio,1730,False,False
+2022,house,Carroll-1,R,McCarthy,1614,False,False
+2022,house,Carroll-2,D,Burroughs,2417,True,True
+2022,house,Carroll-2,D,McAleer,2232,True,True
+2022,house,Carroll-2,R,Chandler,1827,False,False
+2022,house,Carroll-2,R,Bacon,1319,False,False
+2022,house,Carroll-3,R,Crawford,3000,True,True
+2022,house,Carroll-3,R,Brown,2947,True,False
+2022,house,Carroll-3,D,Watson,2552,False,False
+2022,house,Carroll-3,D,Todd,2291,False,False
+2022,house,Carroll-4,R,Avellani,2771,True,True
+2022,house,Carroll-4,R,Belcher,2636,True,False
+2022,house,Carroll-4,D,Ogren,1801,False,False
+2022,house,Carroll-4,D,Gehring,1679,False,False
+2022,house,Carroll-5,R,Smith,1211,True,True
+2022,house,Carroll-5,D,Pustell,743,False,False
+2022,house,Carroll-6,R,Peternel,2821,True,False
+2022,house,Carroll-6,R,MacDonald,2781,True,True
+2022,house,Carroll-6,D,Duran,2314,False,False
+2022,house,Carroll-6,D,Millner,2081,False,False
+2022,house,Carroll-7,R,Cordelli,4119,True,True
+2022,house,Carroll-7,D,Boudman,3203,False,False
+2022,house,Carroll-8,R,McConkey,6062,True,True
+2022,house,Carroll-8,R,Costable,4785,True,False
+2022,house,Carroll-8,D,Knirk,4298,False,True
+2022,house,Carroll-8,D,Ringelstein,4287,False,False
+2022,house,Cheshire-1,D,Germana,1095,True,False
+2022,house,Cheshire-1,R,DiMezzo,272,False,False
+2022,house,Cheshire-2,D,Fox,1289,True,True
+2022,house,Cheshire-2,R,Felix,529,False,False
+2022,house,Cheshire-3,D,Jones,1484,True,False
+2022,house,Cheshire-3,R,Sickels,636,False,False
+2022,house,Cheshire-4,D,Newell,1276,True,False
+2022,house,Cheshire-4,R,Savastano,633,False,False
+2022,house,Cheshire-5,D,Weber,1439,True,True
+2022,house,Cheshire-5,R,Winter,847,False,False
+2022,house,Cheshire-6,D,Abbott,2237,True,True
+2022,house,Cheshire-6,D,Harvey,2176,True,True
+2022,house,Cheshire-6,R,Merkt,1660,False,False
+2022,house,Cheshire-6,R,Barton,1656,False,False
+2022,house,Cheshire-7,D,Filiault,1409,True,False
+2022,house,Cheshire-7,R,Kamm,497,False,False
+2022,house,Cheshire-8,D,Parshall,1745,True,True
+2022,house,Cheshire-9,D,Eaton,1255,True,True
+2022,house,Cheshire-9,R,Nalevanko,1127,False,False
+2022,house,Cheshire-10,D,Tatro,1772,True,False
+2022,house,Cheshire-10,D,Faulkner,1658,True,True
+2022,house,Cheshire-10,R,LeClair,1563,False,False
+2022,house,Cheshire-10,R,York,1482,False,False
+2022,house,Cheshire-11,R,Nutting,766,True,False
+2022,house,Cheshire-11,D,Quevedo,679,False,False
+2022,house,Cheshire-12,R,Thackston,1046,True,False
+2022,house,Cheshire-12,D,Gettens,860,False,False
+2022,house,Cheshire-13,D,Ames,1776,True,True
+2022,house,Cheshire-13,R,Mattson,1525,False,False
+2022,house,Cheshire-14,R,Hunt,1766,True,True
+2022,house,Cheshire-14,D,Bissex,1028,False,False
+2022,house,Cheshire-15,D,Toll,8485,True,True
+2022,house,Cheshire-15,D,Monteil,8022,True,False
+2022,house,Cheshire-15,R,Schmitt,4647,False,False
+2022,house,Cheshire-15,R,Mirzoeff,4171,False,False
+2022,house,Cheshire-16,D,Schapiro,4196,True,True
+2022,house,Cheshire-16,R,Ward,2424,False,False
+2022,house,Cheshire-17,R,Rhodes,3792,True,True
+2022,house,Cheshire-17,D,Murphy,3070,False,False
+2022,house,Cheshire-18,R,Qualey,2927,True,True
+2022,house,Cheshire-18,R,Santonastaso,2917,True,True
+2022,house,Cheshire-18,D,McCarthy,2811,False,False
+2022,house,Cheshire-18,D,Dickler,2621,False,False
+2022,house,Coos-1,R,Tierney,1446,True,False
+2022,house,Coos-1,R,Merner,1380,True,True
+2022,house,Coos-1,D,Fountain,1110,False,False
+2022,house,Coos-2,R,Davis,1180,True,True
+2022,house,Coos-2,D,Doherty,628,False,False
+2022,house,Coos-3,R,Ouellet,1169,True,False
+2022,house,Coos-4,R,King,1109,True,False
+2022,house,Coos-4,D,Colt,911,False,False
+2022,house,Coos-5,D,Cascadden,3034,True,False
+2022,house,Coos-5,D,Noel,2828,True,False
+2022,house,Coos-5,R,Korzen,2716,False,False
+2022,house,Coos-5,R,Hale,2096,False,False
+2022,house,Coos-6,D,Hatch,998,True,True
+2022,house,Coos-6,R,Unger,722,False,False
+2022,house,Coos-7,R,Greer,2447,True,False
+2022,house,Coos-7,D,Kelley,2443,False,True
+2022,house,Grafton-1,R,Simon,2358,True,True
+2022,house,Grafton-1,R,Rochefort,2292,True,False
+2022,house,Grafton-1,D,Massimilla,2171,True,True
+2022,house,Grafton-1,R,Beaulier,2058,False,False
+2022,house,Grafton-1,D,Applewhite,1984,False,False
+2022,house,Grafton-1,D,Egan,1958,False,True
+2022,house,Grafton-2,D,Sullivan,1319,True,False
+2022,house,Grafton-2,R,Qi,723,False,False
+2022,house,Grafton-3,D,Stringham,862,True,False
+2022,house,Grafton-3,R,Ham,699,False,True
+2022,house,Grafton-4,D,Baldwin,988,True,False
+2022,house,Grafton-4,R,Babin,851,False,False
+2022,house,Grafton-5,R,Ladd,1903,True,True
+2022,house,Grafton-5,R,Coulon,1560,True,False
+2022,house,Grafton-6,R,Greeson,1006,True,True
+2022,house,Grafton-6,D,Tomlinson,924,False,False
+2022,house,Grafton-7,D,Hoyt,1714,True,False
+2022,house,Grafton-7,R,Alliegro,1677,False,True
+2022,house,Grafton-8,D,Fellows,2525,True,True
+2022,house,Grafton-8,D,Lovett,2468,True,False
+2022,house,Grafton-8,D,Bolton,2421,True,False
+2022,house,Grafton-8,R,Hughes,1662,False,False
+2022,house,Grafton-8,R,McLaughlin,1450,False,False
+2022,house,Grafton-8,R,Kirk,1359,False,False
+2022,house,Grafton-9,D,Morse,1030,True,False
+2022,house,Grafton-9,R,McFarlane,875,False,False
+2022,house,Grafton-10,R,Brown,1255,True,False
+2022,house,Grafton-10,D,Largmann,863,False,False
+2022,house,Grafton-11,R,Berezhny,1264,True,True
+2022,house,Grafton-11,D,Mulholland,905,False,False
+2022,house,Grafton-12,D,Muirhead,5386,True,True
+2022,house,Grafton-12,D,Murphy,5365,True,True
+2022,house,Grafton-12,D,Hakken-Phillips,5322,True,True
+2022,house,Grafton-12,D,Nordgren,5312,True,True
+2022,house,Grafton-13,D,Stavis,1640,True,True
+2022,house,Grafton-14,D,Sykes,1641,True,True
+2022,house,Grafton-15,D,Cormen,1416,True,False
+2022,house,Grafton-15,I,Mouzourakis,486,False,False
+2022,house,Grafton-16,D,Adjutant,1597,True,True
+2022,house,Grafton-17,D,Almy,4985,True,True
+2022,house,Grafton-18,R,Sellers,4223,True,False
+2022,house,Grafton-18,D,Fluehr-Lobban,4188,False,False
+2022,house,Hillsborough-1,R,Abare,4240,True,False
+2022,house,Hillsborough-1,R,Mannion,3610,True,False
+2022,house,Hillsborough-1,R,Panek,3540,True,False
+2022,house,Hillsborough-1,R,Tenczar,3533,True,False
+2022,house,Hillsborough-1,D,Hennessey,2339,False,False
+2022,house,Hillsborough-1,D,Lynde,2294,False,False
+2022,house,Hillsborough-1,D,Chapman,2171,False,False
+2022,house,Hillsborough-1,D,Dadak,2157,False,False
+2022,house,Hillsborough-2,R,Gould,5607,True,True
+2022,house,Hillsborough-2,R,Sanborn,5602,True,True
+2022,house,Hillsborough-2,R,Gorski,5466,True,True
+2022,house,Hillsborough-2,D,Rombeau,5397,True,True
+2022,house,Hillsborough-2,R,Noble,5320,True,False
+2022,house,Hillsborough-2,R,Hynes,5227,True,False
+2022,house,Hillsborough-2,D,Foxx,5223,True,False
+2022,house,Hillsborough-2,R,Schneller,5176,False,False
+2022,house,Hillsborough-2,D,LaMarche,5168,False,False
+2022,house,Hillsborough-2,R,Albiston,5107,False,False
+2022,house,Hillsborough-2,D,Fitzgerald,5107,False,False
+2022,house,Hillsborough-2,D,Kerr,4946,False,False
+2022,house,Hillsborough-2,D,Potvin,4909,False,False
+2022,house,Hillsborough-2,D,Schmitt,4818,False,False
+2022,house,Hillsborough-3,D,Cote,894,True,True
+2022,house,Hillsborough-3,D,Laughton,841,True,True
+2022,house,Hillsborough-3,D,Davis,778,True,False
+2022,house,Hillsborough-3,R,Baumeister,668,False,False
+2022,house,Hillsborough-4,D,Newman,4482,True,True
+2022,house,Hillsborough-4,D,Ryan,2180,True,False
+2022,house,Hillsborough-4,R,McCarthy,1694,True,False
+2022,house,Hillsborough-4,R,Smith,1621,False,True
+2022,house,Hillsborough-4,R,MacLean,1559,False,False
+2022,house,Hillsborough-5,D,Elberger,4838,True,False
+2022,house,Hillsborough-5,D,Raymond,4756,True,False
+2022,house,Hillsborough-5,D,Devine,4736,True,False
+2022,house,Hillsborough-5,R,Lanzara,4230,False,True
+2022,house,Hillsborough-5,R,Ferreira,3933,False,False
+2022,house,Hillsborough-5,R,Dyer,3856,False,False
+2022,house,Hillsborough-6,D,Dutzy,1731,True,True
+2022,house,Hillsborough-6,D,Vail,1725,True,True
+2022,house,Hillsborough-6,D,Spier,1708,True,False
+2022,house,Hillsborough-6,R,Canaway,1257,False,False
+2022,house,Hillsborough-6,R,Berube,1240,False,False
+2022,house,Hillsborough-6,R,Schoneman,1188,False,False
+2022,house,Hillsborough-7,D,Gregg,1496,True,False
+2022,house,Hillsborough-7,D,Sofikitis,1368,True,True
+2022,house,Hillsborough-7,D,Juris,1351,True,False
+2022,house,Hillsborough-7,R,Lewis,1119,False,False
+2022,house,Hillsborough-7,R,Hogan,1107,False,False
+2022,house,Hillsborough-7,R,Moriarty,1098,False,False
+2022,house,Hillsborough-8,D,Lloyd,1411,True,False
+2022,house,Hillsborough-8,D,Booras,1409,True,True
+2022,house,Hillsborough-8,D,Nutter-Upham,1348,True,True
+2022,house,Hillsborough-8,R,Scully,1204,False,False
+2022,house,Hillsborough-8,R,Thibodeau,1103,False,False
+2022,house,Hillsborough-8,R,Decatur,1009,False,False
+2022,house,Hillsborough-9,D,Nutting-Wong,4869,True,True
+2022,house,Hillsborough-9,D,Dolan,4627,True,False
+2022,house,Hillsborough-9,D,Pedersen,4578,True,True
+2022,house,Hillsborough-9,R,Johnson,4299,False,False
+2022,house,Hillsborough-9,R,Schmidt,3964,False,False
+2022,house,Hillsborough-9,R,Lothrop,3803,False,False
+2022,house,Hillsborough-10,D,O'Brien,4291,True,True
+2022,house,Hillsborough-10,D,Harriott-Gathright,4220,True,True
+2022,house,Hillsborough-10,D,Jack,4062,True,True
+2022,house,Hillsborough-10,R,Ohm,3633,False,False
+2022,house,Hillsborough-10,R,Cawthron,3168,False,False
+2022,house,Hillsborough-10,R,Thoman,3063,False,False
+2022,house,Hillsborough-11,D,Mangipudi,2011,True,True
+2022,house,Hillsborough-11,D,Telerski,2009,True,True
+2022,house,Hillsborough-11,D,Darby,1926,True,False
+2022,house,Hillsborough-11,R,Hart,1334,False,False
+2022,house,Hillsborough-11,R,Silva,1319,False,False
+2022,house,Hillsborough-11,R,Powell,1166,False,False
+2022,house,Hillsborough-12,R,Healey,11335,True,True
+2022,house,Hillsborough-12,D,Rung,6245,True,True
+2022,house,Hillsborough-12,D,Murphy,6131,True,False
+2022,house,Hillsborough-12,R,Mooney,6037,True,True
+2022,house,Hillsborough-12,R,Notter,5860,True,True
+2022,house,Hillsborough-12,D,Thomas,5843,True,False
+2022,house,Hillsborough-12,R,Boyd,5839,True,True
+2022,house,Hillsborough-12,R,McGough,5828,True,False
+2022,house,Hillsborough-12,R,Blasek,5635,False,True
+2022,house,Hillsborough-12,D,Stack,5545,False,False
+2022,house,Hillsborough-12,D,Locke,5522,False,False
+2022,house,Hillsborough-12,R,Mayville,5456,False,True
+2022,house,Hillsborough-12,D,LaRue,5341,False,False
+2022,house,Hillsborough-12,D,Manning,5262,False,False
+2022,house,Hillsborough-12,D,Plante,5258,False,False
+2022,house,Hillsborough-13,R,Kennedy,5474,True,False
+2022,house,Hillsborough-13,R,Kenny,5454,True,False
+2022,house,Hillsborough-13,R,Ulery,5293,True,True
+2022,house,Hillsborough-13,R,Renzullo,5170,True,True
+2022,house,Hillsborough-13,R,Prout,5161,True,True
+2022,house,Hillsborough-13,R,Wherry,4882,True,False
+2022,house,Hillsborough-13,D,Knowles,4135,False,False
+2022,house,Hillsborough-13,D,Katsos,4068,False,False
+2022,house,Hillsborough-13,D,Blue,4052,False,False
+2022,house,Hillsborough-13,D,Urrutia,3894,False,False
+2022,house,Hillsborough-14,R,Lascelles,2358,True,True
+2022,house,Hillsborough-14,R,Boehm,2090,True,True
+2022,house,Hillsborough-14,D,Stanieich-Burke,1702,False,False
+2022,house,Hillsborough-14,D,Bakshi,1370,False,False
+2022,house,Hillsborough-15,R,Proulx,2011,True,False
+2022,house,Hillsborough-15,R,McLean,1946,True,True
+2022,house,Hillsborough-15,D,Lemay,1678,False,False
+2022,house,Hillsborough-15,D,Quiroga,1627,False,False
+2022,house,Hillsborough-16,R,Infantine,5675,True,True
+2022,house,Hillsborough-16,R,Gagne,5442,True,True
+2022,house,Hillsborough-16,D,Mosley,5394,False,False
+2022,house,Hillsborough-16,D,Hillhouse,4930,False,False
+2022,house,Hillsborough-17,D,DiSilvestro,2053,True,True
+2022,house,Hillsborough-17,D,Preece,1940,True,False
+2022,house,Hillsborough-17,R,Chase,1397,False,False
+2022,house,Hillsborough-17,R,Davis,1243,False,False
+2022,house,Hillsborough-17,O,Sarwark,323,False,False
+2022,house,Hillsborough-18,D,Grill,1719,True,False
+2022,house,Hillsborough-18,D,Smith,1665,True,True
+2022,house,Hillsborough-18,R,Marston,1458,False,True
+2022,house,Hillsborough-18,R,Whitlock,1295,False,False
+2022,house,Hillsborough-19,R,Garthwaite,2542,True,False
+2022,house,Hillsborough-19,D,Hamer,1471,True,True
+2022,house,Hillsborough-19,D,Beaulieu,1425,False,True
+2022,house,Hillsborough-20,D,Murray,1398,True,True
+2022,house,Hillsborough-20,D,Moulton,1376,True,False
+2022,house,Hillsborough-20,R,Dupont,1160,False,False
+2022,house,Hillsborough-20,R,Kliskey,1150,False,False
+2022,house,Hillsborough-21,R,Fromuth,3288,True,False
+2022,house,Hillsborough-21,D,Goley,2527,True,True
+2022,house,Hillsborough-21,D,Seibert,2459,False,False
+2022,house,Hillsborough-22,D,Cornell,1225,True,True
+2022,house,Hillsborough-22,D,Leapley,1196,True,False
+2022,house,Hillsborough-22,R,Gericke,966,False,False
+2022,house,Hillsborough-22,R,Ping,897,False,False
+2022,house,Hillsborough-23,D,Long,1490,True,True
+2022,house,Hillsborough-23,D,Jeudy,1356,True,True
+2022,house,Hillsborough-24,D,Herbert,1290,True,True
+2022,house,Hillsborough-24,D,Bouchard,1229,True,True
+2022,house,Hillsborough-24,R,Mathieu,982,False,False
+2022,house,Hillsborough-24,R,Hagala,824,False,False
+2022,house,Hillsborough-25,D,Bouldin,899,True,True
+2022,house,Hillsborough-25,D,Staub,853,True,False
+2022,house,Hillsborough-25,R,Paquette,676,False,False
+2022,house,Hillsborough-25,R,Mattiello,581,False,False
+2022,house,Hillsborough-26,D,Freitas,1408,True,True
+2022,house,Hillsborough-26,R,Cole,1159,True,False
+2022,house,Hillsborough-26,D,Forsing,1085,False,False
+2022,house,Hillsborough-27,R,Reid,1032,True,False
+2022,house,Hillsborough-27,D,Kane,827,False,False
+2022,house,Hillsborough-28,R,Erf,2342,True,True
+2022,house,Hillsborough-28,R,Cushman,2297,True,True
+2022,house,Hillsborough-28,D,Politt,1553,False,False
+2022,house,Hillsborough-28,D,Erikson,1512,False,False
+2022,house,Hillsborough-29,R,Alexander,7180,True,True
+2022,house,Hillsborough-29,R,Plett,7067,True,True
+2022,house,Hillsborough-29,R,Seidel,7025,True,False
+2022,house,Hillsborough-29,D,Lanza,6886,True,False
+2022,house,Hillsborough-29,R,Pounds,6871,False,False
+2022,house,Hillsborough-29,D,McCarthy,6715,False,False
+2022,house,Hillsborough-29,D,Renfrew-Hebert,6548,False,False
+2022,house,Hillsborough-29,D,DeVetter,6019,False,False
+2022,house,Hillsborough-30,R,Creighton,2277,True,True
+2022,house,Hillsborough-30,R,Colcombe,2268,True,False
+2022,house,Hillsborough-30,R,Fedolfi,2064,True,True
+2022,house,Hillsborough-30,D,Koutroubas,1944,False,False
+2022,house,Hillsborough-30,D,Manley,1930,False,False
+2022,house,Hillsborough-30,D,Wallenstein,1809,False,False
+2022,house,Hillsborough-31,D,Howard,1093,True,False
+2022,house,Hillsborough-31,R,Adams,852,False,False
+2022,house,Hillsborough-32,R,Kofalt,2759,True,False
+2022,house,Hillsborough-32,R,Kelley,2694,True,True
+2022,house,Hillsborough-32,R,Sirois,2643,True,False
+2022,house,Hillsborough-32,D,DeLoria,1932,False,False
+2022,house,Hillsborough-32,D,Williams,1898,False,False
+2022,house,Hillsborough-32,D,Swanson,1869,False,False
+2022,house,Hillsborough-32,I,Page,437,False,False
+2022,house,Hillsborough-33,D,Wheeler,2538,True,False
+2022,house,Hillsborough-33,D,Leishman,2433,True,True
+2022,house,Hillsborough-33,R,Maidment,1054,False,False
+2022,house,Hillsborough-33,R,Pilcher,1020,False,False
+2022,house,Hillsborough-34,D,Morton,3550,True,False
+2022,house,Hillsborough-34,D,Veilleux,3418,True,True
+2022,house,Hillsborough-34,D,LeClerc,3353,True,False
+2022,house,Hillsborough-34,R,O'Mara,2831,False,False
+2022,house,Hillsborough-34,R,Coughlin,2757,False,False
+2022,house,Hillsborough-34,R,Hodgkins,2502,False,False
+2022,house,Hillsborough-35,D,McGhee,4720,True,True
+2022,house,Hillsborough-35,D,Ming,4674,True,False
+2022,house,Hillsborough-35,R,Barbour,4414,False,False
+2022,house,Hillsborough-35,R,Homola,4256,False,True
+2022,house,Hillsborough-36,R,Pauer,2210,True,True
+2022,house,Hillsborough-36,R,Lewicke,2141,True,True
+2022,house,Hillsborough-36,D,Denehy,1938,False,False
+2022,house,Hillsborough-36,D,Rater,1895,False,False
+2022,house,Hillsborough-37,D,Murray,7162,True,True
+2022,house,Hillsborough-37,R,Facques,6132,False,False
+2022,house,Hillsborough-38,R,Lekas,15047,True,True
+2022,house,Hillsborough-38,D,Koutroubas,5678,True,False
+2022,house,Hillsborough-38,D,Wyatt,5480,False,False
+2022,house,Hillsborough-39,R,Berry,4922,True,True
+2022,house,Hillsborough-39,D,Baroody,4899,True,True
+2022,house,Hillsborough-39,R,McConville,4729,False,False
+2022,house,Hillsborough-39,D,Query,4598,False,True
+2022,house,Hillsborough-40,D,Mackenzie,7984,True,False
+2022,house,Hillsborough-40,D,Wilhelm,7410,True,True
+2022,house,Hillsborough-40,D,Tellez,7286,True,False
+2022,house,Hillsborough-40,D,Ford,7107,True,False
+2022,house,Hillsborough-40,R,Gonzalez,6136,False,False
+2022,house,Hillsborough-40,R,Fraser,5806,False,False
+2022,house,Hillsborough-40,R,Brasill,5475,False,False
+2022,house,Hillsborough-40,R,Yaakov,5073,False,False
+2022,house,Hillsborough-41,D,Bradley,5217,True,True
+2022,house,Hillsborough-41,D,Heath,5179,True,True
+2022,house,Hillsborough-41,D,Chretien,4979,True,True
+2022,house,Hillsborough-41,R,Levasseur,4098,False,False
+2022,house,Hillsborough-41,R,Lachance,3761,False,False
+2022,house,Hillsborough-41,R,Mathieu,3493,False,False
+2022,house,Hillsborough-42,R,Post,2684,True,True
+2022,house,Hillsborough-42,R,Griffin,2648,True,True
+2022,house,Hillsborough-42,R,Ammon,2639,True,True
+2022,house,Hillsborough-42,D,Roach,2636,False,False
+2022,house,Hillsborough-42,D,Backus,2592,False,False
+2022,house,Hillsborough-42,D,Paquette,2590,False,False
+2022,house,Hillsborough-43,D,Petrigno,3395,True,True
+2022,house,Hillsborough-43,D,Perez,3274,True,False
+2022,house,Hillsborough-43,R,Sheehan,3151,True,True
+2022,house,Hillsborough-43,R,King,3114,True,True
+2022,house,Hillsborough-43,D,Lawrence,2999,False,False
+2022,house,Hillsborough-43,R,Thornton,2929,False,False
+2022,house,Hillsborough-43,D,Salmon,2895,False,False
+2022,house,Hillsborough-43,R,Broderick,2783,False,False
+2022,house,Hillsborough-44,R,Mazur,6006,True,False
+2022,house,Hillsborough-44,R,Corcoran,5659,True,False
+2022,house,Hillsborough-44,D,Johnson,4859,False,False
+2022,house,Hillsborough-44,D,Trumble,4854,False,False
+2022,house,Hillsborough-45,D,Calabro,4476,True,False
+2022,house,Hillsborough-45,R,Skorupan,4466,False,False
+2022,house,Merrimack-1,D,Carey,1504,True,False
+2022,house,Merrimack-1,R,Devoid,1459,False,False
+2022,house,Merrimack-2,R,Hill,1101,True,True
+2022,house,Merrimack-2,D,Fulweiler,795,False,False
+2022,house,Merrimack-3,R,Testerman,1584,True,True
+2022,house,Merrimack-3,R,Mason,1430,True,True
+2022,house,Merrimack-3,D,Burns,1253,False,False
+2022,house,Merrimack-3,D,Kovacs,1026,False,False
+2022,house,Merrimack-4,R,Moffett,2321,True,True
+2022,house,Merrimack-4,R,Cambrils,1972,True,True
+2022,house,Merrimack-4,D,Heath,1924,False,False
+2022,house,Merrimack-4,D,Scarponi,1891,False,False
+2022,house,Merrimack-5,R,Andrus,1989,True,True
+2022,house,Merrimack-5,R,Aylward,1778,True,False
+2022,house,Merrimack-5,D,Wells,1741,False,False
+2022,house,Merrimack-5,D,Carlisle,1659,False,False
+2022,house,Merrimack-6,D,Schamberg,1137,True,True
+2022,house,Merrimack-6,R,Stanton,795,False,False
+2022,house,Merrimack-7,D,Ebel,2292,True,True
+2022,house,Merrimack-7,R,Wolf,1975,True,True
+2022,house,Merrimack-7,D,Sargent,1901,False,False
+2022,house,Merrimack-7,R,Ketteler,1344,False,False
+2022,house,Merrimack-8,D,Gould,2448,True,False
+2022,house,Merrimack-8,D,Caplan,2366,True,True
+2022,house,Merrimack-8,D,Payeur,2365,True,False
+2022,house,Merrimack-8,R,Kennedy,1944,False,True
+2022,house,Merrimack-8,R,Parker,1683,False,False
+2022,house,Merrimack-8,R,Kirsch,1673,False,False
+2022,house,Merrimack-9,D,Hall,4647,True,False
+2022,house,Merrimack-9,D,Brennan,4526,True,False
+2022,house,Merrimack-9,D,Luneau,4502,True,True
+2022,house,Merrimack-9,D,Myler,4377,True,True
+2022,house,Merrimack-9,R,Lins,3024,False,False
+2022,house,Merrimack-9,R,Martin,2917,False,False
+2022,house,Merrimack-9,R,Richardson,2913,False,False
+2022,house,Merrimack-9,R,Gildersleeve,2832,False,False
+2022,house,Merrimack-10,R,Walsh,4271,True,True
+2022,house,Merrimack-10,R,Leavitt,4267,True,True
+2022,house,Merrimack-10,R,Boyd,3961,True,True
+2022,house,Merrimack-10,R,Polozov,3831,True,False
+2022,house,Merrimack-10,D,Martins,3569,False,False
+2022,house,Merrimack-10,D,Ray,3220,False,False
+2022,house,Merrimack-10,D,Gurung,3089,False,False
+2022,house,Merrimack-10,D,Tahoun,2971,False,False
+2022,house,Merrimack-11,D,Turcotte,1728,True,False
+2022,house,Merrimack-11,R,Pitaro,1696,False,True
+2022,house,Merrimack-12,D,Schuett,3361,True,True
+2022,house,Merrimack-12,R,Seaworth,3092,True,True
+2022,house,Merrimack-12,D,Regan,3000,False,False
+2022,house,Merrimack-12,R,White,2748,False,True
+2022,house,Merrimack-13,R,Wood,1582,True,False
+2022,house,Merrimack-13,R,Aures,1391,True,False
+2022,house,Merrimack-13,D,Kelly,1239,False,False
+2022,house,Merrimack-13,D,Schroth,942,False,False
+2022,house,Merrimack-14,R,McGuire,1368,True,True
+2022,house,Merrimack-14,D,Rousseau,908,False,False
+2022,house,Merrimack-15,D,Shurtleff,1293,True,True
+2022,house,Merrimack-16,D,Lane,1100,True,True
+2022,house,Merrimack-17,D,Richards,713,True,True
+2022,house,Merrimack-18,D,MacKay,1308,True,True
+2022,house,Merrimack-18,R,Jackson,498,False,False
+2022,house,Merrimack-19,D,Wallner,1784,True,True
+2022,house,Merrimack-19,R,Myers,593,False,False
+2022,house,Merrimack-20,D,Gallager,1085,True,True
+2022,house,Merrimack-21,D,Soucy,1631,True,True
+2022,house,Merrimack-21,R,Bertrand,674,False,False
+2022,house,Merrimack-22,D,Roesener,954,True,False
+2022,house,Merrimack-22,R,Soucy,765,False,False
+2022,house,Merrimack-23,D,Gibbs,911,True,False
+2022,house,Merrimack-23,R,Georgevits,625,False,False
+2022,house,Merrimack-24,D,Hicks,1545,True,False
+2022,house,Merrimack-24,R,Cate,871,False,False
+2022,house,Merrimack-25,R,Gerhard,2711,True,False
+2022,house,Merrimack-25,D,Wheeler,2170,False,False
+2022,house,Merrimack-26,R,See,5142,True,False
+2022,house,Merrimack-26,D,Nesbitt,4526,False,False
+2022,house,Merrimack-27,R,McGuire,6746,True,True
+2022,house,Merrimack-27,R,Hoell,5574,True,False
+2022,house,Merrimack-27,D,Frambach,5043,False,False
+2022,house,Merrimack-27,D,Davis,4455,False,False
+2022,house,Merrimack-28,D,Ellison,2661,True,True
+2022,house,Merrimack-28,R,Moore,1705,False,False
+2022,house,Merrimack-29,D,Schultz,3562,True,True
+2022,house,Merrimack-29,R,Georgevits,2176,False,False
+2022,house,Merrimack-30,D,McWilliams,5308,True,True
+2022,house,Merrimack-30,R,Wood,2451,False,False
+2022,house,Rockingham-1,D,McGuigan,2322,True,False
+2022,house,Rockingham-1,D,Rafter,2308,True,False
+2022,house,Rockingham-1,D,Tappan,2218,True,False
+2022,house,Rockingham-2,R,Osborne,4425,True,True
+2022,house,Rockingham-2,R,Verville,4251,True,True
+2022,house,Rockingham-2,R,Spillane,4193,True,True
+2022,house,Rockingham-2,D,Messier,3064,False,False
+2022,house,Rockingham-2,D,Wood,2924,False,False
+2022,house,Rockingham-2,D,Power,2732,False,False
+2022,house,Rockingham-3,R,Ford,1591,True,True
+2022,house,Rockingham-3,D,Van Zandt,1097,False,False
+2022,house,Rockingham-4,R,Pratt,2748,True,True
+2022,house,Rockingham-4,R,Cahill,2508,True,False
+2022,house,Rockingham-4,R,Drago,2353,True,False
+2022,house,Rockingham-4,D,Couture,1593,False,False
+2022,house,Rockingham-4,D,DiTommaso,1513,False,False
+2022,house,Rockingham-4,D,Garnham,1423,False,False
+2022,house,Rockingham-5,R,Vose,3790,True,False
+2022,house,Rockingham-5,D,Vallone,3382,True,False
+2022,house,Rockingham-5,R,Belanger,3370,False,True
+2022,house,Rockingham-5,D,Perry,2561,False,False
+2022,house,Rockingham-6,D,Turer,1214,True,False
+2022,house,Rockingham-6,R,Litchfield,1198,False,True
+2022,house,Rockingham-7,R,Phillips,1416,True,False
+2022,house,Rockingham-7,D,Douglas,914,False,False
+2022,house,Rockingham-8,R,Wallace,1348,True,True
+2022,house,Rockingham-8,D,West,744,False,False
+2022,house,Rockingham-9,R,True,1831,True,True
+2022,house,Rockingham-9,R,Piemonte,1666,True,True
+2022,house,Rockingham-9,D,Sharpe,1103,False,False
+2022,house,Rockingham-9,D,Cronyn,992,False,False
+2022,house,Rockingham-10,D,Cahill,3449,True,True
+2022,house,Rockingham-10,D,Read,3299,True,False
+2022,house,Rockingham-10,D,DiLorenzo,3288,True,True
+2022,house,Rockingham-10,R,Cooper,2041,False,False
+2022,house,Rockingham-10,R,Chamberland,1657,False,False
+2022,house,Rockingham-10,R,Sank,1526,False,False
+2022,house,Rockingham-11,D,Grossman,5255,True,True
+2022,house,Rockingham-11,D,Gilman,5170,True,True
+2022,house,Rockingham-11,D,Paige,5091,True,True
+2022,house,Rockingham-11,D,Haskins,5088,True,False
+2022,house,Rockingham-11,R,Tyner,2581,False,False
+2022,house,Rockingham-11,R,Griset,2563,False,False
+2022,house,Rockingham-11,R,Smith,2513,False,False
+2022,house,Rockingham-11,R,Duncan,2476,False,False
+2022,house,Rockingham-12,D,Knab,2503,True,False
+2022,house,Rockingham-12,D,Manos,2425,True,False
+2022,house,Rockingham-12,R,Abrami,2100,False,True
+2022,house,Rockingham-12,R,Ward,1748,False,False
+2022,house,Rockingham-13,R,Nelson,5950,True,True
+2022,house,Rockingham-13,R,Love,5682,True,True
+2022,house,Rockingham-13,R,Katsakiores,5626,True,True
+2022,house,Rockingham-13,R,Foote,5592,True,False
+2022,house,Rockingham-13,R,O'Brien,5586,True,True
+2022,house,Rockingham-13,R,Tripp,5537,True,True
+2022,house,Rockingham-13,R,Potucek,5530,True,True
+2022,house,Rockingham-13,R,Pearson,5477,True,True
+2022,house,Rockingham-13,R,Layon,5364,True,True
+2022,house,Rockingham-13,R,Milz,5340,True,True
+2022,house,Rockingham-13,D,Greenberg,4868,False,False
+2022,house,Rockingham-13,D,Gallo,4851,False,False
+2022,house,Rockingham-13,D,Cunningham,4771,False,False
+2022,house,Rockingham-13,D,Gaskill,4652,False,False
+2022,house,Rockingham-13,D,Moge,4614,False,False
+2022,house,Rockingham-13,D,West,4614,False,False
+2022,house,Rockingham-13,D,Dattner-Levy,4503,False,False
+2022,house,Rockingham-13,D,Doolittle,4497,False,False
+2022,house,Rockingham-13,D,Mogill,4255,False,False
+2022,house,Rockingham-13,D,Evdokimov,4076,False,False
+2022,house,Rockingham-14,R,Weyler,2424,True,True
+2022,house,Rockingham-14,R,Hobson,2399,True,True
+2022,house,Rockingham-14,D,Tidd,1780,False,False
+2022,house,Rockingham-14,D,Casey,1664,False,False
+2022,house,Rockingham-15,R,Guthrie,2604,True,True
+2022,house,Rockingham-15,R,Walsh,2422,True,False
+2022,house,Rockingham-15,D,Warnock,1797,False,False
+2022,house,Rockingham-15,D,DeMio,1546,False,False
+2022,house,Rockingham-16,R,Lundgren,6083,True,True
+2022,house,Rockingham-16,R,Dolan,6056,True,True
+2022,house,Rockingham-16,R,Packard,5700,True,True
+2022,house,Rockingham-16,R,Perez,5699,True,False
+2022,house,Rockingham-16,R,Thomas,5593,True,True
+2022,house,Rockingham-16,R,Dunn,5544,True,False
+2022,house,Rockingham-16,R,MacDonald,5436,True,True
+2022,house,Rockingham-17,R,McMahon,3882,True,True
+2022,house,Rockingham-17,R,Lynn,3700,True,True
+2022,house,Rockingham-17,R,Kuttab,3654,True,False
+2022,house,Rockingham-17,R,Popovici-Muller,3591,True,False
+2022,house,Rockingham-17,D,St. Laurent,3198,False,False
+2022,house,Rockingham-17,D,Roman,2492,False,False
+2022,house,Rockingham-17,D,Yanish,1881,False,False
+2022,house,Rockingham-17,D,Singureanu,1811,False,False
+2022,house,Rockingham-17,I,Carpenter,1563,False,False
+2022,house,Rockingham-17,I,Rounds,1098,False,False
+2022,house,Rockingham-18,R,DeSimone,2310,True,True
+2022,house,Rockingham-18,R,Quaratiello,2157,True,False
+2022,house,Rockingham-18,D,Delfino,1620,False,False
+2022,house,Rockingham-18,D,Duerr,1443,False,False
+2022,house,Rockingham-19,R,Porcelli,1413,True,False
+2022,house,Rockingham-19,D,Pace,1251,False,False
+2022,house,Rockingham-20,R,Harb,3217,True,True
+2022,house,Rockingham-20,R,Melvin,3032,True,True
+2022,house,Rockingham-20,R,Summers,2850,True,False
+2022,house,Rockingham-20,D,Bishop,2322,False,False
+2022,house,Rockingham-20,D,Bartlett,2148,False,False
+2022,house,Rockingham-20,D,Duncan,1996,False,False
+2022,house,Rockingham-21,D,Vogt,1980,True,False
+2022,house,Rockingham-22,D,Murray,2333,True,True
+2022,house,Rockingham-23,D,Maggiore,1587,True,True
+2022,house,Rockingham-23,R,Schultz,1218,False,False
+2022,house,Rockingham-24,D,Malloy,3243,True,True
+2022,house,Rockingham-24,D,Grote,3169,True,True
+2022,house,Rockingham-24,R,Page,2541,False,False
+2022,house,Rockingham-24,R,Jones,2340,False,False
+2022,house,Rockingham-25,R,Ball,7105,True,False
+2022,house,Rockingham-25,R,Doucette,6900,True,True
+2022,house,Rockingham-25,R,Sweeney,6718,True,True
+2022,house,Rockingham-25,R,Janigian,6679,True,True
+2022,house,Rockingham-25,R,Donnelly,6668,True,False
+2022,house,Rockingham-25,R,Sytek,6634,True,True
+2022,house,Rockingham-25,R,McDonnell,6347,True,False
+2022,house,Rockingham-25,R,Vandecasteele,6307,True,True
+2022,house,Rockingham-25,R,Mannion,6032,True,False
+2022,house,Rockingham-25,D,Wright,4743,False,False
+2022,house,Rockingham-25,D,Loranger,4326,False,False
+2022,house,Rockingham-25,D,Dillingham,4300,False,False
+2022,house,Rockingham-25,D,Karibian,4262,False,False
+2022,house,Rockingham-25,D,Misra,4101,False,False
+2022,house,Rockingham-25,D,Thibault,4090,False,False
+2022,house,Rockingham-25,D,Garon,3907,False,False
+2022,house,Rockingham-25,D,Davis,3819,False,False
+2022,house,Rockingham-25,D,Disenhof,3577,False,False
+2022,house,Rockingham-26,D,Hamblet,1387,True,True
+2022,house,Rockingham-26,O,Forte,505,False,False
+2022,house,Rockingham-27,D,Ward,1230,True,True
+2022,house,Rockingham-27,R,Forbes,720,False,False
+2022,house,Rockingham-28,D,McBeath,2112,True,True
+2022,house,Rockingham-29,D,Muns,4512,True,False
+2022,house,Rockingham-29,D,Edgar,4480,True,True
+2022,house,Rockingham-29,D,O'Neil,4463,True,False
+2022,house,Rockingham-29,R,Emerick,4282,True,True
+2022,house,Rockingham-29,D,Saunders,4220,False,False
+2022,house,Rockingham-29,R,Sheffert,3964,False,False
+2022,house,Rockingham-29,R,Theriault,3881,False,False
+2022,house,Rockingham-29,R,Jackson,3842,False,False
+2022,house,Rockingham-30,R,Khan,2069,True,True
+2022,house,Rockingham-30,R,Harley,1822,True,True
+2022,house,Rockingham-30,D,Albright,1165,False,False
+2022,house,Rockingham-30,D,Daly,1080,False,False
+2022,house,Rockingham-31,R,Edwards,6087,True,True
+2022,house,Rockingham-31,R,Roy,5899,True,True
+2022,house,Rockingham-31,D,Lister,3884,False,False
+2022,house,Rockingham-31,D,Thomas,3759,False,False
+2022,house,Rockingham-32,R,Yokela,3473,True,True
+2022,house,Rockingham-32,I,Kelly,3023,False,False
+2022,house,Rockingham-33,D,Simpson,11554,True,True
+2022,house,Rockingham-33,R,Sacco,6715,False,False
+2022,house,Rockingham-34,R,Pearson,5476,True,True
+2022,house,Rockingham-34,D,Tilton,3509,False,False
+2022,house,Rockingham-35,R,Soti,10366,True,True
+2022,house,Rockingham-35,D,Gehling,8266,False,False
+2022,house,Rockingham-36,R,Bernardy,4920,True,True
+2022,house,Rockingham-36,D,Kosta,3723,False,False
+2022,house,Rockingham-37,D,Meuse,4265,True,True
+2022,house,Rockingham-38,D,Balboni,4486,True,False
+2022,house,Rockingham-38,R,Lincoln,3473,False,False
+2022,house,Rockingham-38,I,Borne,822,False,False
+2022,house,Rockingham-39,D,Raynolds,4660,True,False
+2022,house,Rockingham-39,R,Polidura,2030,False,False
+2022,house,Rockingham-40,R,Janvrin,6472,True,False
+2022,house,Rockingham-40,D,de Vries,5945,False,False
+2022,house,Strafford-1,R,Horgan,1259,True,True
+2022,house,Strafford-1,R,Pitre,1253,True,True
+2022,house,Strafford-1,D,Krasner,1142,False,False
+2022,house,Strafford-1,D,Howard,925,False,False
+2022,house,Strafford-2,R,Bailey,2116,True,True
+2022,house,Strafford-2,R,Burnham,2057,True,False
+2022,house,Strafford-2,R,Granger,2041,True,False
+2022,house,Strafford-2,D,Hubbard,1564,False,False
+2022,house,Strafford-2,D,Brown,1524,False,False
+2022,house,Strafford-2,D,Foster,1488,False,False
+2022,house,Strafford-3,R,Bickford,1469,True,False
+2022,house,Strafford-3,D,Wessel,814,False,False
+2022,house,Strafford-4,D,Levesque,3362,True,True
+2022,house,Strafford-4,R,Turcotte,3281,True,True
+2022,house,Strafford-4,D,Howard,3240,True,False
+2022,house,Strafford-4,D,Towne,3235,False,False
+2022,house,Strafford-4,R,Wuelper,3127,False,True
+2022,house,Strafford-4,R,Miller,3054,False,False
+2022,house,Strafford-5,R,Kaczynski,1197,True,True
+2022,house,Strafford-5,D,Turner,1123,False,False
+2022,house,Strafford-6,R,Newton,1111,True,True
+2022,house,Strafford-6,D,Cavalaro,1033,False,False
+2022,house,Strafford-7,R,Ankarberg,1131,True,True
+2022,house,Strafford-7,D,Sorenson,896,False,False
+2022,house,Strafford-8,R,Walker,1941,True,False
+2022,house,Strafford-8,D,Grassie,1940,False,True
+2022,house,Strafford-9,R,Phinney,1774,True,False
+2022,house,Strafford-9,D,Dexter,1743,False,False
+2022,house,Strafford-10,D,Selig,4373,True,False
+2022,house,Strafford-10,D,Kenney,4332,True,True
+2022,house,Strafford-10,D,Smith,4321,True,True
+2022,house,Strafford-10,D,Horrigan,4215,True,True
+2022,house,Strafford-10,R,McDermott,1101,False,False
+2022,house,Strafford-10,R,Olszewski,1088,False,False
+2022,house,Strafford-10,R,Zetterstrom,1032,False,False
+2022,house,Strafford-10,R,Sylvestre,993,False,False
+2022,house,Strafford-11,D,Wall,3793,True,True
+2022,house,Strafford-11,D,Southworth,3513,True,True
+2022,house,Strafford-11,D,Menear,3339,True,False
+2022,house,Strafford-11,R,Lehman,2194,False,False
+2022,house,Strafford-12,D,Rich,5955,True,True
+2022,house,Strafford-12,D,Vincent,3153,True,True
+2022,house,Strafford-12,D,Cannon,3043,True,True
+2022,house,Strafford-12,R,Hilton,2470,True,False
+2022,house,Strafford-12,R,Spencer,2309,False,False
+2022,house,Strafford-12,R,Boyle,2245,False,False
+2022,house,Strafford-12,R,McMahon,2190,False,False
+2022,house,Strafford-13,D,Bixby,1321,True,True
+2022,house,Strafford-13,R,Blaisdell,964,False,False
+2022,house,Strafford-14,D,Schmidt,1894,True,True
+2022,house,Strafford-15,D,Conlin,1791,True,False
+2022,house,Strafford-16,D,Conlin,1123,True,False
+2022,house,Strafford-17,D,LaMontagne,1547,True,False
+2022,house,Strafford-18,R,Harrington,4925,True,True
+2022,house,Strafford-18,D,Cilley,4289,False,False
+2022,house,Strafford-19,R,Connor,4791,True,False
+2022,house,Strafford-19,D,Fitzpatrick,4760,True,False
+2022,house,Strafford-19,R,Potenza,4701,True,False
+2022,house,Strafford-19,R,Groen,4639,False,True
+2022,house,Strafford-19,D,Herman,4402,False,False
+2022,house,Strafford-19,D,Minihan,4298,False,False
+2022,house,Strafford-20,D,Howland,8243,True,False
+2022,house,Strafford-20,R,Racic,3283,False,False
+2022,house,Strafford-21,D,Bay,7674,True,False
+2022,house,Strafford-21,D,Treleaven,7241,True,True
+2022,house,Strafford-21,D,Smith,6976,True,True
+2022,house,Strafford-21,R,Hastings,3753,False,False
+2022,house,Strafford-21,R,Castaldo,3642,False,False
+2022,house,Strafford-21,R,Caggiano,3526,False,False
+2022,house,Sullivan-1,D,Sullivan,1417,True,True
+2022,house,Sullivan-1,R,McIntire,647,False,False
+2022,house,Sullivan-2,D,Palmer,1380,True,False
+2022,house,Sullivan-2,R,Drye,903,False,False
+2022,house,Sullivan-3,R,Rollins,2684,True,True
+2022,house,Sullivan-3,R,Smith,2532,True,True
+2022,house,Sullivan-3,R,Spilsbury,2199,True,True
+2022,house,Sullivan-3,D,Irwin,1874,False,False
+2022,house,Sullivan-3,D,Streeter,1628,False,False
+2022,house,Sullivan-3,D,Wadensten,1512,False,False
+2022,house,Sullivan-4,R,Aron,1483,True,True
+2022,house,Sullivan-4,D,Cragin,894,False,False
+2022,house,Sullivan-5,D,Tanner,1392,True,True
+2022,house,Sullivan-5,R,Grant,1362,False,False
+2022,house,Sullivan-6,D,Cloutier,2240,True,True
+2022,house,Sullivan-6,D,Merchant,2108,True,True
+2022,house,Sullivan-6,R,Stapleton,2081,True,True
+2022,house,Sullivan-6,D,O'Hearne,2032,False,True
+2022,house,Sullivan-6,R,McCarthy,1954,False,False
+2022,house,Sullivan-6,R,Herrell,1939,False,False
+2022,house,Sullivan-7,R,Drye,3603,True,False
+2022,house,Sullivan-7,D,Bourne,3438,False,False
+2022,house,Sullivan-8,D,Damon,4454,True,False
+2022,house,Sullivan-8,R,Stone,4436,True,False
+2022,house,Sullivan-8,R,Bettencourt,4433,False,False
+2022,house,Sullivan-8,D,Lovett,4179,False,False
+2024,house,Belknap-1,R,Tom Ploszaj,1342,True,True
+2024,house,Belknap-1,D,David Rose,1000,False,False
+2024,house,Belknap-2,R,Matt Coker,2648,True,True
+2024,house,Belknap-2,R,Matthew Lunney,2112,True,False
+2024,house,Belknap-2,D,Lynn Thomas,1913,False,False
+2024,house,Belknap-2,D,Ben Brookmyer,1579,False,False
+2024,house,Belknap-3,R,Juliet Harvey-Bolia,2333,True,True
+2024,house,Belknap-3,D,Andrew R. Sanborn,1816,False,False
+2024,house,Belknap-4,R,Travis Toner,3011,True,False
+2024,house,Belknap-5,R,Mike Bordes,4040,True,True
+2024,house,Belknap-5,R,Sheri Minor,3852,True,False
+2024,house,Belknap-5,R,Steven T. Bogert,3703,True,True
+2024,house,Belknap-5,D,Charlie St. Clair,3641,True,True
+2024,house,Belknap-5,R,Richard Littlefield,3464,False,False
+2024,house,Belknap-5,D,Jon Hildreth,3224,False,False
+2024,house,Belknap-5,D,Wendy Chase,3075,False,False
+2024,house,Belknap-5,D,Erika Gray,2919,False,False
+2024,house,Belknap-6,R,Harry H. Bean,4997,True,True
+2024,house,Belknap-6,R,David Nagel,4731,True,True
+2024,house,Belknap-6,R,Russell Dumais,4673,True,True
+2024,house,Belknap-6,R,Glen Aldrich,4262,True,False
+2024,house,Belknap-6,D,Kurt Webber,3645,False,False
+2024,house,Belknap-6,D,Bob McLean,3642,False,False
+2024,house,Belknap-6,D,Lena Nirk,3382,False,False
+2024,house,Belknap-6,D,Jonathan D. Arsenault,2805,False,False
+2024,house,Belknap-7,R,Peter R. Varney,4159,True,True
+2024,house,Belknap-7,R,Barbara Comtois,4031,True,True
+2024,house,Belknap-7,R,Paul A. Terry,4019,True,True
+2024,house,Belknap-7,D,Ruth Larson,2547,False,False
+2024,house,Belknap-7,D,Susan Church Stevens,2130,False,False
+2024,house,Belknap-7,D,Stephanie Vuolo,2124,False,False
+2024,house,Belknap-8,R,Douglas Trottier,4569,True,True
+2024,house,Belknap-8,R,Lisa M. Freeman,4445,True,False
+2024,house,Belknap-8,D,Sheryl Anderson,3014,False,False
+2024,house,Belknap-8,D,Don House,2680,False,False
+2024,house,Carroll-1,D,Stephen L. Woodcock,3284,True,True
+2024,house,Carroll-1,D,David Paige,2974,True,True
+2024,house,Carroll-1,D,Tom Buco,2901,True,True
+2024,house,Carroll-1,R,Karen C. Umberger,2826,False,False
+2024,house,Carroll-2,D,Anita Burroughs,2832,True,True
+2024,house,Carroll-2,D,Chris McAleer,2635,True,True
+2024,house,Carroll-2,R,Maureen Blanchard,2048,False,False
+2024,house,Carroll-3,R,Karel A. Crawford,3771,True,True
+2024,house,Carroll-3,R,Joseph Hamblen,3335,True,False
+2024,house,Carroll-3,D,Kim Johnson,3170,False,False
+2024,house,Carroll-3,D,Sandra Ringelstein,3115,False,False
+2024,house,Carroll-4,R,Lino M. Avellani,3600,True,True
+2024,house,Carroll-4,R,Mike Belcher,3232,True,True
+2024,house,Carroll-4,D,Donna V. Ackerman,2542,False,False
+2024,house,Carroll-5,R,Jonathan H. Smith,1890,True,True
+2024,house,Carroll-6,R,John T. MacDonald,3332,True,True
+2024,house,Carroll-6,R,Katy Peternel,3134,True,True
+2024,house,Carroll-6,D,Kayla Hewitt,2862,False,False
+2024,house,Carroll-6,D,Karen Burnett-Kurie,2327,False,False
+2024,house,Carroll-7,R,Glenn Cordelli,5095,True,True
+2024,house,Carroll-7,D,Bobbi Boudman,3871,False,False
+2024,house,Carroll-8,R,Richard R. Brown,7137,True,False
+2024,house,Carroll-8,R,Brian R. Taylor,6555,True,False
+2024,house,Carroll-8,D,James Pittman,4823,False,False
+2024,house,Carroll-8,D,Rob Davies,4770,False,False
+2024,house,Cheshire-1,D,Dylan Germana,1639,True,True
+2024,house,Cheshire-2,D,Dru Fox,1563,True,True
+2024,house,Cheshire-2,R,Nathan Carbone,816,False,False
+2024,house,Cheshire-3,D,Philip Jones,2014,True,True
+2024,house,Cheshire-4,D,Jodi Newell,1553,True,True
+2024,house,Cheshire-4,R,Thomas Savastano,814,False,False
+2024,house,Cheshire-5,D,Lucy McVitty Weber,1610,True,True
+2024,house,Cheshire-5,R,William J. Sommer,1211,False,False
+2024,house,Cheshire-6,D,Paul Berch,2620,True,False
+2024,house,Cheshire-6,D,Cathryn A. Harvey,2611,True,True
+2024,house,Cheshire-6,R,Sean Graves,2500,False,False
+2024,house,Cheshire-6,R,Robert Sutherland,2063,False,False
+2024,house,Cheshire-7,D,Terri O'Rorke,1899,True,False
+2024,house,Cheshire-8,D,Lucius Parshall,2005,True,False
+2024,house,Cheshire-9,R,Rich Nalevanko,1524,True,False
+2024,house,Cheshire-9,D,Daniel Adams Eaton,1485,False,True
+2024,house,Cheshire-10,D,Barry Faulkner,2250,True,True
+2024,house,Cheshire-10,R,Sly Karasinski,2220,True,False
+2024,house,Cheshire-10,R,Daniel LeClair,2187,False,False
+2024,house,Cheshire-10,D,Alan Gross,1921,False,False
+2024,house,Cheshire-11,R,Denis Vincent Murphy II,1110,True,False
+2024,house,Cheshire-11,D,Natalie Quevedo,882,False,False
+2024,house,Cheshire-12,R,Dick H. Thackston III,1366,True,True
+2024,house,Cheshire-12,D,Jack Gettens,1128,False,False
+2024,house,Cheshire-13,D,Richard Ames,2155,True,True
+2024,house,Cheshire-13,R,Donald R. Primrose,2000,False,False
+2024,house,Cheshire-14,R,John B. Hunt,2351,True,True
+2024,house,Cheshire-14,D,Deni Dickler,1270,False,False
+2024,house,Cheshire-15,D,Samantha Jacobs,10363,True,False
+2024,house,Cheshire-15,D,Nicholas Germana,9927,True,False
+2024,house,Cheshire-15,R,John W. Winter,6142,False,False
+2024,house,Cheshire-15,R,Jerry L. Sickels,6041,False,False
+2024,house,Cheshire-16,D,James Gruber,4879,True,False
+2024,house,Cheshire-16,R,Bob Willis,3379,False,False
+2024,house,Cheshire-17,R,Jennifer Rhodes,5204,True,True
+2024,house,Cheshire-17,D,Kristan Tilton,3973,False,False
+2024,house,Cheshire-18,R,Rita Mattson,4061,True,False
+2024,house,Cheshire-18,R,Jim Qualey,3903,True,True
+2024,house,Cheshire-18,D,Hannah Bissex,3420,False,False
+2024,house,Cheshire-18,D,Tom Hsu,3056,False,False
+2024,house,Coos-1,R,Sean C. Durkin,1960,True,False
+2024,house,Coos-1,R,James W. Tierney Jr.,1632,True,True
+2024,house,Coos-1,D,Cathleen A. Fountain,1544,False,False
+2024,house,Coos-2,R,Arnold G. Davis,1734,True,True
+2024,house,Coos-3,R,Mike Ouellet,1465,True,True
+2024,house,Coos-4,R,Seth King,1425,True,True
+2024,house,Coos-4,D,Suzy Colt,1143,False,False
+2024,house,Coos-5,R,Brian L. Valerino,2032,True,False
+2024,house,Coos-5,R,Peter Morency,1932,True,False
+2024,house,Coos-5,D,Corinne Cascadden,1768,False,True
+2024,house,Coos-5,D,Henry W. Noel,1561,False,False
+2024,house,Coos-6,R,Michael P. Murphy,1175,True,False
+2024,house,Coos-6,D,Maggie Baker,981,False,False
+2024,house,Coos-7,R,Lori Korzen,3421,True,False
+2024,house,Coos-7,D,Eamon Kelley,3039,False,True
+2024,house,Grafton-1,R,Darrell A. Louis,3238,True,False
+2024,house,Grafton-1,R,Joseph Barton,3039,True,False
+2024,house,Grafton-1,R,Calvin Beaulier,2911,True,False
+2024,house,Grafton-1,D,Linda Massimilla,2755,False,True
+2024,house,Grafton-1,D,Timothy T. Egan,2551,False,False
+2024,house,Grafton-1,D,Vern Masters,2203,False,False
+2024,house,Grafton-2,D,Jared Sullivan,1529,True,True
+2024,house,Grafton-2,R,Eddie Qi,849,False,False
+2024,house,Grafton-3,D,Jerry M. Stringham,1146,True,True
+2024,house,Grafton-3,R,Paul H. Schirduan,821,False,False
+2024,house,Grafton-4,D,Heather P. Baldwin,1211,True,True
+2024,house,Grafton-4,R,Steven Babin,1046,False,False
+2024,house,Grafton-5,R,Rick Ladd,2126,True,True
+2024,house,Grafton-5,R,Marie L. Bjelobrk,2088,True,False
+2024,house,Grafton-5,D,Rachael E. Booth,1375,False,False
+2024,house,Grafton-5,D,Dustin Vigneault,1217,False,False
+2024,house,Grafton-6,R,Linda Franz,1326,True,False
+2024,house,Grafton-6,D,Jolene T. Farmer,1099,False,False
+2024,house,Grafton-7,D,Janet Marie Lucas,1056,True,False
+2024,house,Grafton-7,R,Jon A. Gablinske,1028,False,False
+2024,house,Grafton-8,D,Sallie Fellows,3204,True,True
+2024,house,Grafton-8,D,Peter Lovett,3165,True,True
+2024,house,Grafton-8,D,Bill Bolton,3079,True,True
+2024,house,Grafton-8,R,Timothy F. Sweetsir,2685,False,False
+2024,house,Grafton-9,D,Thomas Oppel,1305,True,False
+2024,house,Grafton-9,R,Kevin M. Howard,1233,False,False
+2024,house,Grafton-10,R,John Sellers,1490,True,False
+2024,house,Grafton-10,D,Richard A. Lobban Jr.,1284,False,False
+2024,house,Grafton-11,R,Lex Berezhny,1826,True,True
+2024,house,Grafton-12,D,Russell Muirhead,6351,True,True
+2024,house,Grafton-12,D,Mary Hakken-Phillips,6315,True,True
+2024,house,Grafton-12,D,Ellen Rockmore,6305,True,False
+2024,house,Grafton-12,D,Terry Spahr,6174,True,False
+2024,house,Grafton-13,D,Laurel Stavis,1982,True,True
+2024,house,Grafton-14,D,George Sykes,2216,True,True
+2024,house,Grafton-15,D,Thomas Cormen,2170,True,True
+2024,house,Grafton-16,D,David Fracht,1867,True,False
+2024,house,Grafton-17,D,Susan Almy,6376,True,True
+2024,house,Grafton-18,R,Donald McFarlane,5533,True,False
+2024,house,Grafton-18,D,Carolyn Fluehr-Lobban,5069,False,False
+2024,house,Hillsborough-1,R,Jeffrey Tenczar,5308,True,True
+2024,house,Hillsborough-1,R,Sandra Panek,5250,True,True
+2024,house,Hillsborough-1,R,Tim Mannion,5157,True,True
+2024,house,Hillsborough-1,R,Tom Mannion,5052,True,True
+2024,house,Hillsborough-1,D,Lisa Brown,3059,False,False
+2024,house,Hillsborough-1,D,B.J. Murphy,2814,False,False
+2024,house,Hillsborough-1,D,Ann Balcom-Dadak,2772,False,False
+2024,house,Hillsborough-1,D,Paul L. Dadak,2701,False,False
+2024,house,Hillsborough-2,R,Linda Gould,6955,True,True
+2024,house,Hillsborough-2,R,Kristin Noble,6929,True,True
+2024,house,Hillsborough-2,R,Ted Gorski,6894,True,True
+2024,house,Hillsborough-2,R,Brian Labrie,6888,True,False
+2024,house,Hillsborough-2,D,Catherine A. Rombeau,6602,True,True
+2024,house,Hillsborough-2,D,Loren Foxx,6575,True,True
+2024,house,Hillsborough-2,R,John Schneller,6546,True,False
+2024,house,Hillsborough-2,R,Peter Kujawski,6495,False,False
+2024,house,Hillsborough-2,R,Danielle Evansic,6443,False,False
+2024,house,Hillsborough-2,D,John Fitzgerald,6118,False,False
+2024,house,Hillsborough-2,D,Matthew Sullivan,6089,False,False
+2024,house,Hillsborough-2,D,Kevin Boyarsky,5993,False,False
+2024,house,Hillsborough-2,D,Jeff Kerr,5976,False,False
+2024,house,Hillsborough-2,D,Shana Potvin,5968,False,False
+2024,house,Hillsborough-3,D,Paige Beauchemin,1597,True,False
+2024,house,Hillsborough-3,D,Fred Davis,1419,True,True
+2024,house,Hillsborough-3,D,Marc W. Plamondon,1389,True,False
+2024,house,Hillsborough-3,R,David M. Narkunas,1050,False,False
+2024,house,Hillsborough-3,R,Joost J.G. Baumeister,943,False,False
+2024,house,Hillsborough-4,D,Sue Newman,2857,True,True
+2024,house,Hillsborough-4,D,Linda V. Ryan,2853,True,True
+2024,house,Hillsborough-4,D,Ray Newman,2767,True,True
+2024,house,Hillsborough-4,R,Michael McCarthy,2690,False,False
+2024,house,Hillsborough-5,D,Heather Raymond,2964,True,True
+2024,house,Hillsborough-5,D,Susan A. Elberger,2929,True,True
+2024,house,Hillsborough-5,D,Dale Swanson,2795,True,False
+2024,house,Hillsborough-5,R,Sean Rogers,2535,False,False
+2024,house,Hillsborough-5,R,Allison Dyer,2510,False,False
+2024,house,Hillsborough-5,R,Joseph Capriotti,2506,False,False
+2024,house,Hillsborough-6,D,Lee Ann Kluger,2322,True,False
+2024,house,Hillsborough-6,D,Suzanne Vail,2251,True,True
+2024,house,Hillsborough-6,D,Carry Spier,2195,True,True
+2024,house,Hillsborough-6,R,Paul R. Berube,1923,False,False
+2024,house,Hillsborough-6,R,Daniel Richardson,1687,False,False
+2024,house,Hillsborough-6,R,Doris Hohensee,1634,False,False
+2024,house,Hillsborough-7,D,Alicia Gregg,2123,True,True
+2024,house,Hillsborough-7,D,Louis C. Juris,1833,True,True
+2024,house,Hillsborough-7,D,Catherine M. Sofikitis,1814,True,True
+2024,house,Hillsborough-7,R,Avalon Lewis,1685,False,False
+2024,house,Hillsborough-7,R,Dee Hogan,1585,False,False
+2024,house,Hillsborough-8,R,Kevin Scully,2082,True,False
+2024,house,Hillsborough-8,D,Christal Lloyd,2047,True,True
+2024,house,Hillsborough-8,D,Efstathia Booras,1935,True,True
+2024,house,Hillsborough-8,D,Frances E. Nutter-Upham,1798,False,True
+2024,house,Hillsborough-9,D,William Dolan,3201,True,True
+2024,house,Hillsborough-9,D,Santosh Salvi,3106,True,False
+2024,house,Hillsborough-9,D,Sanjeev K. Manohar,2940,True,False
+2024,house,Hillsborough-10,D,Linda Harriott-Gathright,2788,True,True
+2024,house,Hillsborough-10,D,Marty Jack,2746,True,True
+2024,house,Hillsborough-10,R,Bill Ohm,2563,True,False
+2024,house,Hillsborough-10,D,Melbourne Moran Jr.,2414,False,False
+2024,house,Hillsborough-10,R,Dana Albrecht,2206,False,False
+2024,house,Hillsborough-10,R,John Cawthron,2095,False,False
+2024,house,Hillsborough-11,D,Laura Telerski,2586,True,True
+2024,house,Hillsborough-11,D,Will Darby,2417,True,True
+2024,house,Hillsborough-11,D,Manoj Chourasia,2368,True,False
+2024,house,Hillsborough-11,R,Kristie Hart,1856,False,False
+2024,house,Hillsborough-11,R,Peter Silva,1839,False,False
+2024,house,Hillsborough-11,R,Robert J. Sullivan,1779,False,False
+2024,house,Hillsborough-12,R,Maureen Mooney,8483,True,True
+2024,house,Hillsborough-12,R,Julie Miles,8096,True,False
+2024,house,Hillsborough-12,D,Nancy A. Murphy,7999,True,True
+2024,house,Hillsborough-12,R,Bill Boyd,7949,True,True
+2024,house,Hillsborough-12,D,Rosemarie Rung,7945,True,True
+2024,house,Hillsborough-12,R,Adam Presa,7918,True,False
+2024,house,Hillsborough-12,R,Jeanine Notter,7881,True,True
+2024,house,Hillsborough-12,D,Wendy E.N Thomas,7479,True,True
+2024,house,Hillsborough-12,R,John Frechette,7384,False,False
+2024,house,Hillsborough-12,R,Rebekah Woodman,7240,False,False
+2024,house,Hillsborough-12,D,Kathryn Stack,7070,False,False
+2024,house,Hillsborough-12,R,Tracy Coyer,7056,False,False
+2024,house,Hillsborough-12,D,Rebecca Boutin,6977,False,False
+2024,house,Hillsborough-12,D,Marc Nozell,6769,False,False
+2024,house,Hillsborough-12,D,George R. Dieter,6454,False,False
+2024,house,Hillsborough-12,D,James Flis,6447,False,False
+2024,house,Hillsborough-13,R,Cathy Kenny,7718,True,True
+2024,house,Hillsborough-13,R,Dillon Dumont,7519,True,False
+2024,house,Hillsborough-13,R,Andrew Prout,7002,True,True
+2024,house,Hillsborough-13,R,Jordan G. Ulery,6996,True,True
+2024,house,Hillsborough-13,R,Robert Wherry,6573,True,True
+2024,house,Hillsborough-13,R,Jeremy Slottje,6345,True,False
+2024,house,Hillsborough-13,D,John Knowles,5405,False,False
+2024,house,Hillsborough-13,D,Ryan Burke,5387,False,False
+2024,house,Hillsborough-13,D,Timothy Wyatt,5363,False,False
+2024,house,Hillsborough-13,D,Alejandro Urrutia,5033,False,False
+2024,house,Hillsborough-14,R,Richard W. Lascelles,3111,True,True
+2024,house,Hillsborough-14,R,Raymond C. Peeples Jr.,3060,True,False
+2024,house,Hillsborough-14,D,Michael Aniskovich,1920,False,False
+2024,house,Hillsborough-14,D,Mahendra Bakshi,1525,False,False
+2024,house,Hillsborough-15,R,Mark McLean,2656,True,True
+2024,house,Hillsborough-15,R,Mark Proulx,2605,True,True
+2024,house,Hillsborough-15,D,Thomas Katsiantonis,2092,False,False
+2024,house,Hillsborough-15,D,Lara Quiroga,2057,False,False
+2024,house,Hillsborough-16,R,Larry G. Gagne,2530,True,True
+2024,house,Hillsborough-16,D,Dan Bergeron,2520,True,False
+2024,house,Hillsborough-16,R,William Infantine,2387,False,True
+2024,house,Hillsborough-17,D,Linda DiSilvestro,2733,True,True
+2024,house,Hillsborough-17,D,David J. Preece,2368,True,True
+2024,house,Hillsborough-17,R,Ben Prescott,2330,False,False
+2024,house,Hillsborough-18,D,Jessica Grill,2295,True,True
+2024,house,Hillsborough-18,R,Steven Kesselring,2048,True,False
+2024,house,Hillsborough-18,D,Julie Smith,2041,False,True
+2024,house,Hillsborough-18,R,Juliet Belle DiPietro,1934,False,False
+2024,house,Hillsborough-19,R,Matt Drew,2134,True,False
+2024,house,Hillsborough-19,D,Suzanne L. Chretien,1986,True,False
+2024,house,Hillsborough-19,D,Samuel Petali,1590,False,False
+2024,house,Hillsborough-20,D,Alissandra Murray,1905,True,True
+2024,house,Hillsborough-20,R,Pierre Dupont,1889,True,False
+2024,house,Hillsborough-20,D,Joshua Query,1680,False,False
+2024,house,Hillsborough-20,R,Jose R. Marte,1639,False,False
+2024,house,Hillsborough-21,D,Christine Seibert,3113,True,True
+2024,house,Hillsborough-21,D,Matthew B. Wilhelm,2648,True,False
+2024,house,Hillsborough-21,R,Andrew Fromuth,2439,False,False
+2024,house,Hillsborough-22,D,Patricia Cornell,1720,True,True
+2024,house,Hillsborough-22,D,Nicole Leapley,1614,True,True
+2024,house,Hillsborough-22,R,Bill Gabler,1550,False,False
+2024,house,Hillsborough-22,R,Karl Beisel,1401,False,False
+2024,house,Hillsborough-23,D,MaryNgwanda Georges,1763,True,False
+2024,house,Hillsborough-23,D,Jean Jeudy,1699,True,True
+2024,house,Hillsborough-23,R,Tim Peters,1385,False,False
+2024,house,Hillsborough-24,D,Chris Herbert,1763,True,True
+2024,house,Hillsborough-24,D,Donald J. Bouchard,1662,True,True
+2024,house,Hillsborough-24,R,Dennis M. Demars,1621,False,False
+2024,house,Hillsborough-25,R,Kathleen Paquette,1333,True,False
+2024,house,Hillsborough-25,D,Kathy Staub,1252,True,True
+2024,house,Hillsborough-25,D,Hyacinth J. Landry,1143,False,False
+2024,house,Hillsborough-26,R,Brian D. Cole,1882,True,True
+2024,house,Hillsborough-26,D,Patrick N. Long,1843,True,False
+2024,house,Hillsborough-26,D,Michael Reuschel,1492,False,False
+2024,house,Hillsborough-27,R,Mary Murphy,1336,True,False
+2024,house,Hillsborough-27,D,Susan Kane,912,False,False
+2024,house,Hillsborough-28,R,Keith Erf,3255,True,True
+2024,house,Hillsborough-28,R,Travis Corcoran,3004,True,False
+2024,house,Hillsborough-28,D,David Erikson,1961,False,False
+2024,house,Hillsborough-28,D,Luke Drake Jr.,1804,False,False
+2024,house,Hillsborough-29,R,Joe Alexander,5027,True,True
+2024,house,Hillsborough-29,R,Sheila Seidel,4876,True,True
+2024,house,Hillsborough-29,R,Sherri Reinfurt,4652,True,False
+2024,house,Hillsborough-29,R,Henry R. Giasson III,4566,True,False
+2024,house,Hillsborough-29,D,Jim Craig,4484,False,False
+2024,house,Hillsborough-29,D,Judi L. Lanza,4385,False,True
+2024,house,Hillsborough-29,D,Judy Johnson,4323,False,False
+2024,house,Hillsborough-29,D,Melanie Renfrew-Hebert,4170,False,False
+2024,house,Hillsborough-30,R,Jim Creighton,3182,True,True
+2024,house,Hillsborough-30,R,Riche Colcombe,3172,True,True
+2024,house,Hillsborough-30,R,Jim Fedolfi,2884,True,True
+2024,house,Hillsborough-30,D,Marjorie Porter,2528,False,False
+2024,house,Hillsborough-30,D,Michael H. Schamel,2233,False,False
+2024,house,Hillsborough-30,D,William Bryk,2141,False,False
+2024,house,Hillsborough-31,D,Molly C. Howard,1244,True,True
+2024,house,Hillsborough-31,R,Jarvis M. Adams IV,1081,False,False
+2024,house,Hillsborough-32,R,Diane Kelley,3784,True,True
+2024,house,Hillsborough-32,R,Shane Sirois,3689,True,True
+2024,house,Hillsborough-32,R,Jim Kofalt,3666,True,True
+2024,house,Hillsborough-32,D,Jennifer Bernet,2377,False,False
+2024,house,Hillsborough-32,D,Mike Pellerito,2349,False,False
+2024,house,Hillsborough-32,D,Kermit Williams,2344,False,False
+2024,house,Hillsborough-33,D,Peter R. Leishman,2932,True,True
+2024,house,Hillsborough-33,D,Jonah Orion Wheeler,2920,True,True
+2024,house,Hillsborough-33,R,Kimberly Thomas,1555,False,False
+2024,house,Hillsborough-34,D,Stephanie Grund,4209,True,False
+2024,house,Hillsborough-34,D,Daniel Veilleux,4025,True,True
+2024,house,Hillsborough-34,D,Daniel LeClerc,3979,True,True
+2024,house,Hillsborough-34,R,Russ Hodgkins,3484,False,False
+2024,house,Hillsborough-34,R,Diane Layton,3478,False,False
+2024,house,Hillsborough-34,R,Terry Reiber,3240,False,False
+2024,house,Hillsborough-35,R,Liz Barbour,2867,True,False
+2024,house,Hillsborough-35,D,Kat McGhee,2856,True,True
+2024,house,Hillsborough-35,R,Sue Homola,2682,False,False
+2024,house,Hillsborough-35,D,Will Walker,2665,False,False
+2024,house,Hillsborough-36,R,Diane Pauer,2856,True,True
+2024,house,Hillsborough-36,R,John W. Suiter,2690,True,False
+2024,house,Hillsborough-36,D,Peter A. Cook,2409,False,False
+2024,house,Hillsborough-36,D,Carol Schreck,2257,False,False
+2024,house,Hillsborough-37,D,Megan A. Murray,8424,True,True
+2024,house,Hillsborough-37,R,Pamela D. Coughlin,8290,False,False
+2024,house,Hillsborough-38,R,Kim Rice,11070,True,False
+2024,house,Hillsborough-38,R,Ralph G. Boehm,9997,True,False
+2024,house,Hillsborough-38,D,Luan Baci,7491,False,False
+2024,house,Hillsborough-39,R,Mark Warden,6627,True,False
+2024,house,Hillsborough-39,R,Jonathan Morton,6438,True,False
+2024,house,Hillsborough-39,D,Maxine B. Mosley,6120,False,False
+2024,house,Hillsborough-39,D,Benjamin C. Baroody,6117,False,True
+2024,house,Hillsborough-40,D,Erin Kerwin,9911,True,False
+2024,house,Hillsborough-40,D,Mark S. MacKenzie,9777,True,True
+2024,house,Hillsborough-40,D,Trinidad Tellez,9135,True,True
+2024,house,Hillsborough-40,D,Suraj Budathoki,8815,True,False
+2024,house,Hillsborough-40,R,Carlos Gonzalez,8460,False,False
+2024,house,Hillsborough-40,R,Alex Krantz,7992,False,False
+2024,house,Hillsborough-40,R,Carla Gericke,7889,False,False
+2024,house,Hillsborough-40,R,Andre Rosa,7821,False,False
+2024,house,Hillsborough-41,D,Lily M. Foss,7085,True,False
+2024,house,Hillsborough-41,D,Tim Hartnett,6642,True,False
+2024,house,Hillsborough-41,D,Karen Hegner,6249,True,False
+2024,house,Hillsborough-41,R,Ryan Hebert,5819,False,False
+2024,house,Hillsborough-41,R,Melodye LaChance Smith,5184,False,False
+2024,house,Hillsborough-41,R,Lee Xavier Davis,5154,False,False
+2024,house,Hillsborough-42,R,Keith Ammon,3376,True,True
+2024,house,Hillsborough-42,R,Lisa C.M. Post,3376,True,True
+2024,house,Hillsborough-42,R,Gerald Griffin,3349,True,True
+2024,house,Hillsborough-42,D,Brian Paquette,3130,False,False
+2024,house,Hillsborough-42,D,Sarah E. Chadzynski,3100,False,False
+2024,house,Hillsborough-42,D,Andrew Stokinger,2902,False,False
+2024,house,Hillsborough-43,D,Peter Petrigno,4480,True,True
+2024,house,Hillsborough-43,R,Vanessa L. Sheehan,4351,True,True
+2024,house,Hillsborough-43,R,Gary L. Daniels,4297,True,False
+2024,house,Hillsborough-43,D,Paul Dargie,4236,True,False
+2024,house,Hillsborough-43,R,Michael Facques,4111,False,False
+2024,house,Hillsborough-43,R,Elizabeth Keenan,4050,False,False
+2024,house,Hillsborough-43,D,Scott Lawrence,3892,False,False
+2024,house,Hillsborough-43,D,Michael Varraso,3821,False,False
+2024,house,Hillsborough-44,R,Lisa Mazur,8269,True,True
+2024,house,Hillsborough-44,R,Ross Berry,7871,True,False
+2024,house,Hillsborough-44,D,Marie B. Morgan,6329,False,False
+2024,house,Hillsborough-44,D,Eric Emmerling,5899,False,False
+2024,house,Hillsborough-45,R,Jack Flanagan,5953,True,False
+2024,house,Hillsborough-45,D,Karen Calabro,5118,False,True
+2024,house,Merrimack-1,R,Rick Devoid,1095,True,False
+2024,house,Merrimack-1,D,Lorrie J. Carey,956,False,True
+2024,house,Merrimack-2,R,Greg Hill,1901,True,False
+2024,house,Merrimack-3,R,Bryan Morse,2178,True,False
+2024,house,Merrimack-3,R,Ernesto L. Gonzalez,2009,True,False
+2024,house,Merrimack-3,D,Scott A. Burns,1811,False,False
+2024,house,Merrimack-3,D,Justine Hoppe,1531,False,False
+2024,house,Merrimack-4,R,Michael Moffett,2798,True,True
+2024,house,Merrimack-4,R,Jose E. Cambrils,2523,True,True
+2024,house,Merrimack-4,D,Ruth Heath,2311,False,False
+2024,house,Merrimack-4,D,Edward R. Friedrich,2086,False,False
+2024,house,Merrimack-5,R,Louise Andrus,2878,True,True
+2024,house,Merrimack-5,R,Deborah Aylward,2471,True,True
+2024,house,Merrimack-5,D,Lorna Carlisle,2082,False,False
+2024,house,Merrimack-5,D,David A. Nesbitt,2006,False,False
+2024,house,Merrimack-6,D,Tom Schamberg,1366,True,True
+2024,house,Merrimack-6,R,Victor Prieto,973,False,False
+2024,house,Merrimack-7,D,Karen E. Ebel,2721,True,True
+2024,house,Merrimack-7,D,Gregory M. Sargent,2614,True,False
+2024,house,Merrimack-7,R,Dorothy L. Hitchmoth,1966,False,False
+2024,house,Merrimack-7,R,Claire A. Ketteler,1603,False,False
+2024,house,Merrimack-8,D,Eileen Kelly,2765,True,False
+2024,house,Merrimack-8,D,Tony Caplan,2700,True,True
+2024,house,Merrimack-8,D,Stephanie Payeur,2694,True,False
+2024,house,Merrimack-8,R,Natalie Wells,2637,False,False
+2024,house,Merrimack-8,R,Sherry L. Gould,2572,False,True
+2024,house,Merrimack-8,R,James Bass Parker,2390,False,False
+2024,house,Merrimack-9,D,Muriel Hall,5261,True,True
+2024,house,Merrimack-9,D,Eleana Marie Colby,5022,True,False
+2024,house,Merrimack-9,D,David Luneau,4944,True,True
+2024,house,Merrimack-9,D,James Newsom,4884,True,False
+2024,house,Merrimack-9,R,Matthew Poulin,3979,False,False
+2024,house,Merrimack-9,R,David Germain,3667,False,False
+2024,house,Merrimack-9,R,John F. Martin,3515,False,False
+2024,house,Merrimack-9,R,Darlene Gildersleeve,3363,False,False
+2024,house,Merrimack-10,R,Thomas C. Walsh,5723,True,True
+2024,house,Merrimack-10,R,John A Leavitt,5426,True,True
+2024,house,Merrimack-10,R,Stephen E. Boyd,5235,True,True
+2024,house,Merrimack-10,R,Yury Polozov,4894,True,True
+2024,house,Merrimack-10,D,William P. Lynch,4254,False,False
+2024,house,Merrimack-10,D,Robert A. Ray,4081,False,False
+2024,house,Merrimack-10,D,Madalasa Gurung,3943,False,False
+2024,house,Merrimack-10,D,Germano Martins,3702,False,False
+2024,house,Merrimack-11,R,Matthew Pitaro,1287,True,False
+2024,house,Merrimack-11,D,Al Turcotte,1233,False,True
+2024,house,Merrimack-12,R,Peter L. Mehegan,2185,True,False
+2024,house,Merrimack-12,R,Brian Seaworth,2161,True,True
+2024,house,Merrimack-12,D,Dianne E. Schuett,2012,False,True
+2024,house,Merrimack-12,D,Maurice Regan,1864,False,False
+2024,house,Merrimack-13,R,Clayton Wood,2145,True,True
+2024,house,Merrimack-13,R,Cyril Aures,1901,True,True
+2024,house,Merrimack-13,D,Sally Kelly,1509,False,False
+2024,house,Merrimack-13,D,Dan Schroth,915,False,False
+2024,house,Merrimack-13,I,James C. Allard,803,False,False
+2024,house,Merrimack-14,R,Dan McGuire,2168,True,True
+2024,house,Merrimack-15,D,Tracy Anne Bricchi,1750,True,False
+2024,house,Merrimack-16,D,Connie Lane,1285,True,True
+2024,house,Merrimack-16,R,Laurence R. Weissbrot,892,False,False
+2024,house,Merrimack-17,D,Beth Richards,787,True,True
+2024,house,Merrimack-17,R,Diana Freeman,504,False,False
+2024,house,Merrimack-18,D,Jim MacKay,1526,True,True
+2024,house,Merrimack-18,R,Kristen Jackson,752,False,False
+2024,house,Merrimack-19,D,Mary Jane Wallner,2160,True,True
+2024,house,Merrimack-20,D,Eric Gallager,1437,True,True
+2024,house,Merrimack-21,D,Timothy Soucy,1849,True,True
+2024,house,Merrimack-21,R,Robert G. Bertrand,907,False,False
+2024,house,Merrimack-22,D,James Leon Roesener,1244,True,True
+2024,house,Merrimack-22,R,Dennis Blankenbeker,986,False,False
+2024,house,Merrimack-23,D,Merryl Gibbs,1099,True,True
+2024,house,Merrimack-23,R,Andrew Georgevits,974,False,False
+2024,house,Merrimack-24,D,Matthew S. Hicks,1786,True,True
+2024,house,Merrimack-24,R,Thom Bloomquist,1166,False,False
+2024,house,Merrimack-25,R,James Thibault,4105,True,False
+2024,house,Merrimack-25,D,Joyce May Fulweiler,2686,False,False
+2024,house,Merrimack-26,R,Alvin B. See,6959,True,True
+2024,house,Merrimack-26,D,Mason Donovan,5154,False,False
+2024,house,Merrimack-27,R,Carol McGuire,8636,True,True
+2024,house,Merrimack-27,R,Ray Plante,7908,True,False
+2024,house,Merrimack-27,D,Kathleen Martins,6365,False,False
+2024,house,Merrimack-27,D,Phillip James Walker,5625,False,False
+2024,house,Merrimack-28,D,Jim Snodgrass,3419,True,False
+2024,house,Merrimack-28,R,Brian Blackden,2449,False,False
+2024,house,Merrimack-29,D,Kris Schultz,4633,True,True
+2024,house,Merrimack-29,R,Claude Lompufu Bongambe,2499,False,False
+2024,house,Merrimack-30,D,Gary L. Woods,6208,True,False
+2024,house,Merrimack-30,R,Robert C. Washburn Sr.,3441,False,False
+2024,house,Rockingham-1,R,Scott R. Bryer,3336,True,False
+2024,house,Rockingham-1,R,James Guzofski,3192,True,False
+2024,house,Rockingham-1,R,Paul D. Tudor,3085,True,True
+2024,house,Rockingham-1,D,Hal Rafter,2956,False,False
+2024,house,Rockingham-1,D,Charlotte Fyfe,2822,False,False
+2024,house,Rockingham-1,D,Pamela Sanderson,2801,False,False
+2024,house,Rockingham-2,R,Jason Osborne,5792,True,True
+2024,house,Rockingham-2,R,James Spillane,5435,True,True
+2024,house,Rockingham-2,R,Kevin Verville,5399,True,True
+2024,house,Rockingham-2,D,Kendra Cohen,3594,False,False
+2024,house,Rockingham-2,D,Judith Lindsey,3569,False,False
+2024,house,Rockingham-2,D,Nick Karakoudas,3326,False,False
+2024,house,Rockingham-3,R,Mary J. Ford,2107,True,True
+2024,house,Rockingham-3,D,Jane W. Van Zandt,1271,False,False
+2024,house,Rockingham-4,R,Mike Drago,3574,True,True
+2024,house,Rockingham-4,R,Brian Nadeau,3440,True,False
+2024,house,Rockingham-4,R,Cindy L. Bennett,3389,True,False
+2024,house,Rockingham-4,D,Christopher Lee,1982,False,False
+2024,house,Rockingham-4,D,David K. Bodman,1928,False,False
+2024,house,Rockingham-4,D,Art Hunt,1857,False,False
+2024,house,Rockingham-5,D,Mark Vallone,2541,True,True
+2024,house,Rockingham-5,R,Michael Vose,2511,True,True
+2024,house,Rockingham-5,R,Cody M. Belanger,2337,False,False
+2024,house,Rockingham-5,D,Jade A. Flad-Vilardi,1511,False,False
+2024,house,Rockingham-6,D,Eric S. Turer,1534,True,True
+2024,house,Rockingham-6,R,Allen Cook,1496,False,False
+2024,house,Rockingham-7,R,Laurence A. Miner,2183,True,False
+2024,house,Rockingham-8,R,Sayra Lynn DeVito,1680,True,False
+2024,house,Rockingham-8,D,Sheila S. Johannesen,1035,False,False
+2024,house,Rockingham-9,R,Donald Evan Selby,2389,True,False
+2024,house,Rockingham-9,R,Vicki Wilson,2376,True,False
+2024,house,Rockingham-9,D,Keith D. Cronyn,1357,False,False
+2024,house,Rockingham-9,D,Leslie Kruithof,1357,False,False
+2024,house,Rockingham-10,D,Michael Cahill,4074,True,True
+2024,house,Rockingham-10,D,Ellen Read,3922,True,True
+2024,house,Rockingham-10,D,Toni Weinstein,3795,True,False
+2024,house,Rockingham-10,R,Jeanene Cooper,2833,False,False
+2024,house,Rockingham-11,D,Julie D. Gilman,6126,True,True
+2024,house,Rockingham-11,D,Mark Paige,6111,True,True
+2024,house,Rockingham-11,D,Gaby Grossman,6026,True,True
+2024,house,Rockingham-11,D,Linda J. Haskins,5840,True,True
+2024,house,Rockingham-11,R,Brian Griset,3233,False,False
+2024,house,Rockingham-11,R,Robert Goeman,3216,False,False
+2024,house,Rockingham-11,R,William A. Smith,3161,False,False
+2024,house,Rockingham-12,D,Allison Knab,3046,True,True
+2024,house,Rockingham-12,D,Zoe R. Manos,2906,True,True
+2024,house,Rockingham-12,R,James Scamman,2326,False,False
+2024,house,Rockingham-12,R,Jessica Kliskey,2053,False,False
+2024,house,Rockingham-13,R,David Love,8646,True,True
+2024,house,Rockingham-13,R,Jodi Nelson,8555,True,True
+2024,house,Rockingham-13,R,Erica Layon,8283,True,True
+2024,house,Rockingham-13,R,Phyllis Katsakiores,8123,True,True
+2024,house,Rockingham-13,R,Charles Foote,7983,True,True
+2024,house,Rockingham-13,R,John Potucek,7942,True,True
+2024,house,Rockingham-13,R,Katherine Prudhomme-O'Brien,7905,True,False
+2024,house,Rockingham-13,R,Stephen Pearson,7889,True,True
+2024,house,Rockingham-13,R,David E. Milz,7844,True,True
+2024,house,Rockingham-13,R,Richard Tripp,7831,True,True
+2024,house,Rockingham-13,D,Elle Gallo,6925,False,False
+2024,house,Rockingham-13,D,Johnathan West,6780,False,False
+2024,house,Rockingham-13,D,Jamie Carreau,6677,False,False
+2024,house,Rockingham-13,D,Frances Keenan,6402,False,False
+2024,house,Rockingham-13,D,Sanjeev Lath,6174,False,False
+2024,house,Rockingham-14,R,Kenneth L. Weyler,2797,True,True
+2024,house,Rockingham-14,R,Pam Brown,2791,True,False
+2024,house,Rockingham-14,D,Shaw Tilton,2367,False,False
+2024,house,Rockingham-15,R,Joe Guthrie,3292,True,True
+2024,house,Rockingham-15,R,Lilli Walsh,3101,True,True
+2024,house,Rockingham-15,D,Laurie A. Warnock,2234,False,False
+2024,house,Rockingham-15,D,Lisa DeMio,1927,False,False
+2024,house,Rockingham-16,R,Kristine Perez,7962,True,True
+2024,house,Rockingham-16,R,David Lundgren,7917,True,True
+2024,house,Rockingham-16,R,Tom Dolan,7895,True,True
+2024,house,Rockingham-16,R,Ron Dunn,7393,True,True
+2024,house,Rockingham-16,R,Doug Thomas,7302,True,True
+2024,house,Rockingham-16,R,Sherman Packard,7260,True,True
+2024,house,Rockingham-16,R,Wayne D. MacDonald,6898,True,True
+2024,house,Rockingham-16,D,Anne H. Fenn,6532,False,False
+2024,house,Rockingham-16,D,Jim Green,6170,False,False
+2024,house,Rockingham-16,D,Michela Hites,6082,False,False
+2024,house,Rockingham-16,D,Paul Skudlarek,5958,False,False
+2024,house,Rockingham-16,D,Bill Fanning,5945,False,False
+2024,house,Rockingham-16,D,William Adams,5816,False,False
+2024,house,Rockingham-17,R,Charles E. McMahon,5445,True,True
+2024,house,Rockingham-17,R,Katelyn Kuttab,5370,True,True
+2024,house,Rockingham-17,R,Daniel Popovici-Muller,5236,True,True
+2024,house,Rockingham-17,R,Bob Lynn,5225,True,True
+2024,house,Rockingham-17,D,David Martsolf,3501,False,False
+2024,house,Rockingham-17,D,Marie Yanish,3373,False,False
+2024,house,Rockingham-17,D,Michael Caruso,3306,False,False
+2024,house,Rockingham-17,D,Edward Schoen,2924,False,False
+2024,house,Rockingham-18,R,Debra L. DeSimone,2905,True,True
+2024,house,Rockingham-18,R,Jay Markell,2540,True,False
+2024,house,Rockingham-18,D,Michael Boucher,2064,False,False
+2024,house,Rockingham-19,R,Susan M. Porcelli,1846,True,True
+2024,house,Rockingham-19,D,Wendy Larson,1379,False,False
+2024,house,Rockingham-20,R,Robert Harb,4297,True,True
+2024,house,Rockingham-20,R,Charles R. Melvin Sr.,4132,True,True
+2024,house,Rockingham-20,R,James Summers,3749,True,True
+2024,house,Rockingham-20,D,Elizabeth Kosta,3050,False,False
+2024,house,Rockingham-20,D,Nancy Bishop,2932,False,False
+2024,house,Rockingham-20,D,Stan G. Duncan,2585,False,False
+2024,house,Rockingham-21,D,Jennifer Mandelbaum,2576,True,False
+2024,house,Rockingham-22,D,Kate Murray,2462,True,True
+2024,house,Rockingham-22,R,Thom Rossi,1064,False,False
+2024,house,Rockingham-23,D,Jim Maggiore,1913,True,True
+2024,house,Rockingham-23,R,Jennifer L. Smith,1414,False,False
+2024,house,Rockingham-24,D,Jaci Grote,3479,True,True
+2024,house,Rockingham-24,D,Dennis Malloy,3361,True,True
+2024,house,Rockingham-24,R,Marilyn Page,2934,False,False
+2024,house,Rockingham-24,R,Kevin Szmyd,2603,False,False
+2024,house,Rockingham-24,I,Lyn Leddy,889,False,False
+2024,house,Rockingham-25,R,Joe Sweeney,9723,True,True
+2024,house,Rockingham-25,R,Fred Doucette,9685,True,True
+2024,house,Rockingham-25,R,Lorie Ball,9583,True,True
+2024,house,Rockingham-25,R,Tanya Donnelly,9399,True,True
+2024,house,Rockingham-25,R,John Janigian,9221,True,True
+2024,house,Rockingham-25,R,John Sytek,9120,True,True
+2024,house,Rockingham-25,R,Valerie McDonnell,9084,True,True
+2024,house,Rockingham-25,R,Susan J. Vandecasteele,8991,True,True
+2024,house,Rockingham-25,R,Dennis Mannion,8470,True,True
+2024,house,Rockingham-25,D,Claire Karibian,6217,False,False
+2024,house,Rockingham-25,D,Donna Loranger,6068,False,False
+2024,house,Rockingham-25,D,Jack Connell,5832,False,False
+2024,house,Rockingham-25,D,Greg F. Davis,5663,False,False
+2024,house,Rockingham-25,D,Dionne Garon,5596,False,False
+2024,house,Rockingham-25,D,Daniel Guild,5486,False,False
+2024,house,Rockingham-25,D,Ernest M. Hicks,5414,False,False
+2024,house,Rockingham-26,D,Buzz Scherr,2042,True,False
+2024,house,Rockingham-27,D,Gerald W.R. Ward,1538,True,True
+2024,house,Rockingham-27,R,Diane D. Bitter,948,False,False
+2024,house,Rockingham-28,D,Carrie Sorensen,2254,True,False
+2024,house,Rockingham-28,R,Sue Polidura,790,False,False
+2024,house,Rockingham-29,D,Chris Muns,5067,True,True
+2024,house,Rockingham-29,D,Mike Edgar,4969,True,True
+2024,house,Rockingham-29,R,Nicholas D. Bridle,4823,True,False
+2024,house,Rockingham-29,D,Erica de Vries,4802,True,False
+2024,house,Rockingham-29,D,Alan S. Blair,4520,False,False
+2024,house,Rockingham-29,R,Bruce Theriault,4355,False,False
+2024,house,Rockingham-29,R,David Hagen,4351,False,False
+2024,house,Rockingham-29,R,Ken Sheffert,4239,False,False
+2024,house,Rockingham-30,R,Aboul B. Khan,2947,True,True
+2024,house,Rockingham-30,R,Matt Sabourin,2563,True,False
+2024,house,Rockingham-30,D,Bob Albright,1733,False,False
+2024,house,Rockingham-30,D,Justin G. Packard,1503,False,False
+2024,house,Rockingham-31,R,Jess Edwards,8166,True,True
+2024,house,Rockingham-31,R,Terry Roy,7397,True,True
+2024,house,Rockingham-31,D,Charlotte Lister,4641,False,False
+2024,house,Rockingham-31,D,Dave DePuy,4425,False,False
+2024,house,Rockingham-32,R,Melissa A. Litchfield,5268,True,False
+2024,house,Rockingham-32,D,Diana West,3369,False,False
+2024,house,Rockingham-33,D,Alexis Simpson,15455,True,True
+2024,house,Rockingham-34,R,Mark A. Pearson,7071,True,True
+2024,house,Rockingham-34,D,Jade DeMio,4074,False,False
+2024,house,Rockingham-35,R,Julius F. Soti,13479,True,True
+2024,house,Rockingham-35,D,Michelle Stith,11005,False,False
+2024,house,Rockingham-36,R,JD Bernardy,6524,True,True
+2024,house,Rockingham-36,D,Eric B. Miller,4519,False,False
+2024,house,Rockingham-37,D,James D. Meuse,4991,True,True
+2024,house,Rockingham-38,D,Peggy Balboni,5341,True,True
+2024,house,Rockingham-38,R,Janet Larsen,5007,False,False
+2024,house,Rockingham-39,D,Ned Raynolds,6128,True,True
+2024,house,Rockingham-40,R,Linda McGrath,8018,True,False
+2024,house,Rockingham-40,D,John P. Carty,6712,False,False
+2024,house,Strafford-1,R,Sue DeLemus,1961,True,False
+2024,house,Strafford-1,R,Robley Hall,1640,True,False
+2024,house,Strafford-1,D,Manny Krasner,1532,False,False
+2024,house,Strafford-1,D,Fred Pitman,1240,False,False
+2024,house,Strafford-2,R,Glenn Bailey,2935,True,True
+2024,house,Strafford-2,R,Michael Granger,2835,True,True
+2024,house,Strafford-2,R,Claudine R. Burnham,2780,True,True
+2024,house,Strafford-2,D,Pamela J. Hubbard,2154,False,False
+2024,house,Strafford-2,D,Larry Brown,2041,False,False
+2024,house,Strafford-2,D,Marilyn J. Foster,1969,False,False
+2024,house,Strafford-3,R,Susan DeRoy,1954,True,False
+2024,house,Strafford-3,D,Ellen Phillips,985,False,False
+2024,house,Strafford-4,R,Len Turcotte,4349,True,False
+2024,house,Strafford-4,D,Cassandra Levesque,4288,True,False
+2024,house,Strafford-4,D,Heath Howard,4199,True,False
+2024,house,Strafford-4,R,Kurt Wuelper,4183,False,False
+2024,house,Strafford-4,R,Seamus Casey,4047,False,False
+2024,house,Strafford-4,D,Adam Mulholland,3906,False,False
+2024,house,Strafford-5,R,Thomas L. Kaczynski Jr.,1499,True,True
+2024,house,Strafford-5,D,Patricia Turner,1365,False,False
+2024,house,Strafford-6,R,Denise DeDe-Poulin,1482,True,False
+2024,house,Strafford-6,D,Kathleen M. MacLeod,1358,False,False
+2024,house,Strafford-7,R,Aidan Ankarberg,1532,True,True
+2024,house,Strafford-7,D,David Herman,1282,False,False
+2024,house,Strafford-8,R,Samuel Farrington,1498,True,False
+2024,house,Strafford-8,D,Chuck Grassie,1232,False,True
+2024,house,Strafford-9,D,Amy Malone,1234,True,False
+2024,house,Strafford-9,R,Brandon Phinney,1143,False,True
+2024,house,Strafford-10,D,Marjorie Smith,5135,True,True
+2024,house,Strafford-10,D,Loren Selig,5076,True,True
+2024,house,Strafford-10,D,Timothy Horrigan,4886,True,True
+2024,house,Strafford-10,D,Wayne M. Burton,4850,True,False
+2024,house,Strafford-10,R,Jeffrey D. Berlin,2416,False,False
+2024,house,Strafford-11,D,Janet G. Wall,4500,True,True
+2024,house,Strafford-11,D,Erik Johnson,4250,True,False
+2024,house,Strafford-11,D,Thomas Southworth,4121,True,True
+2024,house,Strafford-11,R,Joe Bazo,2455,False,False
+2024,house,Strafford-11,R,Denis Grenier,2439,False,False
+2024,house,Strafford-11,R,Bill Taylor,2408,False,False
+2024,house,Strafford-12,D,Dawn M. Evans,4110,True,False
+2024,house,Strafford-12,D,Myles England,3992,True,False
+2024,house,Strafford-12,D,John J. Stone,3961,True,False
+2024,house,Strafford-12,D,Wayne Pearson,3905,True,False
+2024,house,Strafford-12,R,Ken Hilton,3446,False,False
+2024,house,Strafford-12,R,Jonathan Wilson,3221,False,False
+2024,house,Strafford-12,R,Padraic O'Hare,3101,False,False
+2024,house,Strafford-12,R,Will Milus,2925,False,False
+2024,house,Strafford-13,D,Peter Bixby,1568,True,True
+2024,house,Strafford-13,R,Daniel A. Furman,1345,False,False
+2024,house,Strafford-14,D,Peter B. Schmidt,2255,True,True
+2024,house,Strafford-14,R,Elliot Ross Boutin,797,False,False
+2024,house,Strafford-15,D,Alice Wade,2047,True,False
+2024,house,Strafford-15,R,Keith Mistretta,869,False,False
+2024,house,Strafford-16,D,Alice Wade,2076,True,False
+2024,house,Strafford-16,R,Keith Mistretta,1484,False,False
+2024,house,Strafford-17,D,Jessica F. LaMontagne,1739,True,True
+2024,house,Strafford-17,R,Matthew D. Albion,983,False,False
+2024,house,Strafford-18,R,Michael Harrington,6670,True,True
+2024,house,Strafford-18,D,Kimberly McGlinchey,5031,False,False
+2024,house,Strafford-19,R,David Walker,6641,True,False
+2024,house,Strafford-19,R,Kelley Potenza,6428,True,True
+2024,house,Strafford-19,D,John Larochelle,6127,True,False
+2024,house,Strafford-19,D,Daniel Fitzpatrick,6040,False,True
+2024,house,Strafford-19,R,Jenny O. Wilson,5970,False,False
+2024,house,Strafford-19,D,Melena Lugo,5781,False,False
+2024,house,Strafford-20,D,Allan Howland,9824,True,True
+2024,house,Strafford-20,R,Joseph Rowell,4783,False,False
+2024,house,Strafford-21,D,Luz Bay,9261,True,True
+2024,house,Strafford-21,D,Seth Miller,8809,True,False
+2024,house,Strafford-21,D,Geoffrey Smith,8417,True,True
+2024,house,Strafford-21,R,Renee L. Blaisdell,5173,False,False
+2024,house,Strafford-21,R,Gary Fratus,4860,False,False
+2024,house,Strafford-21,R,John V. Caggiano,4836,False,False
+2024,house,Sullivan-1,D,Brian M. Sullivan,1565,True,True
+2024,house,Sullivan-1,R,Joel T. Hutchins,811,False,False
+2024,house,Sullivan-2,D,William Palmer,1662,True,True
+2024,house,Sullivan-2,R,Virginia Drye,1102,False,False
+2024,house,Sullivan-3,R,Skip Rollins,3936,True,True
+2024,house,Sullivan-3,R,Steven Smith,3508,True,True
+2024,house,Sullivan-3,R,Walter Spilsbury,3130,True,True
+2024,house,Sullivan-3,D,Nikki Murphy,2566,False,False
+2024,house,Sullivan-4,R,Judy Aron,1806,True,True
+2024,house,Sullivan-4,D,Claudia Istel,1154,False,False
+2024,house,Sullivan-5,R,George C. Grant,1683,True,False
+2024,house,Sullivan-5,D,Linda Tanner,1669,False,True
+2024,house,Sullivan-6,D,Dale Girard,2895,True,False
+2024,house,Sullivan-6,D,John R. Cloutier,2804,True,True
+2024,house,Sullivan-6,R,Wayne J. Hemingway,2783,True,False
+2024,house,Sullivan-6,D,Gary Merchant,2639,False,True
+2024,house,Sullivan-6,R,Robert W. Merrill Jr.,2257,False,False
+2024,house,Sullivan-6,R,Emily Sandblade,2149,False,False
+2024,house,Sullivan-6,I,Sean F. McCarthy,626,False,False
+2024,house,Sullivan-7,R,Margaret M. Drye,4904,True,True
+2024,house,Sullivan-7,D,Jenny Ramsey,4236,False,False
+2024,house,Sullivan-8,D,Hope Damon,5992,True,True
+2024,house,Sullivan-8,R,Michael Aron,5744,True,False
+2024,house,Sullivan-8,R,Jonathan F. Stone,5581,False,True
+2024,house,Sullivan-8,D,Codi Raymond,5351,False,False
+2022,senate,S1,R,Carrie L. Gendreau,13112,True,False
+2022,senate,S1,D,Edith Tucker,10855,False,False
+2022,senate,S2,R,Timothy Lang,15321,True,False
+2022,senate,S2,D,Kate Miller,12038,False,False
+2022,senate,S3,R,Jeb Bradley,17336,True,False
+2022,senate,S3,D,Bill Marsh,12309,False,False
+2022,senate,S4,D,David H. Watters,15879,True,True
+2022,senate,S4,R,Seamus Casey,9207,False,False
+2022,senate,S5,D,Suzanne M. Prentiss,19269,True,True
+2022,senate,S5,R,John McIntyre,8656,False,False
+2022,senate,S6,R,James P. Gray,13167,True,True
+2022,senate,S6,D,Ruth Larson,10434,False,False
+2022,senate,S7,R,Daniel E. Innis,13413,True,False
+2022,senate,S7,D,Richard A. Lobban,11146,False,False
+2022,senate,S8,R,Ruth Ward,14080,True,True
+2022,senate,S8,D,Charlene Marcotte Lovett,10520,False,False
+2022,senate,S9,R,Denise Ricciardi,13687,True,True
+2022,senate,S9,D,Matthew McLaughlin,12510,False,False
+2022,senate,S10,D,Donovan Fenton,17305,True,False
+2022,senate,S10,R,Sly Karasinski,8860,False,False
+2022,senate,S11,D,Shannon E. Chandley,14320,True,False
+2022,senate,S11,R,Gary L. Daniels,13591,False,True
+2022,senate,S12,R,Kevin A. Avard,14314,True,False
+2022,senate,S12,D,Melanie Levesque,13626,False,False
+2022,senate,S13,D,Cindy Rosenwald,10445,True,True
+2022,senate,S13,R,Stephen Scaer,7319,False,False
+2022,senate,S14,R,Sharon M. Carson,14631,True,True
+2022,senate,S14,D,John Robinson,10133,False,False
+2022,senate,S15,D,Becky Whitley,16625,True,True
+2022,senate,S15,R,Linda Rae Banfill,9071,False,False
+2022,senate,S16,R,Keith Murphy,13494,True,False
+2022,senate,S16,D,June Trisciani,11783,False,False
+2022,senate,S17,R,Howard Pearl,14878,True,False
+2022,senate,S17,D,Christine M. Tappan,11311,False,False
+2022,senate,S18,D,Donna M. Soucy,9920,True,True
+2022,senate,S18,R,George A. Lambert,9015,False,False
+2022,senate,S19,R,Regina Birdsell,15143,True,True
+2022,senate,S20,D,Lou D'Allesandro,9859,True,True
+2022,senate,S20,R,Richard H. Girard,7172,False,False
+2022,senate,S21,D,Rebecca Perkins Kwoka,20084,True,True
+2022,senate,S22,R,Daryl Abbas,16622,True,False
+2022,senate,S22,D,Wayne Haubner,9927,False,False
+2022,senate,S23,R,Bill Gannon,16902,True,True
+2022,senate,S23,D,Brenda Oldak,11064,False,False
+2022,senate,S24,D,Debra Altschiller,17969,True,False
+2022,senate,S24,R,Lou Gargiulo,14286,False,False
+2024,senate,S1,R,David Rochefort,17613,True,False
+2024,senate,S1,D,Rusty Talbot,13371,False,False
+2024,senate,S2,R,Timothy Lang,20117,True,True
+2024,senate,S2,D,Carlos Cardona,14372,False,False
+2024,senate,S3,R,Mark McConkey,21058,True,False
+2024,senate,S3,D,Bill Marsh,16066,False,False
+2024,senate,S4,D,David H. Watters,19666,True,True
+2024,senate,S4,R,Shawn Mickelonis,12847,False,False
+2024,senate,S5,D,Suzanne M. Prentiss,23028,True,True
+2024,senate,S5,R,John J. McIntyre,11709,False,False
+2024,senate,S6,R,James P. Gray,18561,True,True
+2024,senate,S6,D,John Ceskavich,12483,False,False
+2024,senate,S7,R,Daniel Innis,17888,True,True
+2024,senate,S7,D,Stu Green,14337,False,False
+2024,senate,S8,R,Ruth Ward,18463,True,True
+2024,senate,S8,D,David Trumble,13178,False,False
+2024,senate,S9,R,Denise Ricciardi,17235,True,True
+2024,senate,S9,D,Matthew McLaughlin,16211,False,False
+2024,senate,S10,D,Donovan Fenton,20841,True,True
+2024,senate,S10,R,Rick Merkt,12166,False,False
+2024,senate,S11,R,Tim McGough,18440,True,False
+2024,senate,S11,D,Shannon E. Chandley,17767,False,True
+2024,senate,S12,R,Kevin A. Avard,19841,True,True
+2024,senate,S12,D,Ben Ming,15643,False,False
+2024,senate,S13,D,Cindy Rosenwald,14334,True,True
+2024,senate,S13,R,Stephen Scaer,10913,False,False
+2024,senate,S14,R,Sharon M. Carson,19429,True,True
+2024,senate,S14,D,Kara Roy,13611,False,False
+2024,senate,S15,D,Tara Reardon,20272,True,False
+2024,senate,S15,R,Pamela Ean,11912,False,False
+2024,senate,S16,R,Keith Murphy,18435,True,True
+2024,senate,S16,D,Michael York,14080,False,False
+2024,senate,S17,R,Howard Pearl,19762,True,True
+2024,senate,S17,D,Kelly Roberts,14456,False,False
+2024,senate,S18,R,Victoria Sullivan,13289,True,False
+2024,senate,S18,D,Donna M. Soucy,12541,False,True
+2024,senate,S19,R,Regina M. Birdsell,19505,True,True
+2024,senate,S19,D,Michelle Moge,12556,False,False
+2024,senate,S20,D,Pat Long,13159,True,False
+2024,senate,S20,R,Brittany Ping,10290,False,False
+2024,senate,S21,D,Rebecca Perkins Kwoka,22700,True,True
+2024,senate,S21,R,Don Cardinale,11155,False,False
+2024,senate,S22,R,Daryl Abbas,22892,True,True
+2024,senate,S22,D,Wayne Haubner,12899,False,False
+2024,senate,S23,R,Bill Gannon,22670,True,True
+2024,senate,S23,D,Brenda Oldak,13648,False,False
+2024,senate,S24,D,Debra Altschiller,20497,True,True
+2024,senate,S24,R,Patrick Abrami,16926,False,False

@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Senate District 13 · NH Legislature 2026</title>
+<meta name="description" content="A probabilistic forecast of the 2026 New Hampshire State Senate and House of Representatives elections, built from public data.">
+<link rel="stylesheet" href="../assets/style.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="../index.html">NH Legislature 2026</a>
+  <nav>
+    <a href="../index.html" >Forecast</a>
+    <a href="../seats.html" >All seats</a>
+    <a href="../tipping.html" >Tipping point</a>
+    <a href="../environment.html" >Environment</a>
+    <a href="../backtest.html" >Backtests</a>
+    <a href="../methodology.html" >Methodology</a>
+    <a href="../sources.html" >Sources</a>
+    <a href="../changelog.html" >Changelog</a>
+  </nav>
+</header>
+<main>
+
+<p class="sub"><a href="../seats.html">← All seats</a></p>
+<h1>Senate District 13</h1>
+<p class="sub">Nashua and the Massachusetts border · currently held by <span class="pill" style="background:var(--dem)">D</span>
+ · <b>open seat</b></p>
+<div class="grid">
+  <div class="card">
+    <h2>Forecast</h2>
+    <div class="big dem">98%</div>
+    <div>chance <b>Laura Telerski</b> (D) wins</div>
+    <div class="bar"><span style="width:97.575%;background:var(--dem)"></span></div>
+    <dl class="kv">
+      <dt>Democrat</dt><dd>Laura Telerski</dd>
+      <dt>Republican</dt><dd>Daniel Paul</dd>
+      
+      <dt>Rating</dt><dd>Safe D</dd>
+      <dt>Expected margin</dt><dd>D+15.1 (90% range D+2.6 to D+27.6)</dd>
+      <dt>Chance of flipping</dt><dd>2.4%</dd>
+      <dt>Tipping-point chance</dt><dd>0.1% (chance this seat is the 13th most Democratic, deciding control)</dd>
+    </dl>
+    <svg id="margin-dist" width="100%" height="120"></svg>
+  </div>
+  <div class="card">
+    <h2>How the forecast was built</h2>
+    <table class="waterfall">
+      <tr><td>Statewide generic legislative margin (environment)</td><td>D+2.9</td></tr>
+      <tr><td>+ District partisan lean</td><td>+12.2</td></tr>
+      <tr><td>= Fundamentals before candidates</td><td>D+15.1</td></tr>
+      
+      <tr class="total"><td>Final expected margin</td><td>D+15.1</td></tr>
+    </table>
+    <p class="note">No public poll of this district exists; the forecast is fundamentals only. District-level error SD 6.2 pts; total with statewide and regional error ≈ 7.6 pts.</p>
+    
+  </div>
+</div>
+<h2>Inputs</h2>
+<div class="grid">
+  <div class="card"><h3>Partisan lean (exact by town)</h3>
+  <table><thead><tr><th>Race</th><th class="num">District</th><th class="num">Statewide</th><th class="num">Lean</th><th class="num">Weight</th></tr></thead><tbody>
+  <tr><td>2024 President</td><td class="num">D+13.7</td><td class="num">D+2.8</td><td class="num">+10.9</td><td class="num">0.4</td></tr><tr><td>2024 Governor</td><td class="num">D+0.2</td><td class="num">R+9.5</td><td class="num">+9.8</td><td class="num">0.15</td></tr><tr><td>2022 U.S. Senate</td><td class="num">D+21.8</td><td class="num">D+9.3</td><td class="num">+12.5</td><td class="num">0.2</td></tr><tr><td>2022 Governor</td><td class="num">R+3.9</td><td class="num">R+15.8</td><td class="num">+11.8</td><td class="num">0.1</td></tr><tr><td>2020 President</td><td class="num">D+22.8</td><td class="num">D+7.4</td><td class="num">+15.4</td><td class="num">0.15</td></tr>
+  </tbody></table>
+  <p class="note">Last Senate result (2024): D+13.6 vs a statewide legislative environment of R+2.6, incumbency removed (-3.0) → lean +13.2, blended at 30%.</p>
+  </div>
+  <div class="card"><h3>Past results in this district (current lines)</h3>
+  <h4 style="margin:8px 0 2px">2024 — party margin D+13.6</h4>
+  <table><tbody><tr><td><span class="pill" style="background:var(--dem)">D</span> Cindy Rosenwald (i)</td><td class="num">14,334</td><td>✓</td></tr><tr><td><span class="pill" style="background:var(--rep)">R</span> Stephen Scaer</td><td class="num">10,913</td><td></td></tr></tbody></table><h4 style="margin:8px 0 2px">2022 — party margin D+17.6</h4>
+  <table><tbody><tr><td><span class="pill" style="background:var(--dem)">D</span> Cindy Rosenwald (i)</td><td class="num">10,445</td><td>✓</td></tr><tr><td><span class="pill" style="background:var(--rep)">R</span> Stephen Scaer</td><td class="num">7,319</td><td></td></tr></tbody></table>
+  
+  </div>
+</div>
+
+</main>
+<footer>
+  Forecast as of 2026-11-02 · 1 day to Election Day (2026-11-03) · 40,000 simulations · generated 2026-11-02 17:11.
+  Public data only; every source and retrieval date is on the <a href="../sources.html">sources page</a>. Candidate lists come from Ballotpedia's transcription of Secretary of State filings. Not affiliated with any campaign, party, caucus or outlet.
+</footer>
+<div class="tooltip" id="tip"></div>
+<script src="../assets/app.js"></script>
+
+<script>drawMarginDist('margin-dist', 15.099658471796914, 7.632168761236874);</script>
+
+</body>
+</html>

@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block title %}Sources · NH Legislature 2026{% endblock %}
+{% block body %}
+<h1>Data sources</h1>
+<p class="sub">Every file the model reads, where it came from and when it was retrieved, followed by the data audit that lists what could not be obtained.</p>
+<div class="prose">{{ sources_html|safe }}</div>
+<h2 id="audit">Data audit: what exists and what is missing</h2>
+<div class="prose">{{ audit_html|safe }}</div>
+{% endblock %}

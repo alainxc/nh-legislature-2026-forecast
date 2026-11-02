@@ -1,0 +1,51 @@
+[
+ {
+  "file": "wiki_generic_polling_2026.html",
+  "source_url": "https://en.wikipedia.org/wiki/Nationwide_opinion_polling_for_the_2026_United_States_House_of_Representatives_elections",
+  "retrieved_at": "2026-11-02T16:38:47-05:00",
+  "description": "Checked; page does not exist.",
+  "bytes": 54281
+ },
+ {
+  "file": "wiki_nh_gov_2026.html",
+  "source_url": "https://en.wikipedia.org/wiki/2026_New_Hampshire_gubernatorial_election",
+  "retrieved_at": "2026-11-02T16:35:20-05:00",
+  "description": "Wikipedia: 2026 governor polling tables (Ayotte v Warmington) with source links.",
+  "bytes": 599260
+ },
+ {
+  "file": "wiki_nh_house_2026.html",
+  "source_url": "https://en.wikipedia.org/wiki/2026_New_Hampshire_House_of_Representatives_election",
+  "retrieved_at": "2026-11-02T16:35:20-05:00",
+  "description": "Wikipedia: NH House generic ballot poll (UNH) and the per-seat incumbent table.",
+  "bytes": 890673
+ },
+ {
+  "file": "wiki_nh_senate_2026.html",
+  "source_url": "https://en.wikipedia.org/wiki/2026_New_Hampshire_Senate_election",
+  "retrieved_at": "2026-11-02T16:35:20-05:00",
+  "description": "Wikipedia: NH Senate generic ballot poll (UNH) and per-district nominees.",
+  "bytes": 450921
+ },
+ {
+  "file": "wiki_us_elections_2026.html",
+  "source_url": "https://en.wikipedia.org/wiki/2026_United_States_elections",
+  "retrieved_at": "2026-11-02T16:35:21-05:00",
+  "description": "Wikipedia: national generic congressional ballot poll tables.",
+  "bytes": 3879877
+ },
+ {
+  "file": "wiki_us_house_nh_2026.html",
+  "source_url": "https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_New_Hampshire",
+  "retrieved_at": "2026-11-02T16:35:20-05:00",
+  "description": "Wikipedia: statewide congressional preference polls and NH-01/NH-02 polls.",
+  "bytes": 940766
+ },
+ {
+  "file": "wiki_us_senate_nh_2026.html",
+  "source_url": "https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_New_Hampshire",
+  "retrieved_at": "2026-11-02T16:35:22-05:00",
+  "description": "Wikipedia: 2026 US Senate polls (not used as an input).",
+  "bytes": 1058317
+ }
+]

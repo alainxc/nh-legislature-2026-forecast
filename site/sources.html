@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Sources · NH Legislature 2026</title>
+<meta name="description" content="A probabilistic forecast of the 2026 New Hampshire State Senate and House of Representatives elections, built from public data.">
+<link rel="stylesheet" href="assets/style.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="index.html">NH Legislature 2026</a>
+  <nav>
+    <a href="index.html" >Forecast</a>
+    <a href="seats.html" >All seats</a>
+    <a href="tipping.html" >Tipping point</a>
+    <a href="environment.html" >Environment</a>
+    <a href="backtest.html" >Backtests</a>
+    <a href="methodology.html" >Methodology</a>
+    <a href="sources.html" class="active">Sources</a>
+    <a href="changelog.html" >Changelog</a>
+  </nav>
+</header>
+<main>
+
+<h1>Data sources</h1>
+<p class="sub">Every file the model reads, where it came from and when it was retrieved, followed by the data audit that lists what could not be obtained.</p>
+<div class="prose"><p>Every file the model reads, with where it came from and when it was retrieved. Raw captures are kept under <code>data/raw/</code> in the repository; gaps and caveats are in each folder's <code>NOTES.md</code> and in the data audit below.</p>
+<h3>2026 candidates (Ballotpedia, compiled from Secretary of State filings)</h3>
+<ul>
+<li><code>ballotpedia_nh_house_2026.html</code> — Ballotpedia: 2026 general-election candidates by House district with incumbent marks, seat counts, withdrawals (compiled from SoS filings; the SoS site blocks automated access). Source: <a href="https://ballotpedia.org/New_Hampshire_House_of_Representatives_elections,_2026">https://ballotpedia.org/New_Hampshire_House_of_Representatives_elections,_2026</a> (retrieved 2026-11-02)</li>
+<li><code>ballotpedia_nh_senate_2026.html</code> — Ballotpedia: 2026 general-election candidates by Senate district. Source: <a href="https://ballotpedia.org/New_Hampshire_State_Senate_elections,_2026">https://ballotpedia.org/New_Hampshire_State_Senate_elections,_2026</a> (retrieved 2026-11-02)</li>
+</ul>
+<h3>Current membership and vacancies (General Court, House Clerk)</h3>
+<ul>
+<li><code>Members.txt</code> — General Court member roster download: name, body, county, district, party, status. Source: <a href="https://gencourt.state.nh.us/downloads/Members.txt">https://gencourt.state.nh.us/downloads/Members.txt</a> (retrieved 2026-11-02)</li>
+<li><code>RDSE.pdf</code> — House Clerk: resignations, deaths, special elections and declared vacancies, 2025-26 session (Aug 27, 2026 update). Source: <a href="https://www.gencourt.state.nh.us/house/aboutthehouse/RDSE.pdf">https://www.gencourt.state.nh.us/house/aboutthehouse/RDSE.pdf</a> (retrieved 2026-11-02)</li>
+<li><code>ballotpedia_nh_house_chamber.html</code> — Ballotpedia chamber page (cross-check). Source: <a href="https://ballotpedia.org/New_Hampshire_House_of_Representatives">https://ballotpedia.org/New_Hampshire_House_of_Representatives</a> (retrieved 2026-11-02)</li>
+<li><code>ballotpedia_nh_senate_chamber.html</code> — Ballotpedia chamber page (cross-check). Source: <a href="https://ballotpedia.org/New_Hampshire_State_Senate">https://ballotpedia.org/New_Hampshire_State_Senate</a> (retrieved 2026-11-02)</li>
+<li><code>house_members.html</code> — House roster page (cross-check; no party shown). Source: <a href="https://gencourt.state.nh.us/house/members/default.aspx">https://gencourt.state.nh.us/house/members/default.aspx</a> (retrieved 2026-11-02)</li>
+<li><code>senate_roster.html</code> — Senate roster page (cross-check). Source: <a href="https://gencourt.state.nh.us/senate/members/senate_roster.aspx">https://gencourt.state.nh.us/senate/members/senate_roster.aspx</a> (retrieved 2026-11-02)</li>
+<li><code>wiki_nh_house_chamber.html</code> — Wikipedia chamber article: composition (cross-check). Source: <a href="https://en.wikipedia.org/wiki/New_Hampshire_House_of_Representatives">https://en.wikipedia.org/wiki/New_Hampshire_House_of_Representatives</a> (retrieved 2026-11-02)</li>
+<li><code>wiki_nh_senate_chamber.html</code> — Wikipedia chamber article: composition (cross-check). Source: <a href="https://en.wikipedia.org/wiki/New_Hampshire_Senate">https://en.wikipedia.org/wiki/New_Hampshire_Senate</a> (retrieved 2026-11-02)</li>
+</ul>
+<h3>Election returns by town and ward (OpenElections transcription of NH Secretary of State tabulations)</h3>
+<ul>
+<li><code>20201103__nh__general__precinct.csv</code> — 2020 general election by town (president, governor, US Senate, US House, State Senate, State House), transcribed from NH SoS tabulations by OpenElections. Only the presidential race is used (other sections double-count towns). Source: <a href="https://raw.githubusercontent.com/openelections/openelections-data-nh/master/2020/20201103__nh__general__precinct.csv">https://raw.githubusercontent.com/openelections/openelections-data-nh/master/2020/20201103__nh__general__precinct.csv</a> (retrieved 2026-11-02)</li>
+<li><code>20221108__nh__general__congressional__precinct.csv</code> — 2022 US House by town/ward. Source: <a href="https://raw.githubusercontent.com/openelections/openelections-data-nh/master/2022/20221108__nh__general__congressional__precinct.csv">https://raw.githubusercontent.com/openelections/openelections-data-nh/master/2022/20221108__nh__general__congressional__precinct.csv</a> (retrieved 2026-11-02)</li>
+<li><code>20221108__nh__general__executive__council__precinct.csv</code> — 2022 Executive Council by town/ward (not used). Source: <a href="https://raw.githubusercontent.com/openelections/openelections-data-nh/master/2022/20221108__nh__general__executive__council__precinct.csv">https://raw.githubusercontent.com/openelections/openelections-data-nh/master/2022/20221108__nh__general__executive__council__precinct.csv</a> (retrieved 2026-11-02)</li>
+<li><code>20221108__nh__general__governor__precinct.csv</code> — 2022 governor by town/ward (Sununu v Sherman). Source: <a href="https://raw.githubusercontent.com/openelections/openelections-data-nh/master/2022/20221108__nh__general__governor__precinct.csv">https://raw.githubusercontent.com/openelections/openelections-data-nh/master/2022/20221108__nh__general__governor__precinct.csv</a> (retrieved 2026-11-02)</li>
+<li><code>20221108__nh__general__state__representative__precinct.csv</code> — 2022 State Representative by town/ward and district (floterials suffixed F; Dover Ward 3 mislabelled as Strafford 15, fixed in processing; candidate surnames only). Source: <a href="https://raw.githubusercontent.com/openelections/openelections-data-nh/master/2022/20221108__nh__general__state__representative__precinct.csv">https://raw.githubusercontent.com/openelections/openelections-data-nh/master/2022/20221108__nh__general__state__representative__precinct.csv</a> (retrieved 2026-11-02)</li>
+<li><code>20221108__nh__general__state__senate__precinct.csv</code> — 2022 State Senate by town/ward and district. Source: <a href="https://raw.githubusercontent.com/openelections/openelections-data-nh/master/2022/20221108__nh__general__state__senate__precinct.csv">https://raw.githubusercontent.com/openelections/openelections-data-nh/master/2022/20221108__nh__general__state__senate__precinct.csv</a> (retrieved 2026-11-02)</li>
+<li><code>20221108__nh__general__us__senate__precinct.csv</code> — 2022 US Senate by town/ward (Hassan v Bolduc). Source: <a href="https://raw.githubusercontent.com/openelections/openelections-data-nh/master/2022/20221108__nh__general__us__senate__precinct.csv">https://raw.githubusercontent.com/openelections/openelections-data-nh/master/2022/20221108__nh__general__us__senate__precinct.csv</a> (retrieved 2026-11-02)</li>
+<li><code>20241105__nh__general__congressional__precinct.csv</code> — 2024 US House by town/ward. Source: <a href="https://raw.githubusercontent.com/openelections/openelections-data-nh/master/2024/20241105__nh__general__congressional__precinct.csv">https://raw.githubusercontent.com/openelections/openelections-data-nh/master/2024/20241105__nh__general__congressional__precinct.csv</a> (retrieved 2026-11-02)</li>
+<li><code>20241105__nh__general__executive__council__precinct.csv</code> — 2024 Executive Council by town/ward (not used). Source: <a href="https://raw.githubusercontent.com/openelections/openelections-data-nh/master/2024/20241105__nh__general__executive__council__precinct.csv">https://raw.githubusercontent.com/openelections/openelections-data-nh/master/2024/20241105__nh__general__executive__council__precinct.csv</a> (retrieved 2026-11-02)</li>
+<li><code>20241105__nh__general__governor__precinct.csv</code> — 2024 governor by town/ward (Ayotte v Craig). Source: <a href="https://raw.githubusercontent.com/openelections/openelections-data-nh/master/2024/20241105__nh__general__governor__precinct.csv">https://raw.githubusercontent.com/openelections/openelections-data-nh/master/2024/20241105__nh__general__governor__precinct.csv</a> (retrieved 2026-11-02)</li>
+<li><code>20241105__nh__general__president__precinct.csv</code> — 2024 president by town/ward. Source: <a href="https://raw.githubusercontent.com/openelections/openelections-data-nh/master/2024/20241105__nh__general__president__precinct.csv">https://raw.githubusercontent.com/openelections/openelections-data-nh/master/2024/20241105__nh__general__president__precinct.csv</a> (retrieved 2026-11-02)</li>
+<li><code>20241105__nh__general__state__representative__precinct.csv</code> — 2024 State Representative by town/ward and district (same Dover Ward 3 label fix). Source: <a href="https://raw.githubusercontent.com/openelections/openelections-data-nh/master/2024/20241105__nh__general__state__representative__precinct.csv">https://raw.githubusercontent.com/openelections/openelections-data-nh/master/2024/20241105__nh__general__state__representative__precinct.csv</a> (retrieved 2026-11-02)</li>
+<li><code>20241105__nh__general__state__senate__precinct.csv</code> — 2024 State Senate by town/ward and district. Source: <a href="https://raw.githubusercontent.com/openelections/openelections-data-nh/master/2024/20241105__nh__general__state__senate__precinct.csv">https://raw.githubusercontent.com/openelections/openelections-data-nh/master/2024/20241105__nh__general__state__senate__precinct.csv</a> (retrieved 2026-11-02)</li>
+<li><code>README_openelections.md</code> — OpenElections NH repository README (file conventions). Source: <a href="https://github.com/openelections/openelections-data-nh">https://github.com/openelections/openelections-data-nh</a> (retrieved 2026-11-02)</li>
+</ul>
+<h3>2026 polls (Wikipedia tables with links to each pollster's release)</h3>
+<ul>
+<li><code>wiki_generic_polling_2026.html</code> — Checked; page does not exist. Source: <a href="https://en.wikipedia.org/wiki/Nationwide_opinion_polling_for_the_2026_United_States_House_of_Representatives_elections">https://en.wikipedia.org/wiki/Nationwide_opinion_polling_for_the_2026_United_States_House_of_Representatives_elections</a> (retrieved 2026-11-02)</li>
+<li><code>wiki_nh_gov_2026.html</code> — Wikipedia: 2026 governor polling tables (Ayotte v Warmington) with source links. Source: <a href="https://en.wikipedia.org/wiki/2026_New_Hampshire_gubernatorial_election">https://en.wikipedia.org/wiki/2026_New_Hampshire_gubernatorial_election</a> (retrieved 2026-11-02)</li>
+<li><code>wiki_nh_house_2026.html</code> — Wikipedia: NH House generic ballot poll (UNH) and the per-seat incumbent table. Source: <a href="https://en.wikipedia.org/wiki/2026_New_Hampshire_House_of_Representatives_election">https://en.wikipedia.org/wiki/2026_New_Hampshire_House_of_Representatives_election</a> (retrieved 2026-11-02)</li>
+<li><code>wiki_nh_senate_2026.html</code> — Wikipedia: NH Senate generic ballot poll (UNH) and per-district nominees. Source: <a href="https://en.wikipedia.org/wiki/2026_New_Hampshire_Senate_election">https://en.wikipedia.org/wiki/2026_New_Hampshire_Senate_election</a> (retrieved 2026-11-02)</li>
+<li><code>wiki_us_elections_2026.html</code> — Wikipedia: national generic congressional ballot poll tables. Source: <a href="https://en.wikipedia.org/wiki/2026_United_States_elections">https://en.wikipedia.org/wiki/2026_United_States_elections</a> (retrieved 2026-11-02)</li>
+<li><code>wiki_us_house_nh_2026.html</code> — Wikipedia: statewide congressional preference polls and NH-01/NH-02 polls. Source: <a href="https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_New_Hampshire">https://en.wikipedia.org/wiki/2026_United_States_House_of_Representatives_elections_in_New_Hampshire</a> (retrieved 2026-11-02)</li>
+<li><code>wiki_us_senate_nh_2026.html</code> — Wikipedia: 2026 US Senate polls (not used as an input). Source: <a href="https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_New_Hampshire">https://en.wikipedia.org/wiki/2026_United_States_Senate_election_in_New_Hampshire</a> (retrieved 2026-11-02)</li>
+</ul>
+<h3>2022 and 2024 polls and results tables (backtests)</h3>
+<ul>
+<li><code>wiki_generic_2022.html</code> — Checked for national generic ballot polls; only aggregates. Source: <a href="https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections">https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections</a> (retrieved 2026-11-02)</li>
+<li><code>wiki_generic_2024.html</code> — Checked for national generic ballot polls; only aggregates. Source: <a href="https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections">https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections</a> (retrieved 2026-11-02)</li>
+<li><code>wiki_generic_polling_2022.html</code> — Checked; page does not exist. Source: <a href="https://en.wikipedia.org/wiki/Nationwide_opinion_polling_for_the_2022_United_States_House_of_Representatives_elections">https://en.wikipedia.org/wiki/Nationwide_opinion_polling_for_the_2022_United_States_House_of_Representatives_elections</a> (retrieved 2026-11-02)</li>
+<li><code>wiki_generic_polling_2024.html</code> — Checked; page does not exist. Source: <a href="https://en.wikipedia.org/wiki/Nationwide_opinion_polling_for_the_2024_United_States_House_of_Representatives_elections">https://en.wikipedia.org/wiki/Nationwide_opinion_polling_for_the_2024_United_States_House_of_Representatives_elections</a> (retrieved 2026-11-02)</li>
+<li><code>wiki_nh_gov_2022.html</code> — 2022 governor polls (backtest). Source: <a href="https://en.wikipedia.org/wiki/2022_New_Hampshire_gubernatorial_election">https://en.wikipedia.org/wiki/2022_New_Hampshire_gubernatorial_election</a> (retrieved 2026-11-02)</li>
+<li><code>wiki_nh_gov_2024.html</code> — 2024 governor polls (backtest). Source: <a href="https://en.wikipedia.org/wiki/2024_New_Hampshire_gubernatorial_election">https://en.wikipedia.org/wiki/2024_New_Hampshire_gubernatorial_election</a> (retrieved 2026-11-02)</li>
+<li><code>wiki_nh_house_2022.html</code> — Wikipedia: 2022 NH House results by district with pre-election incumbents (incumbency for the 2022 backtest). Source: <a href="https://en.wikipedia.org/wiki/2022_New_Hampshire_House_of_Representatives_election">https://en.wikipedia.org/wiki/2022_New_Hampshire_House_of_Representatives_election</a> (retrieved 2026-11-02)</li>
+<li><code>wiki_nh_house_2024.html</code> — Wikipedia: 2024 NH House results by district with pre-election incumbents. Source: <a href="https://en.wikipedia.org/wiki/2024_New_Hampshire_House_of_Representatives_election">https://en.wikipedia.org/wiki/2024_New_Hampshire_House_of_Representatives_election</a> (retrieved 2026-11-02)</li>
+<li><code>wiki_nh_pres_2024.html</code> — 2024 presidential polls in NH (backtest). Source: <a href="https://en.wikipedia.org/wiki/2024_United_States_presidential_election_in_New_Hampshire">https://en.wikipedia.org/wiki/2024_United_States_presidential_election_in_New_Hampshire</a> (retrieved 2026-11-02)</li>
+<li><code>wiki_nh_senate_2022.html</code> — Wikipedia: 2022 NH Senate results (cross-check). Source: <a href="https://en.wikipedia.org/wiki/2022_New_Hampshire_Senate_election">https://en.wikipedia.org/wiki/2022_New_Hampshire_Senate_election</a> (retrieved 2026-11-02)</li>
+<li><code>wiki_nh_senate_2024.html</code> — Wikipedia: 2024 NH Senate results (cross-check). Source: <a href="https://en.wikipedia.org/wiki/2024_New_Hampshire_Senate_election">https://en.wikipedia.org/wiki/2024_New_Hampshire_Senate_election</a> (retrieved 2026-11-02)</li>
+<li><code>wiki_nh_ussen_2022.html</code> — 2022 US Senate polls (backtest). Source: <a href="https://en.wikipedia.org/wiki/2022_United_States_Senate_election_in_New_Hampshire">https://en.wikipedia.org/wiki/2022_United_States_Senate_election_in_New_Hampshire</a> (retrieved 2026-11-02)</li>
+<li><code>wiki_us_elections_2022.html</code> — Checked for national generic ballot polls; only aggregates. Source: <a href="https://en.wikipedia.org/wiki/2022_United_States_elections">https://en.wikipedia.org/wiki/2022_United_States_elections</a> (retrieved 2026-11-02)</li>
+<li><code>wiki_us_house_nh_2022.html</code> — 2022 NH-01/NH-02 and NH generic ballot polls (backtest). Source: <a href="https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_New_Hampshire">https://en.wikipedia.org/wiki/2022_United_States_House_of_Representatives_elections_in_New_Hampshire</a> (retrieved 2026-11-02)</li>
+<li><code>wiki_us_house_nh_2024.html</code> — 2024 NH-01/NH-02 polls (backtest). Source: <a href="https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_New_Hampshire">https://en.wikipedia.org/wiki/2024_United_States_House_of_Representatives_elections_in_New_Hampshire</a> (retrieved 2026-11-02)</li>
+</ul>
+<h3>Pollster ratings</h3>
+<ul>
+<li><code>538_pollster_ratings_2023.csv</code> — FiveThirtyEight 2023 letter-grade ratings (reference). Source: <a href="https://raw.githubusercontent.com/fivethirtyeight/data/master/pollster-ratings/2023/pollster-ratings.csv">https://raw.githubusercontent.com/fivethirtyeight/data/master/pollster-ratings/2023/pollster-ratings.csv</a> (retrieved 2026-11-02)</li>
+<li><code>538_pollster_ratings_combined.csv</code> — FiveThirtyEight final pollster ratings (2024 methodology): numeric_grade 0-3 used as the pollster quality weight. Source: <a href="https://raw.githubusercontent.com/fivethirtyeight/data/master/pollster-ratings/pollster-ratings-combined.csv">https://raw.githubusercontent.com/fivethirtyeight/data/master/pollster-ratings/pollster-ratings-combined.csv</a> (retrieved 2026-11-02)</li>
+</ul>
+<h3>Boundaries (Census Bureau)</h3>
+<ul>
+<li><code>cb_2024_33_cousub_500k.zip</code> — Census cartographic county subdivisions (towns) 2024. Source: <a href="https://www2.census.gov/geo/tiger/GENZ2024/shp/cb_2024_33_cousub_500k.zip">https://www2.census.gov/geo/tiger/GENZ2024/shp/cb_2024_33_cousub_500k.zip</a> (retrieved 2026-11-02)</li>
+<li><code>cb_2024_us_county_500k.zip</code> — Census cartographic counties 2024. Source: <a href="https://www2.census.gov/geo/tiger/GENZ2024/shp/cb_2024_us_county_500k.zip">https://www2.census.gov/geo/tiger/GENZ2024/shp/cb_2024_us_county_500k.zip</a> (retrieved 2026-11-02)</li>
+<li><code>tl_2020_33_vtd20.zip</code> — Census 2020 voting districts: towns and city wards (map geometry; 2020 ward lines). Source: <a href="https://www2.census.gov/geo/tiger/TIGER2020PL/STATE/33_NEW_HAMPSHIRE/33/tl_2020_33_vtd20.zip">https://www2.census.gov/geo/tiger/TIGER2020PL/STATE/33_NEW_HAMPSHIRE/33/tl_2020_33_vtd20.zip</a> (retrieved 2026-11-02)</li>
+<li><code>tl_2024_33_sldl.zip</code> — Census TIGER 2024 state House (lower) districts: 165 base districts, no floterials (validation). Source: <a href="https://www2.census.gov/geo/tiger/TIGER2024/SLDL/tl_2024_33_sldl.zip">https://www2.census.gov/geo/tiger/TIGER2024/SLDL/tl_2024_33_sldl.zip</a> (retrieved 2026-11-02)</li>
+<li><code>tl_2024_33_sldu.zip</code> — Census TIGER 2024 state Senate districts (validation). Source: <a href="https://www2.census.gov/geo/tiger/TIGER2024/SLDU/tl_2024_33_sldu.zip">https://www2.census.gov/geo/tiger/TIGER2024/SLDU/tl_2024_33_sldu.zip</a> (retrieved 2026-11-02)</li>
+</ul>
+<h3>District compositions (RSA 662, General Court)</h3>
+<ul>
+<li><code>rsa_662-2_councilor_districts.html</code> — RSA 662:2 Executive Council districts (not used). Source: <a href="https://gencourt.state.nh.us/rsa/html/LXIII/662/662-2.htm">https://gencourt.state.nh.us/rsa/html/LXIII/662/662-2.htm</a> (retrieved 2026-11-02)</li>
+<li><code>rsa_662-3_senate_districts.html</code> — RSA 662:3 State Senate districts: towns and wards per district. Source: <a href="https://gencourt.state.nh.us/rsa/html/LXIII/662/662-3.htm">https://gencourt.state.nh.us/rsa/html/LXIII/662/662-3.htm</a> (retrieved 2026-11-02)</li>
+<li><code>rsa_662-5_house_districts.html</code> — RSA 662:5 State Representative districts: towns/wards and seats per district (2022 redistricting). Source: <a href="https://gencourt.state.nh.us/rsa/html/LXIII/662/662-5.htm">https://gencourt.state.nh.us/rsa/html/LXIII/662/662-5.htm</a> (retrieved 2026-11-02)</li>
+</ul></div>
+<h2 id="audit">Data audit: what exists and what is missing</h2>
+<div class="prose"><h1>Data audit: what exists for a New Hampshire Legislature 2026 forecast (as of 2026-11-02)</h1>
+<p>Checked every item in the brief against the live source. Verdicts: <b>OK</b> (official or official-derived, usable as is),</p>
+<p><b>PARTIAL</b> (usable with a documented workaround), <b>GAP</b> (not available from here; the site says so).</p>
+<h2>1. Election returns by town and ward, 2020-2024</h2>
+<table>
+<tr><th>Item</th><th>Verdict</th><th>Finding</th></tr>
+<tr><td>NH Secretary of State results pages</td><td><b>GAP (direct)</b></td><td><code>sos.nh.gov</code> returns HTTP 403 to every non-browser request and the in-app browser is blocked from the domain by organisation policy. No Wayback snapshot exists for the 2024 results page or any 2026 general-election candidate page (only the 2026 primary pages and the <code>2026-election-details</code> stub were archived).</td></tr>
+<tr><td>OpenElections <code>openelections-data-nh</code></td><td><b>OK</b></td><td>Town/ward-level CSVs transcribed from the SoS tabulations for every 2022 and 2024 general-election race (president, governor, US Senate, US House, Executive Council, State Senate, State Representative) plus one combined 2020 general file (president, governor, US Senate, US House, State Senate, State House). Statewide sums match the certified totals to within a few votes (2024 president D 418,488 / R 395,523 vs certified 418,496 / 395,523; 2024 governor 360,149 / 436,122; 2022 governor 256,766 / 352,813; 2022 US Senate 332,490 / 275,631). Cities are reported by ward (Manchester 12, Nashua 9, Concord 10, Dover 6, Rochester 6, Keene 5, Laconia 6, Lebanon 3, Portsmouth 5, Somersworth 5, Franklin 3, Claremont 3, Berlin 4).</td></tr>
+<tr><td>OpenElections quirks found</td><td><b>PARTIAL</b></td><td>(a) The 2020 file carries county-subtotal and <code>TOTALS</code> rows that must be dropped (they double the statewide sum). (b) Unincorporated places are spelled differently across years (<code>Atk. & Gilm. Ac. Gt.</code> vs <code>At. & Gil. Academy Grant</code> vs <code>Atkinson & Gilmanton Academy Grant</code>); a name-normalisation table is needed. (c) State Representative files label Dover Ward 3 as Strafford 15 in both years; by statute Dover Ward 2 is Strafford 15 and Dover Ward 3 is Strafford 16, so the row is relabelled. In 2022 the Dover Ward 3 Democratic candidate's votes appear under <code>Scatter</code> (1,766 votes). (d) 2022 state-rep rows carry surnames only; 2024 rows carry full names. (e) Party codes include suffix noise (<code>JR., R</code>); last token is the party. (f) Floterial districts are suffixed <code>F</code> (e.g. <code>Belknap 8F</code>). With the Dover fix, the aggregated 2024 seat split reproduces the official 222 R / 178 D and 2022 reproduces 201 R / 199 D to within one or two seats before recount adjustments.</td></tr>
+<tr><td>MIT Election Data + Science Lab</td><td>not needed</td><td>Precinct returns exist for 2020 and 2022 but add nothing beyond OpenElections for NH (towns are the precincts); kept as a cross-check reference only.</td></tr>
+</table>
+<h2>2. District compositions (towns and wards -> districts)</h2>
+<table>
+<tr><th>Item</th><th>Verdict</th><th>Finding</th></tr>
+<tr><td>RSA 662:5 (House)</td><td><b>OK</b></td><td>The statute text at gencourt.state.nh.us lists all 203 districts by county with their towns/wards and seat counts; parsed total is exactly 400 seats (Hillsborough 45 districts, Rockingham 40, Merrimack 30, Strafford 21, Cheshire 18, Grafton 18, Belknap 8, Carroll 8, Sullivan 8, Coos 7). Floterials are the higher-numbered districts whose towns repeat earlier districts.</td></tr>
+<tr><td>RSA 662:3 (Senate)</td><td><b>OK</b></td><td>All 24 districts by town; three cities are split by ward (Nashua wards 1,2,5 in SD-12 and 3,4,6,7,8,9 in SD-13; Manchester ward 1 in SD-16, 5-9 in SD-18, 2,3,4,10,11,12 in SD-20).</td></tr>
+<tr><td>Redistricting Data Hub / Dave's Redistricting</td><td>not needed</td><td>Block-equivalency files require an account; the statutes are the legal definition and match OpenElections' district labels.</td></tr>
+</table>
+<h2>3. Boundaries for the map</h2>
+<table>
+<tr><th>Item</th><th>Verdict</th><th>Finding</th></tr>
+<tr><td>Census TIGER 2024 SLDL/SLDU</td><td><b>PARTIAL</b></td><td>SLDL has 165 polygons = the 165 base (non-floterial) House districts; floterials are absent and must be built as unions of their towns. SLDU has the 24 Senate districts (plus one water/undefined polygon).</td></tr>
+<tr><td>Census cartographic county subdivisions 2024</td><td><b>OK</b></td><td>259 towns, cities and unincorporated places for a town-level map; cities are single polygons (no wards).</td></tr>
+<tr><td>Census 2020 VTDs</td><td><b>OK (caveat)</b></td><td>326 voting districts including every city ward, so the map can show wards; ward lines are the 2020 vintage and a few cities adjusted wards in 2021-22. Used for display only, never for vote aggregation.</td></tr>
+</table>
+<h2>4. Current membership and vacancies</h2>
+<table>
+<tr><th>Item</th><th>Verdict</th><th>Finding</th></tr>
+<tr><td>General Court <code>downloads/Members.txt</code></td><td><b>OK</b></td><td>Tab-delimited roster with party, county, district, status (Incumbent / new / Former). Senate: 16 R, 8 D in 24 seats. House rows are incomplete (366 sitting members listed vs 382 qualified).</td></tr>
+<tr><td>House Clerk <code>RDSE.pdf</code> (Aug 27, 2026)</td><td><b>OK</b></td><td>Official vacancy list: 211 R, 170 D, 1 independent, 18 vacancies (19 resignations, 2 deaths, 3 special elections since Dec 2024). This is the authoritative "current numbers" figure; the brief's "roughly 222 to 178" is the post-2024 count.</td></tr>
+<tr><td>Wikipedia 2026 NH House page</td><td><b>OK</b></td><td>Per-district table of every seat's incumbent with party (220 R / 178 D listed at the seat level), used to assign each seat's holder; cross-checked against RDSE.</td></tr>
+</table>
+<h2>5. 2026 candidates</h2>
+<table>
+<tr><th>Item</th><th>Verdict</th><th>Finding</th></tr>
+<tr><td>SoS general-election candidate list</td><td><b>GAP (direct)</b></td><td>Blocked as above and not archived.</td></tr>
+<tr><td>Ballotpedia chamber pages</td><td><b>OK (secondary)</b></td><td>Both chamber pages carry a complete general-election candidate table by district with party columns, seat counts, incumbent <code>(i)</code> marks, an <code>Other</code> column and notes such as <code>(unofficially withdrew)</code> and <code>Did not make the ballot</code>. Ballotpedia compiles these from the SoS filings.</td></tr>
+<tr><td>Wikipedia 2026 Senate page</td><td><b>OK</b></td><td>Per-district nominees and incumbent status; used to cross-check Ballotpedia.</td></tr>
+</table>
+<h2>6. Polling</h2>
+<table>
+<tr><th>Item</th><th>Verdict</th><th>Finding</th></tr>
+<tr><td>NH legislative generic ballot</td><td><b>OK (one poll)</b></td><td>UNH Survey Center, Sept 17-21 2026, 1,418 LV: NH House control D 49 / R 39, NH Senate D 51 / R 41. The only direct legislative generic ballot found.</td></tr>
+<tr><td>2026 governor (Ayotte v Warmington)</td><td><b>OK</b></td><td>17 head-to-head polls on Wikipedia with source links, including UNH Oct 27-31 (48-48), National Public Affairs (R) Oct 25-29, Rasmussen Oct 20-23, Saint Anselm Oct 19-20.</td></tr>
+<tr><td>NH-01 and NH-02 general-election polls</td><td><b>OK (thin)</b></td><td>NH-01 Shaheen v DiLorenzo: 2 polls (Saint Anselm Oct, UNH Sept). NH-02 Goodlander v Tang Williams: 11 polls. Plus two statewide "which party for Congress" polls (Saint Anselm Oct 19-20 D 52-43; NYT/Siena Sept 15-22 D 52-43).</td></tr>
+<tr><td>National generic ballot 2026</td><td><b>OK</b></td><td>Individual polls (about 700 rows) on Wikipedia's 2026 United States elections page with links.</td></tr>
+<tr><td>Pollster ratings</td><td><b>PARTIAL</b></td><td>FiveThirtyEight's final (2024-methodology) ratings archive on GitHub; Silver Bulletin's current ratings are behind Datawrapper embeds. UNH, Saint Anselm and Emerson are all rated.</td></tr>
+<tr><td>2022 backtest polls</td><td><b>OK</b></td><td>Wikipedia tables: governor Sununu v Sherman (28), US Senate Hassan v Bolduc (35), NH-01 and NH-02 (7 each) and NH congressional generic (6-7).</td></tr>
+<tr><td>2024 backtest polls</td><td><b>OK</b></td><td>President Harris v Trump in NH (21), governor Ayotte v Craig (16), NH-01 (8), NH-02 (7).</td></tr>
+<tr><td>National generic ballot 2022/2024 for backtests</td><td><b>GAP</b></td><td>No Wikipedia poll list with URLs survives for those cycles and the FiveThirtyEight CSVs are offline; backtests use NH-specific polls only and say so.</td></tr>
+</table>
+<h2>7. Not found / not used</h2>
+<ul>
+<li>Seat-level outside ratings for NH legislative districts in 2026 (none published; Sabato and State Navigate rate chamber control only).</li>
+<li>District-level legislative polls (none public).</li>
+<li>Campaign finance by candidate (NH's CFS portal is a JavaScript application without a bulk export reachable from here). Not used.</li>
+<li>Prediction markets (not an input in any case).</li>
+</ul>
+<h2>Consequences for the model</h2>
+<p>1. Town-level baselines are exact for every district (towns and wards are the atoms of NH districts), including floterials, for 2024 president, 2024 governor, 2022 governor, 2022 US Senate and 2020 president.</p>
+<p>2. Candidate data rests on Ballotpedia's transcription of SoS filings rather than the filings themselves; the site discloses this on every page that uses it.</p>
+<p>3. There is one direct legislative generic-ballot poll, so the statewide environment leans on the governor race (with a large personal-vote correction for Ayotte, who ran 12 points ahead of the 2024 presidential result), the two congressional districts, the statewide congressional preference and the national generic ballot.</p>
+<p>4. House 2022 incumbency for the backtest comes from Wikipedia's per-district incumbent column, since 2020 results are on the old map.</p></div>
+
+</main>
+<footer>
+  Forecast as of 2026-11-02 · 1 day to Election Day (2026-11-03) · 40,000 simulations · generated 2026-11-02 17:11.
+  Public data only; every source and retrieval date is on the <a href="sources.html">sources page</a>. Candidate lists come from Ballotpedia's transcription of Secretary of State filings. Not affiliated with any campaign, party, caucus or outlet.
+</footer>
+<div class="tooltip" id="tip"></div>
+<script src="assets/app.js"></script>
+
+</body>
+</html>

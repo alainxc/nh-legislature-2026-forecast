@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+{% block title %}House District {{ d.label }} · NH Legislature 2026{% endblock %}
+{% block body %}
+<p class="sub"><a href="../seats.html">← All seats</a></p>
+<h1>House District {{ d.label }}</h1>
+<p class="sub">{{ d.region_label }} · {{ d.seats }} seat{{ 's' if d.seats>1 }} · {{ d.town_list|join(', ') }}{% if d.floterial %} · <b>floterial</b>: these towns also elect representatives in their base districts{% endif %}</p>
+<div class="grid">
+  <div class="card">
+    <h2>Forecast</h2>
+    <div class="big"><span class="dem">{{ d.d_seats_mean|round(1) }}</span> <span class="note" style="font-size:16px">expected Democratic seat{{ 's' if d.seats>1 }} of {{ d.seats }}</span></div>
+    <div class="bar"><span style="width:{{ d.p_dem*100 }}%;background:var(--dem)"></span></div>
+    <dl class="kv">
+      <dt>Held today</dt><dd>{{ d.held_d }} D, {{ d.held_r }} R{% if d.held_i %}, {{ d.held_i }} independent{% endif %}{% if d.vacant %}, {{ d.vacant }} vacant{% endif %}</dd>
+      <dt>On the ballot</dt><dd>{{ d.n_d }} Democrat{{ 's' if d.n_d!=1 }}, {{ d.n_r }} Republican{{ 's' if d.n_r!=1 }}{% if d.n_other %}, {{ d.n_other }} other{% endif %} for {{ d.seats }} seat{{ 's' if d.seats>1 }}{% if d.uncontested %} — <b>everyone on the ballot wins</b>{% endif %}</dd>
+      <dt>District party margin</dt><dd>{{ fmt_m(d.margin_mean) }} (90% range {{ fmt_m(d.margin_p05) }} to {{ fmt_m(d.margin_p95) }})</dd>
+      <dt>Chance Democrats gain seats here</dt><dd>{{ (d.p_d_gain*100)|round|int }}%</dd>
+      <dt>Chance Democrats lose seats here</dt><dd>{{ (d.p_d_loss*100)|round|int }}%</dd>
+      <dt>Rating (seat share)</dt><dd>{{ d.rating }}</dd>
+    </dl>
+    <h3>Seat split distribution</h3>
+    <svg id="seatdist" width="100%" height="120"></svg>
+  </div>
+  <div class="card">
+    <h2>Candidates</h2>
+    <table><thead><tr><th>Candidate</th><th>Party</th><th class="num">Win chance</th></tr></thead><tbody>
+    {% for c in d.candidates|sort(attribute='p_win', reverse=True) %}<tr><td>{{ c.name }}{% if c.incumbent %} <span class="note">(incumbent)</span>{% endif %}</td><td><span class="pill" style="background:var(--{{ 'dem' if c.party=='D' else 'rep' if c.party=='R' else 'tie' }})">{{ c.ballot_party }}</span></td><td class="num">{{ (c.p_win*100)|round|int }}%</td></tr>{% endfor %}
+    </tbody></table>
+    <h3>How the forecast was built</h3>
+    <table class="waterfall">
+      <tr><td>Statewide generic legislative margin (environment)</td><td>{{ fmt_m(b.statewide_generic_margin) }}</td></tr>
+      <tr><td>+ District partisan lean</td><td>{{ fmt_pm(b.baseline_lean) }}</td></tr>
+      <tr class="total"><td>= Expected party margin (mean Democratic candidate vs mean Republican candidate)</td><td>{{ fmt_m(b.district_party_margin) }}</td></tr>
+    </table>
+    <p class="note">Each candidate's share is the party's share plus {{ cfg.candidates.house_incumbency_advantage_pts }} points if an incumbent, plus a candidate-specific draw (SD {{ d.candidate_sd|round(1) }} points, estimated from how far same-party candidates finished apart in 2022 and 2024). The district margin itself carries statewide, regional and district error (district SD {{ d.sd_district|round(1) }} pts). The top {{ d.seats }} by share win. Independents are placed with the weaker major party minus a {{ cfg.candidates.independent_challenger.baseline_penalty_pts }}-point penalty.</p>
+  </div>
+</div>
+<h2>Inputs</h2>
+<div class="grid">
+  <div class="card"><h3>Partisan lean (exact by town{{ 's' if d.town_list|length>1 }})</h3>
+  <table><thead><tr><th>Race</th><th class="num">District</th><th class="num">Statewide</th><th class="num">Lean</th><th class="num">Weight</th></tr></thead><tbody>
+  {% for race, c in d.lean_components.items() %}<tr><td>{{ race_label(race) }}</td><td class="num">{{ fmt_m(c.district_margin) }}</td><td class="num">{{ fmt_m(c.statewide_margin) }}</td><td class="num">{{ fmt_pm(c.lean) }}</td><td class="num">{{ c.weight }}</td></tr>{% endfor %}
+  </tbody></table>
+  {% if b.lean_from_last_legislative_result and b.lean_from_last_legislative_result.used %}{% set l=b.lean_from_last_legislative_result %}<p class="note">Last House result ({{ l.year }}): party margin {{ fmt_m(l.margin) }} vs a statewide legislative environment of {{ fmt_m(l.leg_environment) }}, incumbency removed ({{ fmt_pm(-l.incumbency_removed) }}) → lean {{ fmt_pm(l.lean) }}, blended at {{ (cfg.baseline.legislative_result_weight*100)|round|int }}%.</p>{% elif b.lean_from_last_legislative_result %}<p class="note">Last House result not used as a lean ({{ b.lean_from_last_legislative_result.reason }}).</p>{% endif %}
+  </div>
+  <div class="card"><h3>Past results in this district</h3>
+  {% for h in hist %}<h4 style="margin:8px 0 2px">{{ h.year }} — D {{ h.d_seats }}, R {{ h.r_seats }} of {{ h.seats }}{% if h.contested %} · party margin {{ fmt_m(h.margin) }}{% else %} · uncontested{% endif %}</h4>
+  <table><tbody>{% for c in hist_c[(d.key, h.year)] %}<tr><td><span class="pill" style="background:var(--{{ 'dem' if c.party=='D' else 'rep' if c.party=='R' else 'tie' }})">{{ c.party }}</span> {{ c.name }}{% if c.incumbent %} (i){% endif %}</td><td class="num">{{ "{:,}".format(c.votes) if c.votes is not none else '' }}</td><td>{{ '✓' if c.won else '' }}</td></tr>{% endfor %}</tbody></table>{% endfor %}
+  </div>
+</div>
+{% endblock %}
+{% block scripts %}
+<script>drawSeatSplit('seatdist', {{ d.seat_distribution|tojson }}, {{ d.seats }});</script>
+{% endblock %}

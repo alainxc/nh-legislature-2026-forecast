@@ -1,0 +1,37 @@
+[
+ {
+  "file": "cb_2024_33_cousub_500k.zip",
+  "source_url": "https://www2.census.gov/geo/tiger/GENZ2024/shp/cb_2024_33_cousub_500k.zip",
+  "retrieved_at": "2026-11-02T16:32:22-05:00",
+  "description": "Census cartographic county subdivisions (towns) 2024.",
+  "bytes": 126531
+ },
+ {
+  "file": "cb_2024_us_county_500k.zip",
+  "source_url": "https://www2.census.gov/geo/tiger/GENZ2024/shp/cb_2024_us_county_500k.zip",
+  "retrieved_at": "2026-11-02T16:32:23-05:00",
+  "description": "Census cartographic counties 2024.",
+  "bytes": 11626066
+ },
+ {
+  "file": "tl_2020_33_vtd20.zip",
+  "source_url": "https://www2.census.gov/geo/tiger/TIGER2020PL/STATE/33_NEW_HAMPSHIRE/33/tl_2020_33_vtd20.zip",
+  "retrieved_at": "2026-11-02T16:39:51-05:00",
+  "description": "Census 2020 voting districts: towns and city wards (map geometry; 2020 ward lines).",
+  "bytes": 1253812
+ },
+ {
+  "file": "tl_2024_33_sldl.zip",
+  "source_url": "https://www2.census.gov/geo/tiger/TIGER2024/SLDL/tl_2024_33_sldl.zip",
+  "retrieved_at": "2026-11-02T16:32:22-05:00",
+  "description": "Census TIGER 2024 state House (lower) districts: 165 base districts, no floterials (validation).",
+  "bytes": 980779
+ },
+ {
+  "file": "tl_2024_33_sldu.zip",
+  "source_url": "https://www2.census.gov/geo/tiger/TIGER2024/SLDU/tl_2024_33_sldu.zip",
+  "retrieved_at": "2026-11-02T16:32:22-05:00",
+  "description": "Census TIGER 2024 state Senate districts (validation).",
+  "bytes": 562875
+ }
+]

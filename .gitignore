@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+audit/
+pa-reference/
+data/raw/shapes/tl_*/
+data/raw/shapes/cb_*/
+data/raw/shapes/cb_2024_us_county_500k.zip

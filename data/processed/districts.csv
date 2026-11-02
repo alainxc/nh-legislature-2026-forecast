@@ -1,0 +1,228 @@
+chamber,key,district_id,county,number,floterial,seats,n_towns,towns
+house,Belknap-1,Belknap 1,Belknap,1,False,1,2,Center Harbor|New Hampton
+house,Belknap-2,Belknap 2,Belknap,2,False,2,1,Meredith
+house,Belknap-3,Belknap 3,Belknap,3,False,1,2,Sanbornton|Tilton
+house,Belknap-4,Belknap 4,Belknap,4,False,1,1,Belmont
+house,Belknap-5,Belknap 5,Belknap,5,False,4,5,Laconia Ward 1|Laconia Ward 3|Laconia Ward 4|Laconia Ward 5|Laconia Ward 6
+house,Belknap-6,Belknap 6,Belknap,6,False,4,3,Gilford|Gilmanton|Laconia Ward 2
+house,Belknap-7,Belknap 7,Belknap,7,False,3,2,Alton|Barnstead
+house,Belknap-8,Belknap 8,Belknap,8,True,2,3,Belmont|Sanbornton|Tilton
+house,Carroll-1,Carroll 1,Carroll,1,False,3,1,Conway
+house,Carroll-2,Carroll 2,Carroll,2,False,2,7,Albany|Bartlett|Chatham|Hale's Location|Hart's Location|Jackson|Sandwich
+house,Carroll-3,Carroll 3,Carroll,3,False,2,3,Madison|Moultonborough|Tamworth
+house,Carroll-4,Carroll 4,Carroll,4,False,2,5,Brookfield|Eaton|Effingham|Freedom|Wakefield
+house,Carroll-5,Carroll 5,Carroll,5,False,1,1,Ossipee
+house,Carroll-6,Carroll 6,Carroll,6,False,2,2,Tuftonboro|Wolfeboro
+house,Carroll-7,Carroll 7,Carroll,7,True,1,3,Ossipee|Tuftonboro|Wolfeboro
+house,Carroll-8,Carroll 8,Carroll,8,True,2,8,Brookfield|Eaton|Effingham|Freedom|Madison|Moultonborough|Tamworth|Wakefield
+house,Cheshire-1,Cheshire 1,Cheshire,1,False,1,1,Keene Ward 1
+house,Cheshire-2,Cheshire 2,Cheshire,2,False,1,1,Keene Ward 3
+house,Cheshire-3,Cheshire 3,Cheshire,3,False,1,1,Keene Ward 5
+house,Cheshire-4,Cheshire 4,Cheshire,4,False,1,1,Keene Ward 4
+house,Cheshire-5,Cheshire 5,Cheshire,5,False,1,2,Surry|Walpole
+house,Cheshire-6,Cheshire 6,Cheshire,6,False,2,3,Chesterfield|Hinsdale|Westmoreland
+house,Cheshire-7,Cheshire 7,Cheshire,7,False,1,1,Keene Ward 2
+house,Cheshire-8,Cheshire 8,Cheshire,8,False,1,5,Harrisville|Marlborough|Nelson|Roxbury|Sullivan
+house,Cheshire-9,Cheshire 9,Cheshire,9,False,1,4,Alstead|Gilsum|Marlow|Stoddard
+house,Cheshire-10,Cheshire 10,Cheshire,10,False,2,2,Richmond|Swanzey
+house,Cheshire-11,Cheshire 11,Cheshire,11,False,1,1,Winchester
+house,Cheshire-12,Cheshire 12,Cheshire,12,False,1,2,Fitzwilliam|Troy
+house,Cheshire-13,Cheshire 13,Cheshire,13,False,1,2,Dublin|Jaffrey
+house,Cheshire-14,Cheshire 14,Cheshire,14,False,1,1,Rindge
+house,Cheshire-15,Cheshire 15,Cheshire,15,True,2,9,Chesterfield|Hinsdale|Keene Ward 1|Keene Ward 3|Keene Ward 4|Keene Ward 5|Surry|Walpole|Westmoreland
+house,Cheshire-16,Cheshire 16,Cheshire,16,True,1,10,Alstead|Gilsum|Harrisville|Keene Ward 2|Marlborough|Marlow|Nelson|Roxbury|Stoddard|Sullivan
+house,Cheshire-17,Cheshire 17,Cheshire,17,True,1,5,Fitzwilliam|Richmond|Swanzey|Troy|Winchester
+house,Cheshire-18,Cheshire 18,Cheshire,18,True,2,3,Dublin|Jaffrey|Rindge
+house,Coos-1,Coos 1,Coos,1,False,2,4,Dalton|Lancaster|Northumberland|Stratford
+house,Coos-2,Coos 2,Coos,2,False,1,14,Atkinson & Gilmanton Academy Grant|Cambridge|Clarksville|Dix's Grant|Dixville|Dummer|Errol|Milan|Millsfield|Odell|Pittsburg|Second College Grant|Stark|Wentworth's Location
+house,Coos-3,Coos 3,Coos,3,False,1,4,Colebrook|Columbia|Erving's Location|Stewartstown
+house,Coos-4,Coos 4,Coos,4,False,1,4,Carroll|Jefferson|Kilkenny|Whitefield
+house,Coos-5,Coos 5,Coos,5,False,2,1,Berlin
+house,Coos-6,Coos 6,Coos,6,False,1,16,Bean's Grant|Bean's Purchase|Chandler's Purchase|Crawford's Purchase|Cutt's Grant|Gorham|Green's Grant|Hadley's Purchase|Low and Burbank's Grant|Martin's Location|Pinkham's Grant|Randolph|Sargent's Purchase|Shelburne|Success|Thompson and Meserve's Purchase
+house,Coos-7,Coos 7,Coos,7,True,1,5,Berlin|Carroll|Jefferson|Kilkenny|Whitefield
+house,Grafton-1,Grafton 1,Grafton,1,False,3,6,Bath|Lisbon|Littleton|Lyman|Monroe|Sugar Hill
+house,Grafton-2,Grafton 2,Grafton,2,False,1,2,Bethlehem|Franconia
+house,Grafton-3,Grafton 3,Grafton,3,False,1,4,Easton|Lincoln|Livermore|Woodstock
+house,Grafton-4,Grafton 4,Grafton,4,False,1,3,Ellsworth|Thornton|Waterville Valley
+house,Grafton-5,Grafton 5,Grafton,5,False,2,5,Benton|Haverhill|Landaff|Piermont|Warren
+house,Grafton-6,Grafton 6,Grafton,6,False,1,3,Orford|Rumney|Wentworth
+house,Grafton-7,Grafton 7,Grafton,7,False,1,1,Campton
+house,Grafton-8,Grafton 8,Grafton,8,False,3,3,Ashland|Holderness|Plymouth
+house,Grafton-9,Grafton 9,Grafton,9,False,1,3,Canaan|Dorchester|Orange
+house,Grafton-10,Grafton 10,Grafton,10,False,1,2,Bridgewater|Bristol
+house,Grafton-11,Grafton 11,Grafton,11,False,1,4,Alexandria|Grafton|Groton|Hebron
+house,Grafton-12,Grafton 12,Grafton,12,False,4,2,Hanover|Lyme
+house,Grafton-13,Grafton 13,Grafton,13,False,1,1,Lebanon Ward 1
+house,Grafton-14,Grafton 14,Grafton,14,False,1,1,Lebanon Ward 2
+house,Grafton-15,Grafton 15,Grafton,15,False,1,1,Lebanon Ward 3
+house,Grafton-16,Grafton 16,Grafton,16,False,1,1,Enfield
+house,Grafton-17,Grafton 17,Grafton,17,True,1,3,Lebanon Ward 1|Lebanon Ward 2|Lebanon Ward 3
+house,Grafton-18,Grafton 18,Grafton,18,True,1,10,Alexandria|Bridgewater|Bristol|Canaan|Dorchester|Enfield|Grafton|Groton|Hebron|Orange
+house,Hillsborough-1,Hillsborough 1,Hillsborough,1,False,4,1,Pelham
+house,Hillsborough-2,Hillsborough 2,Hillsborough,2,False,7,1,Bedford
+house,Hillsborough-3,Hillsborough 3,Hillsborough,3,False,3,1,Nashua Ward 4
+house,Hillsborough-4,Hillsborough 4,Hillsborough,4,False,3,1,Nashua Ward 2
+house,Hillsborough-5,Hillsborough 5,Hillsborough,5,False,3,1,Nashua Ward 1
+house,Hillsborough-6,Hillsborough 6,Hillsborough,6,False,3,1,Nashua Ward 3
+house,Hillsborough-7,Hillsborough 7,Hillsborough,7,False,3,1,Nashua Ward 7
+house,Hillsborough-8,Hillsborough 8,Hillsborough,8,False,3,1,Nashua Ward 6
+house,Hillsborough-9,Hillsborough 9,Hillsborough,9,False,3,1,Nashua Ward 5
+house,Hillsborough-10,Hillsborough 10,Hillsborough,10,False,3,1,Nashua Ward 9
+house,Hillsborough-11,Hillsborough 11,Hillsborough,11,False,3,1,Nashua Ward 8
+house,Hillsborough-12,Hillsborough 12,Hillsborough,12,False,8,1,Merrimack
+house,Hillsborough-13,Hillsborough 13,Hillsborough,13,False,6,1,Hudson
+house,Hillsborough-14,Hillsborough 14,Hillsborough,14,False,2,1,Litchfield
+house,Hillsborough-15,Hillsborough 15,Hillsborough,15,False,2,1,Manchester Ward 8
+house,Hillsborough-16,Hillsborough 16,Hillsborough,16,False,2,1,Manchester Ward 6
+house,Hillsborough-17,Hillsborough 17,Hillsborough,17,False,2,1,Manchester Ward 2
+house,Hillsborough-18,Hillsborough 18,Hillsborough,18,False,2,1,Manchester Ward 12
+house,Hillsborough-19,Hillsborough 19,Hillsborough,19,False,2,1,Manchester Ward 10
+house,Hillsborough-20,Hillsborough 20,Hillsborough,20,False,2,1,Manchester Ward 9
+house,Hillsborough-21,Hillsborough 21,Hillsborough,21,False,2,1,Manchester Ward 1
+house,Hillsborough-22,Hillsborough 22,Hillsborough,22,False,2,1,Manchester Ward 11
+house,Hillsborough-23,Hillsborough 23,Hillsborough,23,False,2,1,Manchester Ward 3
+house,Hillsborough-24,Hillsborough 24,Hillsborough,24,False,2,1,Manchester Ward 4
+house,Hillsborough-25,Hillsborough 25,Hillsborough,25,False,2,1,Manchester Ward 5
+house,Hillsborough-26,Hillsborough 26,Hillsborough,26,False,2,1,Manchester Ward 7
+house,Hillsborough-27,Hillsborough 27,Hillsborough,27,False,1,2,Deering|Francestown
+house,Hillsborough-28,Hillsborough 28,Hillsborough,28,False,2,1,Weare
+house,Hillsborough-29,Hillsborough 29,Hillsborough,29,False,4,1,Goffstown
+house,Hillsborough-30,Hillsborough 30,Hillsborough,30,False,3,4,Antrim|Bennington|Hillsborough|Windsor
+house,Hillsborough-31,Hillsborough 31,Hillsborough,31,False,1,2,Greenfield|Hancock
+house,Hillsborough-32,Hillsborough 32,Hillsborough,32,False,3,3,New Ipswich|Temple|Wilton
+house,Hillsborough-33,Hillsborough 33,Hillsborough,33,False,2,2,Peterborough|Sharon
+house,Hillsborough-34,Hillsborough 34,Hillsborough,34,False,3,1,Amherst
+house,Hillsborough-35,Hillsborough 35,Hillsborough,35,False,2,1,Hollis
+house,Hillsborough-36,Hillsborough 36,Hillsborough,36,False,2,3,Brookline|Greenville|Mason
+house,Hillsborough-37,Hillsborough 37,Hillsborough,37,True,1,2,Amherst|Milford
+house,Hillsborough-38,Hillsborough 38,Hillsborough,38,True,2,2,Hudson|Litchfield
+house,Hillsborough-39,Hillsborough 39,Hillsborough,39,True,2,3,Manchester Ward 6|Manchester Ward 8|Manchester Ward 9
+house,Hillsborough-40,Hillsborough 40,Hillsborough,40,True,4,5,Manchester Ward 1|Manchester Ward 3|Manchester Ward 10|Manchester Ward 11|Manchester Ward 12
+house,Hillsborough-41,Hillsborough 41,Hillsborough,41,True,3,4,Manchester Ward 2|Manchester Ward 4|Manchester Ward 5|Manchester Ward 7
+house,Hillsborough-42,Hillsborough 42,Hillsborough,42,False,3,3,Lyndeborough|Mont Vernon|New Boston
+house,Hillsborough-43,Hillsborough 43,Hillsborough,43,False,4,1,Milford
+house,Hillsborough-44,Hillsborough 44,Hillsborough,44,True,2,2,Goffstown|Weare
+house,Hillsborough-45,Hillsborough 45,Hillsborough,45,True,1,4,Brookline|Greenville|Hollis|Mason
+house,Merrimack-1,Merrimack 1,Merrimack,1,False,1,1,Boscawen
+house,Merrimack-2,Merrimack 2,Merrimack,2,False,1,1,Northfield
+house,Merrimack-3,Merrimack 3,Merrimack,3,False,2,3,Franklin Ward 1|Franklin Ward 2|Franklin Ward 3
+house,Merrimack-4,Merrimack 4,Merrimack,4,False,2,2,Canterbury|Loudon
+house,Merrimack-5,Merrimack 5,Merrimack,5,False,2,5,Andover|Danbury|Hill|Salisbury|Webster
+house,Merrimack-6,Merrimack 6,Merrimack,6,False,1,2,Sutton|Wilmot
+house,Merrimack-7,Merrimack 7,Merrimack,7,False,2,2,New London|Newbury
+house,Merrimack-8,Merrimack 8,Merrimack,8,False,3,3,Bradford|Henniker|Warner
+house,Merrimack-9,Merrimack 9,Merrimack,9,False,4,2,Bow|Hopkinton
+house,Merrimack-10,Merrimack 10,Merrimack,10,False,4,2,Dunbarton|Hooksett
+house,Merrimack-11,Merrimack 11,Merrimack,11,False,1,1,Allenstown
+house,Merrimack-12,Merrimack 12,Merrimack,12,False,2,1,Pembroke
+house,Merrimack-13,Merrimack 13,Merrimack,13,False,2,2,Chichester|Pittsfield
+house,Merrimack-14,Merrimack 14,Merrimack,14,False,1,1,Epsom
+house,Merrimack-15,Merrimack 15,Merrimack,15,False,1,1,Concord Ward 1
+house,Merrimack-16,Merrimack 16,Merrimack,16,False,1,1,Concord Ward 2
+house,Merrimack-17,Merrimack 17,Merrimack,17,False,1,1,Concord Ward 3
+house,Merrimack-18,Merrimack 18,Merrimack,18,False,1,1,Concord Ward 4
+house,Merrimack-19,Merrimack 19,Merrimack,19,False,1,1,Concord Ward 5
+house,Merrimack-20,Merrimack 20,Merrimack,20,False,1,1,Concord Ward 6
+house,Merrimack-21,Merrimack 21,Merrimack,21,False,1,1,Concord Ward 7
+house,Merrimack-22,Merrimack 22,Merrimack,22,False,1,1,Concord Ward 8
+house,Merrimack-23,Merrimack 23,Merrimack,23,False,1,1,Concord Ward 9
+house,Merrimack-24,Merrimack 24,Merrimack,24,False,1,1,Concord Ward 10
+house,Merrimack-25,Merrimack 25,Merrimack,25,True,1,4,Franklin Ward 1|Franklin Ward 2|Franklin Ward 3|Northfield
+house,Merrimack-26,Merrimack 26,Merrimack,26,True,1,8,Andover|Boscawen|Canterbury|Danbury|Hill|Loudon|Salisbury|Webster
+house,Merrimack-27,Merrimack 27,Merrimack,27,True,2,4,Allenstown|Dunbarton|Epsom|Hooksett
+house,Merrimack-28,Merrimack 28,Merrimack,28,True,1,3,Concord Ward 1|Concord Ward 2|Concord Ward 3
+house,Merrimack-29,Merrimack 29,Merrimack,29,True,1,3,Concord Ward 4|Concord Ward 9|Concord Ward 10
+house,Merrimack-30,Merrimack 30,Merrimack,30,True,1,4,Concord Ward 5|Concord Ward 6|Concord Ward 7|Concord Ward 8
+house,Rockingham-1,Rockingham 1,Rockingham,1,False,3,2,Northwood|Nottingham
+house,Rockingham-2,Rockingham 2,Rockingham,2,False,3,3,Auburn|Candia|Deerfield
+house,Rockingham-3,Rockingham 3,Rockingham,3,False,1,1,Chester
+house,Rockingham-4,Rockingham 4,Rockingham,4,False,3,1,Raymond
+house,Rockingham-5,Rockingham 5,Rockingham,5,False,2,1,Epping
+house,Rockingham-6,Rockingham 6,Rockingham,6,False,1,1,Brentwood
+house,Rockingham-7,Rockingham 7,Rockingham,7,False,1,1,Fremont
+house,Rockingham-8,Rockingham 8,Rockingham,8,False,1,1,Danville
+house,Rockingham-9,Rockingham 9,Rockingham,9,False,2,1,Sandown
+house,Rockingham-10,Rockingham 10,Rockingham,10,False,3,2,Newfields|Newmarket
+house,Rockingham-11,Rockingham 11,Rockingham,11,False,4,1,Exeter
+house,Rockingham-12,Rockingham 12,Rockingham,12,False,2,1,Stratham
+house,Rockingham-13,Rockingham 13,Rockingham,13,False,10,1,Derry
+house,Rockingham-14,Rockingham 14,Rockingham,14,False,2,2,East Kingston|Kingston
+house,Rockingham-15,Rockingham 15,Rockingham,15,False,2,1,Hampstead
+house,Rockingham-16,Rockingham 16,Rockingham,16,False,7,1,Londonderry
+house,Rockingham-17,Rockingham 17,Rockingham,17,False,4,1,Windham
+house,Rockingham-18,Rockingham 18,Rockingham,18,False,2,1,Atkinson
+house,Rockingham-19,Rockingham 19,Rockingham,19,False,1,2,Hampton Falls|Kensington
+house,Rockingham-20,Rockingham 20,Rockingham,20,False,3,3,Newton|Plaistow|South Hampton
+house,Rockingham-21,Rockingham 21,Rockingham,21,False,1,2,Newington|Portsmouth Ward 1
+house,Rockingham-22,Rockingham 22,Rockingham,22,False,1,2,New Castle|Portsmouth Ward 5
+house,Rockingham-23,Rockingham 23,Rockingham,23,False,1,1,North Hampton
+house,Rockingham-24,Rockingham 24,Rockingham,24,False,2,2,Greenland|Rye
+house,Rockingham-25,Rockingham 25,Rockingham,25,False,9,1,Salem
+house,Rockingham-26,Rockingham 26,Rockingham,26,False,1,1,Portsmouth Ward 3
+house,Rockingham-27,Rockingham 27,Rockingham,27,False,1,1,Portsmouth Ward 4
+house,Rockingham-28,Rockingham 28,Rockingham,28,False,1,1,Portsmouth Ward 2
+house,Rockingham-29,Rockingham 29,Rockingham,29,False,4,1,Hampton
+house,Rockingham-30,Rockingham 30,Rockingham,30,False,2,1,Seabrook
+house,Rockingham-31,Rockingham 31,Rockingham,31,True,2,4,Auburn|Candia|Chester|Deerfield
+house,Rockingham-32,Rockingham 32,Rockingham,32,True,1,3,Brentwood|Danville|Fremont
+house,Rockingham-33,Rockingham 33,Rockingham,33,True,1,4,Exeter|Newfields|Newmarket|Stratham
+house,Rockingham-34,Rockingham 34,Rockingham,34,True,1,3,East Kingston|Hampstead|Kingston
+house,Rockingham-35,Rockingham 35,Rockingham,35,True,1,2,Londonderry|Windham
+house,Rockingham-36,Rockingham 36,Rockingham,36,True,1,5,Hampton Falls|Kensington|Newton|Plaistow|South Hampton
+house,Rockingham-37,Rockingham 37,Rockingham,37,True,1,4,New Castle|Newington|Portsmouth Ward 1|Portsmouth Ward 5
+house,Rockingham-38,Rockingham 38,Rockingham,38,True,1,3,Greenland|North Hampton|Rye
+house,Rockingham-39,Rockingham 39,Rockingham,39,True,1,3,Portsmouth Ward 2|Portsmouth Ward 3|Portsmouth Ward 4
+house,Rockingham-40,Rockingham 40,Rockingham,40,True,1,2,Hampton|Seabrook
+house,Strafford-1,Strafford 1,Strafford,1,False,2,1,Farmington
+house,Strafford-2,Strafford 2,Strafford,2,False,3,2,Milton|Rochester Ward 5
+house,Strafford-3,Strafford 3,Strafford,3,False,1,2,Middleton|New Durham
+house,Strafford-4,Strafford 4,Strafford,4,False,3,2,Barrington|Strafford
+house,Strafford-5,Strafford 5,Strafford,5,False,1,1,Rochester Ward 1
+house,Strafford-6,Strafford 6,Strafford,6,False,1,1,Rochester Ward 2
+house,Strafford-7,Strafford 7,Strafford,7,False,1,1,Rochester Ward 3
+house,Strafford-8,Strafford 8,Strafford,8,False,1,1,Rochester Ward 4
+house,Strafford-9,Strafford 9,Strafford,9,False,1,1,Rochester Ward 6
+house,Strafford-10,Strafford 10,Strafford,10,False,4,1,Durham
+house,Strafford-11,Strafford 11,Strafford,11,False,3,3,Dover Ward 4|Lee|Madbury
+house,Strafford-12,Strafford 12,Strafford,12,False,4,6,Rollinsford|Somersworth Ward 1|Somersworth Ward 2|Somersworth Ward 3|Somersworth Ward 4|Somersworth Ward 5
+house,Strafford-13,Strafford 13,Strafford,13,False,1,1,Dover Ward 6
+house,Strafford-14,Strafford 14,Strafford,14,False,1,1,Dover Ward 1
+house,Strafford-15,Strafford 15,Strafford,15,False,1,1,Dover Ward 2
+house,Strafford-16,Strafford 16,Strafford,16,False,1,1,Dover Ward 3
+house,Strafford-17,Strafford 17,Strafford,17,False,1,1,Dover Ward 5
+house,Strafford-18,Strafford 18,Strafford,18,True,1,4,Barrington|Middleton|New Durham|Strafford
+house,Strafford-19,Strafford 19,Strafford,19,True,3,5,Rochester Ward 1|Rochester Ward 2|Rochester Ward 3|Rochester Ward 4|Rochester Ward 6
+house,Strafford-20,Strafford 20,Strafford,20,True,1,4,Dover Ward 4|Durham|Lee|Madbury
+house,Strafford-21,Strafford 21,Strafford,21,True,3,5,Dover Ward 1|Dover Ward 2|Dover Ward 3|Dover Ward 5|Dover Ward 6
+house,Sullivan-1,Sullivan 1,Sullivan,1,False,1,1,Grantham
+house,Sullivan-2,Sullivan 2,Sullivan,2,False,1,2,Cornish|Plainfield
+house,Sullivan-3,Sullivan 3,Sullivan,3,False,3,3,Charlestown|Newport|Unity
+house,Sullivan-4,Sullivan 4,Sullivan,4,False,1,5,Acworth|Goshen|Langdon|Lempster|Washington
+house,Sullivan-5,Sullivan 5,Sullivan,5,False,1,2,Springfield|Sunapee
+house,Sullivan-6,Sullivan 6,Sullivan,6,False,3,4,Claremont Ward 1|Claremont Ward 2|Claremont Ward 3|Croydon
+house,Sullivan-7,Sullivan 7,Sullivan,7,True,1,5,Charlestown|Cornish|Newport|Plainfield|Unity
+house,Sullivan-8,Sullivan 8,Sullivan,8,True,2,11,Acworth|Claremont Ward 1|Claremont Ward 2|Claremont Ward 3|Croydon|Goshen|Langdon|Lempster|Springfield|Sunapee|Washington
+senate,S1,District 1,,1,False,1,49,Atkinson & Gilmanton Academy Grant|Bath|Benton|Berlin|Bethlehem|Cambridge|Carroll|Clarksville|Colebrook|Columbia|Dalton|Dix's Grant|Dixville|Dummer|Easton|Ellsworth|Errol|Erving's Location|Franconia|Gorham|Haverhill|Jefferson|Kilkenny|Lancaster|Landaff|Lisbon|Littleton|Low and Burbank's Grant|Lyman|Milan|Millsfield|Monroe|Northumberland|Odell|Piermont|Pittsburg|Randolph|Rumney|Second College Grant|Shelburne|Stark|Stewartstown|Stratford|Success|Sugar Hill|Warren|Wentworth's Location|Whitefield|Woodstock
+senate,S2,District 2,,2,False,1,12,Ashland|Belmont|Campton|Center Harbor|Gilford|Holderness|Laconia|Meredith|New Hampton|Sanbornton|Sandwich|Thornton
+senate,S3,District 3,,3,False,1,34,Albany|Bartlett|Bean's Grant|Bean's Purchase|Brookfield|Chandler's Purchase|Chatham|Conway|Crawford's Purchase|Cutt's Grant|Eaton|Effingham|Freedom|Green's Grant|Hadley's Purchase|Hale's Location|Hart's Location|Jackson|Lincoln|Livermore|Madison|Martin's Location|Middleton|Milton|Moultonborough|Ossipee|Pinkham's Grant|Sargent's Purchase|Tamworth|Thompson and Meserve's Purchase|Tuftonboro|Wakefield|Waterville Valley|Wolfeboro
+senate,S4,District 4,,4,False,1,4,Barrington|Dover|Rollinsford|Somersworth
+senate,S5,District 5,,5,False,1,15,Canaan|Cornish|Dorchester|Enfield|Grantham|Groton|Hanover|Lebanon|Lyme|New London|Orford|Plainfield|Plymouth|Springfield|Wentworth
+senate,S6,District 6,,6,False,1,6,Alton|Farmington|Gilmanton|New Durham|Rochester|Strafford
+senate,S7,District 7,,7,False,1,22,Alexandria|Andover|Boscawen|Bradford|Bridgewater|Bristol|Danbury|Franklin|Goshen|Grafton|Hebron|Henniker|Hill|Hillsborough|Newbury|Orange|Salisbury|Sutton|Tilton|Warner|Webster|Wilmot
+senate,S8,District 8,,8,False,1,20,Acworth|Antrim|Bennington|Charlestown|Claremont|Croydon|Deering|Dunbarton|Francestown|Gilsum|Langdon|Lempster|Marlow|Newport|Stoddard|Sunapee|Unity|Washington|Weare|Windsor
+senate,S9,District 9,,9,False,1,13,Bedford|Fitzwilliam|Greenfield|Hinsdale|Jaffrey|Lyndeborough|Mont Vernon|New Boston|Richmond|Sharon|Temple|Troy|Winchester
+senate,S10,District 10,,10,False,1,15,Alstead|Chesterfield|Dublin|Hancock|Harrisville|Keene|Marlborough|Nelson|Peterborough|Roxbury|Sullivan|Surry|Swanzey|Walpole|Westmoreland
+senate,S11,District 11,,11,False,1,4,Amherst|Merrimack|Milford|Wilton
+senate,S12,District 12,,12,False,1,9,Nashua Ward 1|Nashua Ward 2|Nashua Ward 5|Brookline|Greenville|Hollis|Mason|New Ipswich|Rindge
+senate,S13,District 13,,13,False,1,6,Nashua Ward 3|Nashua Ward 4|Nashua Ward 6|Nashua Ward 7|Nashua Ward 8|Nashua Ward 9
+senate,S14,District 14,,14,False,1,3,Auburn|Hudson|Londonderry
+senate,S15,District 15,,15,False,1,3,Bow|Concord|Hopkinton
+senate,S16,District 16,,16,False,1,5,Manchester Ward 1|Candia|Goffstown|Hooksett|Raymond
+senate,S17,District 17,,17,False,1,12,Allenstown|Barnstead|Canterbury|Chichester|Deerfield|Epsom|Loudon|Northfield|Northwood|Nottingham|Pembroke|Pittsfield
+senate,S18,District 18,,18,False,1,6,Manchester Ward 5|Manchester Ward 6|Manchester Ward 7|Manchester Ward 8|Manchester Ward 9|Litchfield
+senate,S19,District 19,,19,False,1,3,Derry|Hampstead|Windham
+senate,S20,District 20,,20,False,1,6,Manchester Ward 2|Manchester Ward 3|Manchester Ward 4|Manchester Ward 10|Manchester Ward 11|Manchester Ward 12
+senate,S21,District 21,,21,False,1,8,Durham|Lee|Madbury|New Castle|Newfields|Newington|Newmarket|Portsmouth
+senate,S22,District 22,,22,False,1,4,Atkinson|Pelham|Plaistow|Salem
+senate,S23,District 23,,23,False,1,12,Brentwood|Chester|Danville|East Kingston|Epping|Fremont|Kensington|Kingston|Newton|Sandown|Seabrook|South Hampton
+senate,S24,District 24,,24,False,1,7,Exeter|Greenland|Hampton|Hampton Falls|North Hampton|Rye|Stratham

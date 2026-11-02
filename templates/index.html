@@ -1,0 +1,132 @@
+{% extends "base.html" %}
+{% block body %}
+<h1>Who will control the New Hampshire General Court?</h1>
+<p class="sub">Forecast for all 24 State Senate seats{% if 'house' in chambers %} and all 400 State House seats{% endif %} on the ballot November 3, 2026. Updated {{ f.as_of }}.{% if 'house' not in chambers %} <b>The House forecast is being built and will follow.</b>{% endif %}</p>
+
+<div class="grid">
+  {% for ch, label in [('senate','State Senate'), ('house','State House')] if ch in chambers %}
+  {% set c = f.chambers[ch] %}
+  <div class="card">
+    <h2>{{ label }}</h2>
+    {% if c.p_dem_control >= c.p_rep_control %}
+      <div class="big dem">{{ (c.p_dem_control*100)|round|int }}%</div>
+      <div>chance <b>Democrats</b> win a majority of the {{ label }}</div>
+    {% else %}
+      <div class="big rep">{{ (c.p_rep_control*100)|round|int }}%</div>
+      <div>chance <b>Republicans</b> win a majority of the {{ label }}</div>
+    {% endif %}
+    <div class="bar"><span style="width:{{ c.p_dem_control*100 }}%;background:var(--dem)"></span>{% if c.p_tie>0.001 %}<span style="width:{{ c.p_tie*100 }}%;background:var(--tie)"></span>{% endif %}</div>
+    <div class="note">D {{ (c.p_dem_control*100)|round(1) }}% · R {{ (c.p_rep_control*100)|round(1) }}%{% if c.p_tie>0.001 %} · no majority {{ (c.p_tie*100)|round(1) }}%{% endif %}</div>
+    <p>Expected Democratic seats: <b>{{ c.dem_seats_mean|round(1) }}</b> of {{ c.total_seats }} (90% range {{ c.dem_seats_p05|round|int }}–{{ c.dem_seats_p95|round|int }}). Majority is {{ c.majority }}.
+    {% if ch=='senate' %}<span class="note">Republicans hold 16 of 24 seats today.</span>{% else %}<span class="note">Republicans hold 211 seats, Democrats 170, one independent, 18 vacant (House Clerk, Aug 27, 2026).</span>{% endif %}</p>
+    <svg class="dist" data-chamber="{{ ch }}" width="100%" height="160"></svg>
+  </div>
+  {% endfor %}
+</div>
+
+<h2>Statewide environment</h2>
+<div class="card">
+  <p>The model's estimate of the statewide two-party vote in a generic New Hampshire legislative race is
+  <b class="{{ 'dem' if f.environment.generic_legislative_margin>0 else 'rep' }}">{{ 'D' if f.environment.generic_legislative_margin>0 else 'R' }}+{{ f.environment.generic_legislative_margin|abs|round(1) }}</b>.
+  That is built from a generic statewide environment of {{ fmt_m(f.environment.generic_margin) }} (polls {{ (f.environment.poll_share_of_blend*100)|round|int }}%, structural midterm prior {{ ((1-f.environment.poll_share_of_blend)*100)|round|int }}%),
+  minus {{ (-f.environment.legislative_offset)|round(1) }} points because New Hampshire legislative candidates run behind their party's top of the ticket (see the <a href="backtest.html">backtests</a>).
+  The 2024 presidential result here was {{ fmt_m(f.environment.anchor_margin) }}. <a href="environment.html">How this was built →</a></p>
+</div>
+
+<h2>What if the polls are off?</h2>
+<div class="card" id="swing">
+  <p class="sub" style="margin-bottom:10px">Drag to set where the statewide generic legislative vote actually lands and see what each chamber looks like. The model's current estimate is marked. The preset buttons apply the statewide misses measured in the 2022 and 2024 backtests (polls understated Democrats in 2022 and overstated them in 2024). Odds here come from a separate simulation at each statewide value, with regional and district error still in play.</p>
+  <div class="controls">
+    <input type="range" id="swing-range" min="-12" max="20" step="0.5" style="flex:1;min-width:200px">
+    <b id="swing-value" style="min-width:64px;text-align:right"></b>
+    <button class="tab" data-swing="model">Model</button>
+    <button class="tab" data-swing="2024">2024-style miss</button>
+    <button class="tab" data-swing="2022">2022-style miss</button>
+  </div>
+  <div class="grid" style="margin-top:10px">
+    {% for ch, label in [('senate','State Senate'), ('house','State House')] if ch in chambers %}
+    <div>
+      <h3 style="margin:4px 0">{{ label }}</h3>
+      <div class="big" id="swing-{{ ch }}-big"></div>
+      <div id="swing-{{ ch }}-text"></div>
+      <div class="bar" id="swing-{{ ch }}-bar"></div>
+    </div>
+    {% endfor %}
+  </div>
+  <p class="note" id="swing-note"></p>
+</div>
+
+<h2>Maps</h2>
+<div class="controls">
+  <button class="tab active" data-map="senate">State Senate</button>
+  {% if 'house' in chambers %}<button class="tab" data-map="house">State House (base districts)</button>
+  <button class="tab" data-map="towns">Towns</button>{% endif %}
+  <span class="legend"><span>Safe R</span>
+    {% for c in ['#b1261a','#d9402b','#f0a99c','#d8d0e8','#9cc0f0','#2a6fdb','#1b4ea3'] %}<span class="sw" style="background:{{c}}"></span>{% endfor %}
+    <span>Safe D</span></span>
+</div>
+<div class="card" style="padding:6px"><svg id="map" class="map" viewBox="0 0 700 760"></svg></div>
+<p class="note" id="map-note">Hover or tap for details; click to open the district page. Senate districts are coloured by the Democratic win probability. House base districts are coloured by the expected Democratic share of their seats; floterial districts overlap them and are listed on the seats page. The town view colours each town by the expected Democratic share of all House seats covering it (base plus floterial).</p>
+
+<div class="grid">
+  <div class="card">
+    <h2>Senate seats most likely to flip</h2>
+    <table><thead><tr><th>Seat</th><th>Held by</th><th class="num">P(flip)</th><th class="num">P(Dem)</th></tr></thead><tbody>
+    {% for s in flips[:12] %}
+      <tr><td><a href="districts/{{ s.seat }}.html">{{ s.label }}</a></td><td><span class="pill" style="background:var(--{{ 'dem' if s.holder_party=='D' else 'rep' }})">{{ s.holder_party }}</span> {{ s.incumbent_name or 'open' }}</td><td class="num">{{ (s.p_flip*100)|round|int }}%</td><td class="num">{{ (s.p_dem*100)|round|int }}%</td></tr>
+    {% endfor %}
+    </tbody></table>
+  </div>
+  <div class="card">
+    <h2>Closest Senate races</h2>
+    <table><thead><tr><th>Seat</th><th>Candidates</th><th class="num">Margin</th><th class="num">P(Dem)</th></tr></thead><tbody>
+    {% for s in closest[:12] %}
+      <tr><td><a href="districts/{{ s.seat }}.html">{{ s.label }}</a></td><td style="white-space:normal">{{ s.dem_cand or '—' }}{% if s.challenger_party=='D' %} (D){% endif %} v. {{ s.rep_cand or '—' }} (R)</td><td class="num">{{ fmt_m(s.margin_mean) }}</td><td class="num">{{ (s.p_dem*100)|round|int }}%</td></tr>
+    {% endfor %}
+    </tbody></table>
+  </div>
+</div>
+
+{% if 'house' in chambers %}
+<div class="grid">
+  <div class="card">
+    <h2>House districts most likely to change hands</h2>
+    <p class="note">Expected change in Democratic seats versus the seats Democrats hold there now (vacant seats count as held by no one).</p>
+    <table><thead><tr><th>District</th><th class="num">Seats</th><th>Held D–R</th><th class="num">Expected D</th><th class="num">P(D gains)</th><th class="num">P(D loses)</th></tr></thead><tbody>
+    {% for d in house_moves[:15] %}
+      <tr><td><a href="districts/{{ d.key }}.html">{{ d.label }}</a></td><td class="num">{{ d.seats }}</td><td>{{ d.held_d }}–{{ d.held_r }}{% if d.vacant %} ({{ d.vacant }} vac.){% endif %}</td><td class="num">{{ d.d_seats_mean|round(1) }}</td><td class="num">{{ (d.p_d_gain*100)|round|int }}%</td><td class="num">{{ (d.p_d_loss*100)|round|int }}%</td></tr>
+    {% endfor %}
+    </tbody></table>
+  </div>
+  <div class="card">
+    <h2>Closest House districts</h2>
+    <p class="note">Districts where the expected Democratic seat share is nearest to half.</p>
+    <table><thead><tr><th>District</th><th class="num">Seats</th><th>Candidates D–R</th><th class="num">Party margin</th><th class="num">Expected D</th></tr></thead><tbody>
+    {% for d in house_closest[:15] %}
+      <tr><td><a href="districts/{{ d.key }}.html">{{ d.label }}</a></td><td class="num">{{ d.seats }}</td><td>{{ d.n_d }}–{{ d.n_r }}{% if d.n_other %} +{{ d.n_other }}{% endif %}</td><td class="num">{{ fmt_m(d.margin_mean) }}</td><td class="num">{{ d.d_seats_mean|round(1) }}</td></tr>
+    {% endfor %}
+    </tbody></table>
+  </div>
+</div>
+{% endif %}
+
+<h2>Seats by rating</h2>
+<div class="grid">
+{% for ch,label in [('senate','State Senate'),('house','State House (districts, by expected Democratic seat share)')] if ch in chambers %}
+<div class="card"><h3>{{ label }}</h3>
+<table><thead><tr><th>Rating</th><th class="num">{{ 'Seats' if ch=='senate' else 'Districts' }}</th><th>Districts</th></tr></thead><tbody>
+{% for r in rating_order %}{% set lst = by_rating[ch][r] %}{% if lst %}
+<tr><td>{{ r }}</td><td class="num">{{ lst|length }}</td><td style="white-space:normal;font-size:12px">{% for s in lst %}<a href="districts/{{ s.key }}.html">{{ s.key[1:] if ch=='senate' else s.district_id }}</a>{{ ', ' if not loop.last }}{% endfor %}</td></tr>
+{% endif %}{% endfor %}
+</tbody></table></div>
+{% endfor %}
+</div>
+{% endblock %}
+{% block scripts %}
+<script>
+window.FORECAST_SUMMARY = {{ summary_json|safe }};
+drawSeatDistributions(window.FORECAST_SUMMARY);
+initMap('map', window.FORECAST_SUMMARY, '');
+initSwing(window.FORECAST_SUMMARY);
+</script>
+{% endblock %}

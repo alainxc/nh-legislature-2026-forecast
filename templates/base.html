@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{% block title %}New Hampshire Legislature 2026 Forecast{% endblock %}</title>
+<meta name="description" content="{% block desc %}A probabilistic forecast of the 2026 New Hampshire State Senate and House of Representatives elections, built from public data.{% endblock %}">
+<link rel="stylesheet" href="{{ rel }}assets/style.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="{{ rel }}index.html">NH Legislature 2026</a>
+  <nav>
+    <a href="{{ rel }}index.html" {% if page=='index' %}class="active"{% endif %}>Forecast</a>
+    <a href="{{ rel }}seats.html" {% if page=='seats' %}class="active"{% endif %}>All seats</a>
+    <a href="{{ rel }}tipping.html" {% if page=='tipping' %}class="active"{% endif %}>Tipping point</a>
+    <a href="{{ rel }}environment.html" {% if page=='environment' %}class="active"{% endif %}>Environment</a>
+    <a href="{{ rel }}backtest.html" {% if page=='backtest' %}class="active"{% endif %}>Backtests</a>
+    <a href="{{ rel }}methodology.html" {% if page=='methodology' %}class="active"{% endif %}>Methodology</a>
+    <a href="{{ rel }}sources.html" {% if page=='sources' %}class="active"{% endif %}>Sources</a>
+    <a href="{{ rel }}changelog.html" {% if page=='changelog' %}class="active"{% endif %}>Changelog</a>
+  </nav>
+</header>
+<main>
+{% block body %}{% endblock %}
+</main>
+<footer>
+  Forecast as of {{ f.as_of }} · {{ f.days_to_election }} day{{ '' if f.days_to_election==1 else 's' }} to Election Day ({{ f.election_date }}) · {{ "{:,}".format(f.n_sims) }} simulations · generated {{ f.generated_at[:16].replace('T',' ') }}.
+  Public data only; every source and retrieval date is on the <a href="{{ rel }}sources.html">sources page</a>. Candidate lists come from Ballotpedia's transcription of Secretary of State filings. Not affiliated with any campaign, party, caucus or outlet.
+</footer>
+<div class="tooltip" id="tip"></div>
+<script src="{{ rel }}assets/app.js"></script>
+{% block scripts %}{% endblock %}
+</body>
+</html>

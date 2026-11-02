@@ -1,0 +1,52 @@
+:root{--bg:#fff;--fg:#1a1a1a;--muted:#666;--line:#e3e3e3;--card:#f7f7f8;--dem:#2a6fdb;--rep:#d9402b;--dem-l:#9cc0f0;--rep-l:#f0a99c;--tie:#b9a7d6;--accent:#111;--max:1100px}
+@media (prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#121214;--fg:#eee;--muted:#9a9a9a;--line:#2c2c30;--card:#1c1c20;--dem:#5b93ea;--rep:#e8614c;--dem-l:#2d4a78;--rep-l:#7a3328;--accent:#eee}}
+:root[data-theme=dark]{--bg:#121214;--fg:#eee;--muted:#9a9a9a;--line:#2c2c30;--card:#1c1c20;--dem:#5b93ea;--rep:#e8614c;--dem-l:#2d4a78;--rep-l:#7a3328;--accent:#eee}
+*{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
+html{color-scheme:light dark}body{margin:0;font:16px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--fg)}
+a{color:inherit}
+header.top{border-bottom:1px solid var(--line);padding:10px 16px;display:flex;flex-wrap:wrap;gap:6px 18px;align-items:center;max-width:var(--max);margin:0 auto}
+header.top .brand{font-weight:700;font-size:18px;text-decoration:none;margin-right:auto}
+header.top nav a{text-decoration:none;color:var(--muted);font-size:14px;padding:4px 0}
+header.top nav a.active,header.top nav a:hover{color:var(--fg);border-bottom:2px solid var(--fg)}
+main{max-width:var(--max);margin:0 auto;padding:16px}
+h1{font-size:28px;line-height:1.2;margin:8px 0 4px}h2{font-size:21px;margin:28px 0 8px}h3{font-size:17px;margin:18px 0 6px}
+.sub{color:var(--muted);font-size:14px;margin:0 0 14px}
+.grid{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(300px,1fr))}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px 16px}
+.card h2,.card h3{margin-top:0}
+.big{font-size:44px;font-weight:700;line-height:1.05;letter-spacing:-.5px}
+.dem{color:var(--dem)}.rep{color:var(--rep)}
+.bar{height:14px;border-radius:7px;background:var(--rep-l);overflow:hidden;display:flex;margin:8px 0}
+.bar>span{display:block;height:100%}
+table{border-collapse:collapse;width:100%;font-size:14px}
+th,td{padding:7px 8px;border-bottom:1px solid var(--line);text-align:left;white-space:nowrap}
+th{position:sticky;top:0;background:var(--bg);cursor:pointer;user-select:none;font-weight:600}
+th.sorted:after{content:" ▾";color:var(--muted)}th.sorted.asc:after{content:" ▴"}
+td.num,th.num{text-align:right;font-variant-numeric:tabular-nums}
+.tablewrap{overflow:auto;max-height:80vh;border:1px solid var(--line);border-radius:8px}
+.pill{display:inline-block;padding:1px 8px;border-radius:999px;font-size:12px;font-weight:600;color:#fff;background:var(--tie)}
+.controls{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0;align-items:center}
+input[type=search],select{font:inherit;padding:6px 10px;border:1px solid var(--line);border-radius:6px;background:var(--bg);color:var(--fg)}
+button.tab{font:inherit;padding:6px 12px;border:1px solid var(--line);border-radius:6px;background:var(--card);color:var(--fg);cursor:pointer}
+button.tab.active{background:var(--fg);color:var(--bg);border-color:var(--fg)}
+.map{width:100%;height:auto;display:block}
+.map path{stroke:var(--bg);stroke-width:.5;cursor:pointer}
+.map path:hover{stroke:var(--fg);stroke-width:1.5}
+.tooltip{position:fixed;pointer-events:none;background:var(--fg);color:var(--bg);padding:6px 10px;border-radius:6px;font-size:13px;z-index:10;display:none;max-width:260px}
+.legend{display:flex;gap:2px;align-items:center;font-size:12px;color:var(--muted);flex-wrap:wrap}
+.legend span.sw{width:26px;height:12px;display:inline-block;border-radius:2px}
+.kv{display:grid;grid-template-columns:minmax(140px,max-content) 1fr;gap:4px 14px;font-size:14px}
+.kv dt{color:var(--muted)}.kv dd{margin:0}
+.waterfall{font-size:14px;width:100%}
+.waterfall td:last-child{text-align:right;font-variant-numeric:tabular-nums}
+.waterfall tr.total td{font-weight:700;border-top:2px solid var(--fg)}
+.note{font-size:13px;color:var(--muted)}
+.prose{max-width:760px}.prose p,.prose li{font-size:16px}
+details{margin:8px 0}summary{cursor:pointer;font-weight:600}
+footer{max-width:var(--max);margin:30px auto;padding:16px;color:var(--muted);font-size:13px;border-top:1px solid var(--line)}
+@media (max-width:600px){.big{font-size:36px}h1{font-size:24px}th,td{padding:6px}}
+svg text{fill:var(--fg)}
+.axis line,.axis path{stroke:var(--line)}
+
+input[type=range]{accent-color:var(--fg);height:28px}
+#swing .big{font-size:36px}

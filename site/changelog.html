@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Changelog · NH Legislature 2026</title>
+<meta name="description" content="A probabilistic forecast of the 2026 New Hampshire State Senate and House of Representatives elections, built from public data.">
+<link rel="stylesheet" href="assets/style.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="index.html">NH Legislature 2026</a>
+  <nav>
+    <a href="index.html" >Forecast</a>
+    <a href="seats.html" >All seats</a>
+    <a href="tipping.html" >Tipping point</a>
+    <a href="environment.html" >Environment</a>
+    <a href="backtest.html" >Backtests</a>
+    <a href="methodology.html" >Methodology</a>
+    <a href="sources.html" >Sources</a>
+    <a href="changelog.html" class="active">Changelog</a>
+  </nav>
+</header>
+<main>
+
+<h1>Changelog</h1>
+<p class="sub">Every model run and every change to the configuration or data, newest first.</p>
+<div class="prose"><h1>Changelog</h1>
+<h2>Model runs</h2>
+<h2>Changes to model, config, or data</h2>
+<ul>
+<li><b>2026-11-02 v1.0 (Senate)</b> — Initial release for the State Senate: exact town-level baselines (2024 president, 2024 governor, 2022 US Senate, 2022 governor, 2020 president) aggregated to districts from RSA 662:3; candidates from Ballotpedia's transcription of the Secretary of State filings; statewide environment from the UNH legislative generic ballot, the governor's race (Ayotte personal-vote corrected), NH-01/NH-02, the statewide congressional preference and the national generic ballot; a legislative-vs-top-of-ticket offset of 5 points; 40,000-run Monte Carlo with statewide, regional and district error; backtests on 2022 and 2024. All weights in <code>config/model_config.yaml</code>.</li>
+</ul></div>
+
+</main>
+<footer>
+  Forecast as of 2026-11-02 · 1 day to Election Day (2026-11-03) · 40,000 simulations · generated 2026-11-02 17:11.
+  Public data only; every source and retrieval date is on the <a href="sources.html">sources page</a>. Candidate lists come from Ballotpedia's transcription of Secretary of State filings. Not affiliated with any campaign, party, caucus or outlet.
+</footer>
+<div class="tooltip" id="tip"></div>
+<script src="assets/app.js"></script>
+
+</body>
+</html>

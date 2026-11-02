@@ -1,0 +1,58 @@
+[
+ {
+  "file": "Members.txt",
+  "source_url": "https://gencourt.state.nh.us/downloads/Members.txt",
+  "retrieved_at": "2026-11-02T16:44:05-05:00",
+  "description": "General Court member roster download: name, body, county, district, party, status.",
+  "bytes": 82694
+ },
+ {
+  "file": "RDSE.pdf",
+  "source_url": "https://www.gencourt.state.nh.us/house/aboutthehouse/RDSE.pdf",
+  "retrieved_at": "2026-11-02T16:44:05-05:00",
+  "description": "House Clerk: resignations, deaths, special elections and declared vacancies, 2025-26 session (Aug 27, 2026 update).",
+  "bytes": 115871
+ },
+ {
+  "file": "ballotpedia_nh_house_chamber.html",
+  "source_url": "https://ballotpedia.org/New_Hampshire_House_of_Representatives",
+  "retrieved_at": "2026-11-02T16:44:05-05:00",
+  "description": "Ballotpedia chamber page (cross-check).",
+  "bytes": 430523
+ },
+ {
+  "file": "ballotpedia_nh_senate_chamber.html",
+  "source_url": "https://ballotpedia.org/New_Hampshire_State_Senate",
+  "retrieved_at": "2026-11-02T16:44:05-05:00",
+  "description": "Ballotpedia chamber page (cross-check).",
+  "bytes": 251541
+ },
+ {
+  "file": "house_members.html",
+  "source_url": "https://gencourt.state.nh.us/house/members/default.aspx",
+  "retrieved_at": "2026-11-02T16:44:05-05:00",
+  "description": "House roster page (cross-check; no party shown).",
+  "bytes": 123944
+ },
+ {
+  "file": "senate_roster.html",
+  "source_url": "https://gencourt.state.nh.us/senate/members/senate_roster.aspx",
+  "retrieved_at": "2026-11-02T16:44:05-05:00",
+  "description": "Senate roster page (cross-check).",
+  "bytes": 98936
+ },
+ {
+  "file": "wiki_nh_house_chamber.html",
+  "source_url": "https://en.wikipedia.org/wiki/New_Hampshire_House_of_Representatives",
+  "retrieved_at": "2026-11-02T16:44:05-05:00",
+  "description": "Wikipedia chamber article: composition (cross-check).",
+  "bytes": 981709
+ },
+ {
+  "file": "wiki_nh_senate_chamber.html",
+  "source_url": "https://en.wikipedia.org/wiki/New_Hampshire_Senate",
+  "retrieved_at": "2026-11-02T16:44:05-05:00",
+  "description": "Wikipedia chamber article: composition (cross-check).",
+  "bytes": 247241
+ }
+]

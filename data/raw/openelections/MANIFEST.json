@@ -1,0 +1,100 @@
+[
+ {
+  "file": "20201103__nh__general__precinct.csv",
+  "source_url": "https://raw.githubusercontent.com/openelections/openelections-data-nh/master/2020/20201103__nh__general__precinct.csv",
+  "retrieved_at": "2026-11-02T16:29:45-05:00",
+  "description": "2020 general election by town (president, governor, US Senate, US House, State Senate, State House), transcribed from NH SoS tabulations by OpenElections. Only the presidential race is used (other sections double-count towns).",
+  "bytes": 458497
+ },
+ {
+  "file": "20221108__nh__general__congressional__precinct.csv",
+  "source_url": "https://raw.githubusercontent.com/openelections/openelections-data-nh/master/2022/20221108__nh__general__congressional__precinct.csv",
+  "retrieved_at": "2026-11-02T16:29:46-05:00",
+  "description": "2022 US House by town/ward.",
+  "bytes": 52193
+ },
+ {
+  "file": "20221108__nh__general__executive__council__precinct.csv",
+  "source_url": "https://raw.githubusercontent.com/openelections/openelections-data-nh/master/2022/20221108__nh__general__executive__council__precinct.csv",
+  "retrieved_at": "2026-11-02T16:29:46-05:00",
+  "description": "2022 Executive Council by town/ward (not used).",
+  "bytes": 57709
+ },
+ {
+  "file": "20221108__nh__general__governor__precinct.csv",
+  "source_url": "https://raw.githubusercontent.com/openelections/openelections-data-nh/master/2022/20221108__nh__general__governor__precinct.csv",
+  "retrieved_at": "2026-11-02T16:29:46-05:00",
+  "description": "2022 governor by town/ward (Sununu v Sherman).",
+  "bytes": 72215
+ },
+ {
+  "file": "20221108__nh__general__state__representative__precinct.csv",
+  "source_url": "https://raw.githubusercontent.com/openelections/openelections-data-nh/master/2022/20221108__nh__general__state__representative__precinct.csv",
+  "retrieved_at": "2026-11-02T16:29:46-05:00",
+  "description": "2022 State Representative by town/ward and district (floterials suffixed F; Dover Ward 3 mislabelled as Strafford 15, fixed in processing; candidate surnames only).",
+  "bytes": 132039
+ },
+ {
+  "file": "20221108__nh__general__state__senate__precinct.csv",
+  "source_url": "https://raw.githubusercontent.com/openelections/openelections-data-nh/master/2022/20221108__nh__general__state__senate__precinct.csv",
+  "retrieved_at": "2026-11-02T16:29:47-05:00",
+  "description": "2022 State Senate by town/ward and district.",
+  "bytes": 51306
+ },
+ {
+  "file": "20221108__nh__general__us__senate__precinct.csv",
+  "source_url": "https://raw.githubusercontent.com/openelections/openelections-data-nh/master/2022/20221108__nh__general__us__senate__precinct.csv",
+  "retrieved_at": "2026-11-02T16:29:47-05:00",
+  "description": "2022 US Senate by town/ward (Hassan v Bolduc).",
+  "bytes": 57843
+ },
+ {
+  "file": "20241105__nh__general__congressional__precinct.csv",
+  "source_url": "https://raw.githubusercontent.com/openelections/openelections-data-nh/master/2024/20241105__nh__general__congressional__precinct.csv",
+  "retrieved_at": "2026-11-02T16:29:47-05:00",
+  "description": "2024 US House by town/ward.",
+  "bytes": 88561
+ },
+ {
+  "file": "20241105__nh__general__executive__council__precinct.csv",
+  "source_url": "https://raw.githubusercontent.com/openelections/openelections-data-nh/master/2024/20241105__nh__general__executive__council__precinct.csv",
+  "retrieved_at": "2026-11-02T16:29:47-05:00",
+  "description": "2024 Executive Council by town/ward (not used).",
+  "bytes": 91977
+ },
+ {
+  "file": "20241105__nh__general__governor__precinct.csv",
+  "source_url": "https://raw.githubusercontent.com/openelections/openelections-data-nh/master/2024/20241105__nh__general__governor__precinct.csv",
+  "retrieved_at": "2026-11-02T16:29:47-05:00",
+  "description": "2024 governor by town/ward (Ayotte v Craig).",
+  "bytes": 90924
+ },
+ {
+  "file": "20241105__nh__general__president__precinct.csv",
+  "source_url": "https://raw.githubusercontent.com/openelections/openelections-data-nh/master/2024/20241105__nh__general__president__precinct.csv",
+  "retrieved_at": "2026-11-02T16:29:48-05:00",
+  "description": "2024 president by town/ward.",
+  "bytes": 123826
+ },
+ {
+  "file": "20241105__nh__general__state__representative__precinct.csv",
+  "source_url": "https://raw.githubusercontent.com/openelections/openelections-data-nh/master/2024/20241105__nh__general__state__representative__precinct.csv",
+  "retrieved_at": "2026-11-02T16:29:48-05:00",
+  "description": "2024 State Representative by town/ward and district (same Dover Ward 3 label fix).",
+  "bytes": 200896
+ },
+ {
+  "file": "20241105__nh__general__state__senate__precinct.csv",
+  "source_url": "https://raw.githubusercontent.com/openelections/openelections-data-nh/master/2024/20241105__nh__general__state__senate__precinct.csv",
+  "retrieved_at": "2026-11-02T16:29:48-05:00",
+  "description": "2024 State Senate by town/ward and district.",
+  "bytes": 84857
+ },
+ {
+  "file": "README_openelections.md",
+  "source_url": "https://github.com/openelections/openelections-data-nh",
+  "retrieved_at": "2026-11-02T16:29:48-05:00",
+  "description": "OpenElections NH repository README (file conventions).",
+  "bytes": 8421
+ }
+]

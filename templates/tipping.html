@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block title %}Tipping point · NH Legislature 2026{% endblock %}
+{% block body %}
+<h1>Tipping-point seats</h1>
+<p class="sub">In each simulation the 24 Senate seats are sorted from most to least Democratic; the 13th is the seat that delivers the majority. The share of simulations in which a seat plays that role is its tipping-point probability.</p>
+<div class="card"><h2>State Senate</h2>
+<table><thead><tr><th>Seat</th><th>Candidates</th><th class="num">Tipping pt</th><th class="num">P(Dem)</th><th class="num">Margin</th></tr></thead><tbody>
+{% for s in tipping[:24] if s.tipping>0 %}
+<tr><td><a href="districts/{{ s.seat }}.html">{{ s.label }}</a></td><td style="white-space:normal;font-size:13px">{{ s.dem_cand or '—' }} v. {{ s.rep_cand or '—' }}</td><td class="num">{{ (s.tipping*100)|round(1) }}%</td><td class="num">{{ (s.p_dem*100)|round|int }}%</td><td class="num">{{ fmt_m(s.margin_mean) }}</td></tr>
+{% endfor %}
+</tbody></table></div>
+<h2>Seats ordered by expected margin</h2>
+<p class="sub">Where the majority line falls in the ordered list of Senate seats{% if 'house' in chambers %}, and House districts ordered by expected party margin with their expected seat split{% endif %}.</p>
+<div class="card" style="padding:6px"><svg id="ladder" width="100%" height="{{ 360 if 'house' in chambers else 180 }}"></svg></div>
+{% endblock %}
+{% block scripts %}
+<script>window.FORECAST_SUMMARY = {{ summary_json|safe }}; drawLadder('ladder', window.FORECAST_SUMMARY);</script>
+{% endblock %}

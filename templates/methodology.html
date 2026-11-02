@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block title %}Methodology · NH Legislature 2026{% endblock %}
+{% block body %}
+<h1>How this forecast works</h1>
+<div class="prose">{{ methodology_html|safe }}</div>
+<h2 id="config">Every weight and assumption</h2>
+<p class="sub">This is the complete configuration file the model ran with. Change a number here (in <code>config/model_config.yaml</code>) and the whole forecast re-derives from it.</p>
+<details><summary>Show configuration</summary><pre style="font-size:12px;overflow:auto">{{ config_yaml }}</pre></details>
+{% endblock %}
